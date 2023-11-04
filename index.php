@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <button href="../filingua/signup.php"> get started </button>
-    <button href ="../filingua/login.php"> i already have an account </button>
+    <a href="../filingua/signup.php"> get started </a>
+    <a href ="../filingua/login.php"> i already have an account </a>
 </body>
 </html>
