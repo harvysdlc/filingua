@@ -1,5 +1,5 @@
 <?php
-require '../filingua/server/config.php';
+require '../server/config.php';
 $_SESSION = [];
 session_unset();
 session_destroy();
