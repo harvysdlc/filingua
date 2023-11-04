@@ -12,7 +12,7 @@ if(isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["signin"] = true;
             $_SESSION["email"] = $row["email"];
-            header("url: ../filingua/registered/mainpage.php");
+            header("Location: index.php");
         }
         else{
             echo
