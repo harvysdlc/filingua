@@ -34,8 +34,8 @@ if(isset($_POST["submit"])){
 </head>
 <body>
     <form class="" action="" method="post" autocomplete="off">
-        <input type="text" name="email" id="email" placeholder="email" value=""> <br><br>
-        <input type="password" name="password" id="password" placeholder="password" value=""> <br><br>
+        <input type="text" name="email" id="email" placeholder="email" required value=""> <br><br>
+        <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
         <input type="text" name="first_name" id="first_name" placeholder="first name" required value=""> <br><br>
         <input type="text" name="last_name" id="last_name" placeholder="last name" required value=""> <br><br>
         <div class="submitbtn">
