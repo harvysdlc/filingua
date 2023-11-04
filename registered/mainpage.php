@@ -26,7 +26,7 @@ if(!empty($_SESSION["email"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../">
-    <link rel="icon" type="image" href="../filingua/images/icon.jpg">
+    <link rel="icon" type="image" href="../../filingua/images/icon.jpg">
     <!-- Your HTML head content -->
 
     <?php
