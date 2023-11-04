@@ -18,6 +18,12 @@ else{
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../">
     <link rel="icon" type="image/png" href="../">
+
+    <?php
+    echo $email;
+    echo $first_name;
+    echo $last_name;
+    ?>
 </head>
 <body>
     
