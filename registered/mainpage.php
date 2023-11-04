@@ -36,6 +36,7 @@ if(!empty($_SESSION["email"])){
     ?>
 </head>
 <body>
+    <button onclick="window.location.href='../../filingua/registered/logout.php'">logout</button>
     <!-- Your HTML body content -->
 </body>
 </html>
