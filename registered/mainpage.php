@@ -1,12 +1,12 @@
 <?php
 require '../server/config.php';
-if(!empty($_SESSION["email"])){
-    $email = $_SESSION["email"];
+if(!empty($_SESSION["id"])){
+    $id = $_SESSION["id"];
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
     $row = mysqli_fetch_assoc($result);
 }
 else{
-    header("Location: login.php");
+    header("Location: signin.php");
 }
 ?>
 

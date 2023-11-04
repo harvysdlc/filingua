@@ -1,7 +1,7 @@
 <?php
 require '../filingua/server/config.php';
-if(!empty($_SESSION["email"])){
-    header("Location: login.php");
+if(!empty($_SESSION["id"])){
+    header("Location: index.php");
 }
 if(isset($_POST["submit"])){
     $email = $_POST["email"];
