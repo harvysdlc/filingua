@@ -12,7 +12,7 @@ if(isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["signin"] = true;
             $_SESSION["email"] = $row["email"];
-            header("Location: ../../filingua/registered/mainpage.php");
+            header("Location: /filingua/registered/mainpage.php");
         }
         else{
             echo
@@ -35,7 +35,7 @@ if(isset($_POST["submit"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - login</title>
     <link rel="stylesheet" href="../">
-    <link rel="icon" type="image/png" href="../">
+    <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
     <form class="" action="" method="post" autocomplete="off">
