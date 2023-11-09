@@ -18,9 +18,9 @@ if(isset($_POST["submit"])){
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
+        header("Location: login.php");
     }
 }
-header("Location: login.php");
 ?>
 
 <!DOCTYPE html>
