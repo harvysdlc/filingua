@@ -10,24 +10,25 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end; /* Align content at the bottom of the page */
 }
 
 .buttons {
     text-align: center;
+    margin-bottom: 20px; /* Optional: Add margin to separate buttons from the bottom */
 }
 
 .buttons button {
-    top: 70%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.15rem;
-    margin: 0 30px 20px; /* Added margin between buttons */
     background-color: var(--transparent);
     color: var(--background);
     border-style: none;
-    padding: 20px 30px;
+    margin: 0 10px; /* Adjusted margin between buttons */
+    padding: 15px 30px;
     cursor: pointer;
     border-radius: 15px;
 }
