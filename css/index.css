@@ -11,8 +11,8 @@ body {
 
 .buttons{
     position: fixed;
+    align-items: center;
     width: 100%;
-    right: 0%;
 	top: 30%;
 }
 
