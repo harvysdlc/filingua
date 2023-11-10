@@ -17,7 +17,7 @@ body {
 
 .buttons {
     text-align: center;
-    margin-bottom: 30px; /* Optional: Add margin to separate buttons from the bottom */
+    margin-bottom: 10px; /* Optional: Add margin to separate buttons from the bottom */
 }
 
 .buttons button {
