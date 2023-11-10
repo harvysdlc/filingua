@@ -11,12 +11,12 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: flex-end; /* Align content at the bottom of the page */
 }
 
 .buttons {
-    text-align: center;
+    text-align: right;
     margin-bottom: 50px; /* Optional: Add margin to separate buttons from the bottom */
 }
 
