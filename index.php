@@ -17,7 +17,7 @@ else if (isset($_POST["login"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
     <style>
         body {
-            background-image: url(../filingua/images/finalbg.gif);
+            background-image: url(../filingua/images/filinguabg.gif);
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
