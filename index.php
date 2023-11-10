@@ -15,6 +15,15 @@ else if (isset($_POST["login"])){
     <title>Filingua</title>
     <link rel="stylesheet" href="../filingua/css/index.css">
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
+    <style>
+        body {
+            background-image: url(../filingua/images/newbg.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="buttons">
