@@ -46,7 +46,8 @@ else if (isset($_POST["login"])){
         <img src="../filingua/images/" alt="">
     </div>
     <div class="credits">
-            <p>Filingua 2024 | Learn Philippine Languages</p>
+            <p>Filingua 2024</p>
+            <p>Learn Philippine Languages</p>
     </div>
 </body>
 </html>
