@@ -17,22 +17,24 @@ else if (isset($_POST["login"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <button onclick="signupPage()"> Create a Filingua account  </button>
-    <br>
-    <button onclick="loginPage()"> I already have an account </button>
+    <div class="buttons">
+        <button onclick="signupPage()"> Create a Filingua account  </button>
+        <br><br><br>
+        <button onclick="loginPage()"> I already have an account </button>
 
-    <script>
-        function signupPage(){
-            var signup = "../filingua/signup.php";
-            window.location.href = signup;
-        }
-    </script>
-    <script>
-        function loginPage(){
-            var login = "../filingua/login.php";
-            window.location.href = login;
-        }
-    </script>
+        <script>
+            function signupPage(){
+                var signup = "../filingua/signup.php";
+                window.location.href = signup;
+            }
+        </script>
+        <script>
+            function loginPage(){
+                var login = "../filingua/login.php";
+                window.location.href = login;
+            }
+        </script>
+    </div>
 
 </body>
 </html>
