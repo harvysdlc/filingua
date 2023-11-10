@@ -12,6 +12,7 @@ body {
 .buttons{
     position: fixed;
     align-items: center;
+    justify-content: center;
     width: 100%;
 	top: 30%;
 }
