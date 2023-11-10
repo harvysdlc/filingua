@@ -29,7 +29,6 @@ else if (isset($_POST["login"])){
     <div class="buttons">
         <button onclick="signupPage()"> Create a Filingua account  </button>
         <button onclick="loginPage()"> I already have an account </button>
-
         <script>
             function signupPage(){
                 var signup = "../filingua/signup.php";
@@ -43,6 +42,11 @@ else if (isset($_POST["login"])){
             }
         </script>
     </div>
-
+    <div class="logo">
+        <img src="../filingua/images/" alt="">
+    </div>
+    <div class="credits">
+            <p></p>
+    </div>
 </body>
 </html>
