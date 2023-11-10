@@ -17,7 +17,7 @@ else if (isset($_POST["login"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <button onclick="signupPage()"> Create Filingua Account  </button>
+    <button onclick="signupPage()"> Create a Filingua account  </button>
     <br>
     <button onclick="loginPage()"> I already have an account </button>
 
