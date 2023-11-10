@@ -19,7 +19,6 @@ else if (isset($_POST["login"])){
 <body>
     <div class="buttons">
         <button onclick="signupPage()"> Create a Filingua account  </button>
-        <br><br><br>
         <button onclick="loginPage()"> I already have an account </button>
 
         <script>
