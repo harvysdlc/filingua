@@ -23,7 +23,7 @@ body {
     font-weight: bold;
     margin: 0 30px 20px; /* Added margin between buttons */
     background-color: var(--transparent);
-    color: var(--foreground);
+    color: var(--background);
     border-style: none;
     padding: 10px 20px;
     cursor: pointer;
