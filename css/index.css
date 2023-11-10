@@ -27,7 +27,7 @@ body {
     background-color: var(--transparent);
     color: var(--background);
     border-style: none;
-    margin: 40px 80px; /* Adjusted margin between buttons */
+    margin: 20px 80px; /* Adjusted margin between buttons */
     padding: 15px 50px;
     cursor: pointer;
     border-radius: 15px;
