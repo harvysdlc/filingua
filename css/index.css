@@ -17,7 +17,7 @@ body {
 
 .buttons {
     text-align: center;
-    margin-bottom: 80px; /* Optional: Add margin to separate buttons from the bottom */
+    margin-bottom: 120px; /* Optional: Add margin to separate buttons from the bottom */
 }
 
 .buttons button {
@@ -27,7 +27,7 @@ body {
     background-color: var(--transparent);
     color: var(--background);
     border-style: none;
-    margin: 0 80px; /* Adjusted margin between buttons */
+    margin: 0 100px; /* Adjusted margin between buttons */
     padding: 15px 30px;
     cursor: pointer;
     border-radius: 15px;
