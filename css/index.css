@@ -1,4 +1,4 @@
-:root{
+:root {
     --background: #ffffff;
     --foreground: #000000;
 }
@@ -7,21 +7,22 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100vh; /* Set the body height to the full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
 }
 
-.buttons{
-    position: fixed;
+.buttons {
     width: 100%;
-	top: 30%;
 }
 
-.buttons button{
-    align-content: center;
-    justify-content: center;
+.buttons button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-bottom: 20%;
+    margin-bottom: 20px; /* Use pixels instead of percentage for margin */
     background-color: var(--foreground);
     color: var(--background);
     border-style: none;
+    padding: 10px 20px; /* Adjust padding for a better button appearance */
 }
