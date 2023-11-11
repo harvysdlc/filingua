@@ -5,11 +5,12 @@
 }
 
 .exit {
+    position: absolute;
     left: 10px;
 }
 
 .exit a {
-    font-style: none;
+    text-decoration: none;
     font-weight: bold;
     color: var(--background);
     cursor: pointer;
