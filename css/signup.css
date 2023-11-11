@@ -16,17 +16,13 @@ body {
     height: 100vh;
 }
 
-.header {
-    text-align: center;
-    margin-top: 2vh; /* Adjust as needed */
-}
-
 .logo {
     /* Your logo styles go here */
 }
 
 .text-above-form {
     text-align: center;
+    margin-top: 2vh;
     margin-bottom: 40px; /* Adjust as needed */
 }
 
