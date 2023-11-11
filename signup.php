@@ -46,7 +46,7 @@ if(isset($_POST["submit"])){
         }
     </style>
     <form class="signup" action="" method="post" autocomplete="off">
-        <input type="text" name="email" id="email" placeholder="email" required value=""> <br><br>
+        <input type="text" name="email" id="email" placeholder="email" required value="">Email <br><br>
         <input type="text" name="first_name" id="first_name" placeholder="first name" required value=""> <br><br>
         <input type="text" name="last_name" id="last_name" placeholder="last name" required value=""> <br><br>
         <input type="number" name="age" id="age" placeholder="age" required value=""> <br><br>
