@@ -1,7 +1,7 @@
 :root {
     --background: #ffffff;
     --foreground: #ffa500;
-    --transparent: rgba(255, 166, 0, 0.141);
+    --transparent: rgba(255, 166, 0, 0.494);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .signup {
-    background-color: var(--foreground);
+    background-color: var(--background);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
