@@ -49,7 +49,7 @@ body {
 }
 
 .signup ::placeholder {
-    color: #000000;
+    color: var(--background);
 }
 
 .signup label {
