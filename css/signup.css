@@ -16,10 +16,6 @@ body {
     height: 100vh;
 }
 
-.logo {
-    /* Your logo styles go here */
-}
-
 .text-above-form {
     text-align: center;
     margin-top: 3vh;
@@ -29,10 +25,6 @@ body {
 .text-above-form h3{
     color: var(--background);
     font-weight: bold;
-}
-
-.side-nav {
-    /* Your side navigator styles go here */
 }
 
 .signup {
