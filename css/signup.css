@@ -34,7 +34,8 @@ body {
     box-sizing: border-box;
     border-style: none;
     background-color: var(--transparent);
-    font-size: medium;
+    font-size:small;
+    font-weight: bold;
 }
 
 .signup ::placeholder{
