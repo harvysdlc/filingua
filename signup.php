@@ -52,8 +52,9 @@ if(isset($_POST["submit"])){
         <input type="number" name="age" id="age" placeholder="age" required value=""> <br><br>
 
         <!-- Dropdown for sex -->
-        <placeholder = "sex"></placeholder>
+        <label for="sex">Sex:</label>
         <select id="sex" name="sex" required>
+            <option value="">Select Sexuality</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="lgbtqia">LGBTQIA+</option>
