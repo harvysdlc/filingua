@@ -39,10 +39,16 @@ if(isset($_POST["submit"])){
     <style>
         body {
             background-image: url(../filingua/images/accountbg.jpg);
-            background-size:contain;
+            background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh;
+            background-position: center;
             margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
         }
     </style>
     <form class="signup" action="" method="post" autocomplete="off">
