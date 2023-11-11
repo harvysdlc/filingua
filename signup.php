@@ -71,6 +71,6 @@ if(isset($_POST["submit"])){
             <button type="submit" name="submit">GUMAWA NG ACCOUNT</button>
         </div>
     </form>
-
+    <div class="extra"></div>
 </body>
 </html>

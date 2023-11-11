@@ -82,6 +82,10 @@ body {
     background-color: #ff914d;
 }
 
+.extra{
+    margin-top:20vh;
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 250px) {
     .signup {
