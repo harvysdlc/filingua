@@ -38,10 +38,11 @@ body {
     display: block;
     text-align: left;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .submitbtn button {
-    background-color: #ff914d;
+    background-color: #ffbd59;
     color: #fff;
     padding: 10px 15px;
     border: none;
