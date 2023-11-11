@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 120vh;
+    height: 100vh;
 }
 
 .header {
@@ -35,14 +35,13 @@ body {
 
 .signup {
     background-color: var(--background);
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 300px;
     width: 100%;
     margin-top: 30vh; /* Adjust as needed */
-    margin-bottom: 50vh;
 }
 
 .signup input,
