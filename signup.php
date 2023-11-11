@@ -53,7 +53,7 @@ if(isset($_POST["submit"])){
         <label for="last_name">Apelyido:</label>
         <input type="text" name="last_name" id="last_name" placeholder="Apelyido" required value=""> <br><br>
         <label for="agel">Edad:</label>
-        <input type="number" name="age" id="age" placeholder="Edad" required value=""> <br><br>
+        <input type="number" name="age" id="age" placeholder="Edad" required value="" min="0" max="200"> <br><br>
 
        <!-- Dropdown for sex -->
         <label for="sex">Kasarian:</label>
