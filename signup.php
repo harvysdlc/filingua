@@ -39,6 +39,10 @@ if(isset($_POST["submit"])){
         <a href="../filingua/index.php"><<<</a>
     </div>
 
+    <div class="enter">
+        <a href="../filingua/login.php">>>></a>
+    </div>
+
 </head>
 <body>
     <style>
