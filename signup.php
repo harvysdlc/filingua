@@ -32,7 +32,7 @@ if(isset($_POST["submit"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - signup</title>
-    <link rel="stylesheet" href="../">
+    <link rel="stylesheet" href="../filingua/css/signup.css">
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
