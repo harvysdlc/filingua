@@ -46,13 +46,7 @@ if(isset($_POST["submit"])){
     </style>
 
     <div class="exit">
-        <button onclick="goBack()">ⓧ</button>
-        <script>
-            function goBack(){
-                var goBack = "../filingua/index.php";
-                window.location.href = goBack;
-            }
-        </script>
+        <a href="../filingua/index.php"><<<</a>
     </div>
 
     <div class="text-above-form">
