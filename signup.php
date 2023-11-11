@@ -53,7 +53,7 @@ if(isset($_POST["submit"])){
 
        <!-- Dropdown for sex -->
         <select id="sex" name="sex" required>
-            <option value="" disabled selected>Select Sexuality</option>
+            <option value="" disabled selected>--Select Sexuality--</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="lgbtqia">LGBTQIA+</option>
