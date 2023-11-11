@@ -18,7 +18,7 @@ body {
 
 .text-above-form {
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 2.5vh;
     margin-bottom: 5px; /* Adjust as needed */
 }
 
@@ -79,7 +79,6 @@ body {
 .text-below-form {
     text-align: center;
     margin-top: 0.5vh;
-    margin-bottom: 20px; /* Adjust as needed */
 }
 
 .text-below-form p{
