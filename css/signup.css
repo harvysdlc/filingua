@@ -16,7 +16,7 @@ body {
 }
 
 .signup {
-    background-color: var(--foreground);
+    background-color: var(--transparent);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@ body {
     background-color: #ffde59;
 }
 
-.submitbtn :placeholder-shown{
+.submitbtn a{
     font-weight: bold;
 }
 
