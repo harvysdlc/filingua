@@ -41,7 +41,7 @@ body {
 }
 
 .submitbtn button {
-    background-color: var(--foreground);
+    background-color: #ff914d;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -50,7 +50,7 @@ body {
 }
 
 .submitbtn button:hover {
-    background-color: var(--transparent);
+    background-color: #ffde59;
 }
 
 /* Media Queries for responsiveness */
