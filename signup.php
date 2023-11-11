@@ -5,16 +5,19 @@ if(!empty($_SESSION["id"])){
 }
 if(isset($_POST["submit"])){
     $email = $_POST["email"];
-    $password = $_POST["password"];
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
+    $age = $_POST["age"];
+    $sex = $_POST["sex"];
+    $password = $_POST["password"];
+
     $duplicate = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
     if(mysqli_num_rows($duplicate)>0){
         echo
         "<script> alert('Email has already been taken'); </script>";
     }
     else{
-        $query = "INSERT INTO tb_user VALUES ('$email', '$password', '$first_name', '$last_name', '')";
+        $query = "INSERT INTO tb_user VALUES ('$email', '$first_name', '$last_name', '$age', '$sex', '$password', '')";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
@@ -42,11 +45,13 @@ if(isset($_POST["submit"])){
             margin: 0;
         }
     </style>
-    <form class="" action="" method="post" autocomplete="off">
+    <form class="signup" action="" method="post" autocomplete="off">
         <input type="text" name="email" id="email" placeholder="email" required value=""> <br><br>
-        <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
         <input type="text" name="first_name" id="first_name" placeholder="first name" required value=""> <br><br>
         <input type="text" name="last_name" id="last_name" placeholder="last name" required value=""> <br><br>
+        <input type="number" name="age" id="age" placeholder="age" required value=""> <br><br>
+        <input type="text" name="sex" id="sex" placeholder="sex" required value=""> <br><br>
+        <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
         <div class="submitbtn">
             <button type="submit" name="submit"> sign up </button>
         </div>

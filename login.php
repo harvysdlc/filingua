@@ -19,7 +19,6 @@ if(isset($_POST["submit"])){
             "<script> alert('Wrong Password!'); </script>";
         }
     }
-
     else{
         echo
             "<script> alert('Account Not Found'); </script>";
