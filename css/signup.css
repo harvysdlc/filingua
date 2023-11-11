@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -28,14 +28,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Adjust the width for age and sex */
-#age,
-#sex {
-    width: calc(50% - 10px);
-    display: inline-block;
-    margin-right: 20px;
-}
-
 .signup label {
     display: block;
     text-align: left;
@@ -59,12 +51,5 @@ body {
 @media (max-width: 600px) {
     .signup {
         max-width: 100%;
-    }
-
-    /* Reset the width for age and sex on smaller screens */
-    #age,
-    #sex {
-        width: 100%;
-        margin-right: 0;
     }
 }
