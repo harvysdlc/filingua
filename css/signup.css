@@ -14,10 +14,6 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    background-image: url(../filingua/images/accountbg.jpg);
-    background-size: cover;
-    background-repeat:inherit;
-    background-position: center;
 }
 
 .header {
@@ -46,7 +42,7 @@ body {
     max-width: 300px;
     width: 100%;
     margin-top: 20vh; /* Adjust as needed */
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .signup input,
