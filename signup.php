@@ -33,6 +33,15 @@ if(isset($_POST["submit"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
+    <style>
+        body {
+            background-image: url(../filingua/images/indexbg.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
     <form class="" action="" method="post" autocomplete="off">
         <input type="text" name="email" id="email" placeholder="email" required value=""> <br><br>
         <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
