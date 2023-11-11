@@ -1,6 +1,12 @@
+:root {
+    --background: #ffffff;
+    --foreground: #ffa500;
+    --transparent: rgba(255, 165, 0, 0.5);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    background-color: var(--transparent);
     margin: 0;
     padding: 0;
     display: flex;
