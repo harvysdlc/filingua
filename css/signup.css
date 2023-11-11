@@ -37,12 +37,13 @@ body {
 }
 
 .signup ::placeholder{
+    text-align: center;
     color: #000000;
 }
 
 .signup label {
     display: block;
-    text-align: center;
+    text-align: left;
     margin-bottom: 5px;
     font-weight: bold;
 }
