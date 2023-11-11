@@ -85,7 +85,7 @@ body {
 .text-below-form p{
     color: var(--background);
     font-size: smaller;
-    padding-bottom: 3px;
+    padding-bottom: -2px;
 }
 
 
