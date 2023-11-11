@@ -16,7 +16,7 @@ body {
 }
 
 .signup {
-    background-color: var(--transparent);
+    background-color: var(--foreground);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -50,14 +50,11 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .submitbtn button:hover {
     background-color: #ffde59;
-}
-
-.submitbtn a{
-    font-weight: bold;
 }
 
 /* Media Queries for responsiveness */
