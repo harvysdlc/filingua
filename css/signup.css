@@ -18,7 +18,7 @@ body {
 
 .header {
     text-align: center;
-    margin-top: 5px; /* Adjust as needed */
+    margin-top: 2vh; /* Adjust as needed */
 }
 
 .logo {
@@ -27,7 +27,7 @@ body {
 
 .text-above-form {
     text-align: center;
-    margin-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 40px; /* Adjust as needed */
 }
 
 .text-above-form h3{
@@ -47,7 +47,7 @@ body {
     text-align: center;
     max-width: 300px;
     width: 100%;
-    margin-top: 5vh; /* Adjust as needed */
+    margin-top: 1vh; /* Adjust as needed */
 }
 
 .signup input,
