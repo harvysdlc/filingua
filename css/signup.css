@@ -78,12 +78,12 @@ body {
 .text-below-form {
     text-align: center;
     margin-top: 0.5vh;
-    margin-bottom: 5px; /* Adjust as needed */
+    margin-bottom: 2px; /* Adjust as needed */
 }
 
 .text-below-form p{
     color: var(--background);
-    font-weight: medium;
+    font-weight: smaller;
 }
 
 
