@@ -32,6 +32,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    background-color: var(--foreground);
 }
 
 .signup label {
