@@ -46,7 +46,7 @@ if(isset($_POST["submit"])){
     </style>
 
     <div class="text-above-form">
-        <h3>Gumawa ng Account</h3>
+        <h3>Gumawa ng Profile</h3>
     </div>
 
     <form class="signup" action="" method="post" autocomplete="off">
@@ -76,6 +76,9 @@ if(isset($_POST["submit"])){
             <button type="submit" name="submit">GUMAWA NG ACCOUNT</button>
         </div>
     </form>
-    <div class="extra"></div>
+    <div class="text-below-form">
+        <p>Sa pag gagawa ng account, ikaw ay sumasang-ayon </p>
+        <p>sa mga Terms at Conditions ng Filingua 2024 </p>
+    </div>
 </body>
 </html>
