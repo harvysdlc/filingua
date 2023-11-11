@@ -39,7 +39,7 @@ if(isset($_POST["submit"])){
     <style>
         body {
             background-image: url(../filingua/images/accountbg.jpg);
-            background-size:auto;
+            background-size:contain;
             background-repeat: no-repeat;
             height: 100vh;
             margin: 0;
