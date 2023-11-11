@@ -49,7 +49,6 @@ body {
 .signup button {
     width: calc(100% - 20px);
     padding: 5px;
-    margin-bottom: 10px;
     box-sizing: border-box;
     border-style: none;
     background-color: var(--transparent);
@@ -80,10 +79,6 @@ body {
 
 .submitbtn button:hover {
     background-color: #ff914d;
-}
-
-.extra{
-    margin-top:20vh;
 }
 
 /* Media Queries for responsiveness */
