@@ -83,7 +83,7 @@ body {
 
 .text-below-form p{
     color: var(--background);
-    font-weight: smaller;
+    font-size: smaller;
 }
 
 
