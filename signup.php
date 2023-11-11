@@ -77,8 +77,8 @@ if(isset($_POST["submit"])){
         </div>
     </form>
     <div class="text-below-form">
-        <p>Sa pag gagawa ng account, ikaw ay sumasang-ayon </p>
-        <p>sa mga <b>Terms at Conditions</b> ng Filingua 2024 </p>
+        <p>Sa pag gagawa ng account, ikaw ay sumasang-ayon</p>
+        <p>sa mga Terms at Privacy Policy ng Filingua 2024</p>
     </div>
 </body>
 </html>
