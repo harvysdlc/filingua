@@ -44,6 +44,11 @@ if(isset($_POST["submit"])){
             background-position: center;
         }
     </style>
+
+    <div class="text-above-form">
+        <h3>Gumawa ng Account</h3>
+    </div>
+
     <form class="signup" action="" method="post" autocomplete="off">
         <label for="email">Sulatroniko:</label>
         <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
