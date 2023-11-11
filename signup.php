@@ -45,6 +45,16 @@ if(isset($_POST["submit"])){
         }
     </style>
 
+    <div class="exit">
+        <button onclick="goBack()">ⓧ</button>
+        <script>
+            function goBack(){
+                var goBack = "../filingua/index.php";
+                window.location.href = goBack;
+            }
+        </script>
+    </div>
+
     <div class="text-above-form">
         <h2>Gumawa ng Profile</h2>
     </div>

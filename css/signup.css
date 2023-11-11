@@ -16,6 +16,17 @@ body {
     height: 100vh;
 }
 
+.exit {
+    text-align: left;
+    margin-left: 110px;
+}
+
+.exit button {
+    color: var(--background);
+    border-style: none;
+    cursor: pointer;
+}
+
 .text-above-form {
     text-align: center;
     margin-top: 2.5vh;
