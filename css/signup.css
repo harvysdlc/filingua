@@ -4,6 +4,17 @@
     --transparent: rgba(255, 166, 0, 0.65);
 }
 
+.exit {
+    left: 10px;
+}
+
+.exit a {
+    font-style: none;
+    font-weight: bold;
+    color: var(--background);
+    cursor: pointer;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
@@ -14,17 +25,6 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-}
-
-.exit {
-    left: 10px;
-}
-
-.exit a {
-    font-style: none;
-    font-weight: bold;
-    color: var(--background);
-    cursor: pointer;
 }
 
 .text-above-form {

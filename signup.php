@@ -34,6 +34,11 @@ if(isset($_POST["submit"])){
     <title>Filingua - signup</title>
     <link rel="stylesheet" href="../filingua/css/signup.css">
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
+
+    <div class="exit">
+        <a href="../filingua/index.php"><<<</a>
+    </div>
+
 </head>
 <body>
     <style>
@@ -44,10 +49,6 @@ if(isset($_POST["submit"])){
             background-position: center;
         }
     </style>
-
-    <div class="exit">
-        <a href="../filingua/index.php"><<<</a>
-    </div>
 
     <div class="text-above-form">
         <h2>Gumawa ng Profile</h2>
