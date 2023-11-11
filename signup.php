@@ -46,22 +46,27 @@ if(isset($_POST["submit"])){
         }
     </style>
     <form class="signup" action="" method="post" autocomplete="off">
-        <input type="text" name="email" id="email" placeholder="EMAIL ACCOUNT" required value=""> <br><br>
-        <input type="text" name="first_name" id="first_name" placeholder="FIRST NAME" required value=""> <br><br>
-        <input type="text" name="last_name" id="last_name" placeholder="LAST NAME" required value=""> <br><br>
-        <input type="number" name="age" id="age" placeholder="AGE" required value=""> <br><br>
+        <label for="email">Sulatroniko:</label>
+        <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
+        <label for="first_name">Pangalan:</label>
+        <input type="text" name="first_name" id="first_name" placeholder="Pangalan" required value=""> <br><br>
+        <label for="last_name">Apelyido:</label>
+        <input type="text" name="last_name" id="last_name" placeholder="Apelyido" required value=""> <br><br>
+        <label for="agel">Edad:</label>
+        <input type="number" name="age" id="age" placeholder="Edad" required value=""> <br><br>
 
        <!-- Dropdown for sex -->
         <select id="sex" name="sex" required>
-            <option value="" disabled selected>--SEX--</option>
-            <option value="male">MALE</option>
-            <option value="female">FEMALE</option>
+            <label for="sex">Kasarian:</label>
+            <option value="" disabled selected>--Kasarian--</option>
+            <option value="male">Lalaki</option>
+            <option value="female">Babae</option>
             <option value="lgbtqia">LGBTQIA+</option>
-            <option value="rather_not_say">RATHER NOT SAY</option>
+            <option value="rather_not_say">Huwag Sabihin</option>
         </select>
         <br><br>
-
-        <input type="password" name="password" id="password" placeholder="PASSWORD" required value=""> <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="" required value=""> <br><br>
         
         <div class="submitbtn">
             <button type="submit" name="submit">CREATE ACCOUNT</button>

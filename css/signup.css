@@ -37,7 +37,6 @@ body {
 }
 
 .signup ::placeholder{
-    text-align: center;
     color: #000000;
 }
 
