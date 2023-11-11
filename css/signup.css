@@ -42,7 +42,6 @@ body {
     max-width: 300px;
     width: 100%;
     margin-top: 20vh; /* Adjust as needed */
-    padding-bottom: 30px;
 }
 
 .signup input,
@@ -50,7 +49,7 @@ body {
 .signup button {
     width: calc(100% - 20px);
     padding: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     border-style: none;
     background-color: var(--transparent);
