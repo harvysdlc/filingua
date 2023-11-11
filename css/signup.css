@@ -60,7 +60,7 @@ body {
 }
 
 /* Media Queries for responsiveness */
-@media (max-width: 300px) {
+@media (max-width: 250px) {
     .signup {
         max-width: 100%;
     }
