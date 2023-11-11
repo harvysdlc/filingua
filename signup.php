@@ -40,7 +40,7 @@ if(isset($_POST["submit"])){
         body {
             background-image: url(../filingua/images/accountbg.jpg);
             background-size: cover;
-            background-repeat:inherit;
+            background-repeat:repeat;
             background-position: center;
         }
     </style>
