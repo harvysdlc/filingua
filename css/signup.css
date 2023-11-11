@@ -2,6 +2,7 @@
     --background: #ffffff;
     --foreground: #ffa500;
     --transparent: rgba(255, 166, 0, 0.494);
+    --select-highlight: #ffa500; /* Change this to your desired highlight color */
 }
 
 body {
@@ -36,7 +37,18 @@ body {
     background-color: var(--transparent);
 }
 
-.signup ::placeholder{
+.signup select {
+    appearance: none;
+    outline: none;
+    border: 1px solid var(--transparent); /* Optional: Set a border color to make it visually clear it's an input */
+    background-color: var(--transparent);
+}
+
+.signup select:focus {
+    border-color: var(--select-highlight);
+}
+
+.signup ::placeholder {
     color: #000000;
 }
 
