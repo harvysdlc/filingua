@@ -56,8 +56,8 @@ if(isset($_POST["submit"])){
         <input type="number" name="age" id="age" placeholder="Edad" required value=""> <br><br>
 
        <!-- Dropdown for sex -->
+        <label for="sex">Kasarian:</label>
         <select id="sex" name="sex" required>
-            <label for="sex">Kasarian:</label>
             <option value="" disabled selected>--Kasarian--</option>
             <option value="male">Lalaki</option>
             <option value="female">Babae</option>
