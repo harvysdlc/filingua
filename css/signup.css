@@ -17,14 +17,13 @@ body {
 }
 
 .exit {
-    text-align: left;
-    margin-left: 10px;
+    left: 10px;
 }
 
 .exit a {
+    font-style: none;
     font-weight: bold;
     color: var(--background);
-    border-style: none;
     cursor: pointer;
 }
 
