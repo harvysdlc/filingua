@@ -37,7 +37,7 @@ body {
 }
 
 .signup ::placeholder{
-    color: var(--background);
+    color: #000000;
 }
 
 .signup label {
