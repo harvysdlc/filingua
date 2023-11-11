@@ -50,11 +50,27 @@ if(isset($_POST["submit"])){
         <input type="text" name="first_name" id="first_name" placeholder="first name" required value=""> <br><br>
         <input type="text" name="last_name" id="last_name" placeholder="last name" required value=""> <br><br>
         <input type="number" name="age" id="age" placeholder="age" required value=""> <br><br>
-        <input type="text" name="sex" id="sex" placeholder="sex" required value=""> <br><br>
+
+        <!-- Dropdown for sex -->
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="lesbian">Lesbian</option>
+            <option value="gay">Gay</option>
+            <option value="bisexual">Bisexual</option>
+            <option value="transgender">Transgender</option>
+            <option value="asexual">Asexual</option>
+            <option value="rather_not_say">Rather Not Say</option>
+        </select>
+        <br><br>
+
         <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
+        
         <div class="submitbtn">
-            <button type="submit" name="submit"> sign up </button>
+            <button type="submit" name="submit">Sign Up</button>
         </div>
-    </form>
+</form>
+
 </body>
 </html>
