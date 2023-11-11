@@ -66,10 +66,10 @@ if(isset($_POST["submit"])){
         </select>
         <br><br>
         <label for="password">Password:</label>
-        <input type="password" name="password" id="password" placeholder="" required value=""> <br><br>
+        <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>
         
         <div class="submitbtn">
-            <button type="submit" name="submit">CREATE ACCOUNT</button>
+            <button type="submit" name="submit">GUMAWA NG ACCOUNT</button>
         </div>
     </form>
 
