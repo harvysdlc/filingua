@@ -46,7 +46,7 @@ if(isset($_POST["submit"])){
     </style>
 
     <div class="text-above-form">
-        <h3>Gumawa ng Profile</h3>
+        <h2>Gumawa ng Profile</h2>
     </div>
 
     <form class="signup" action="" method="post" autocomplete="off">
@@ -73,7 +73,7 @@ if(isset($_POST["submit"])){
         <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>
         
         <div class="submitbtn">
-            <button type="submit" name="submit">GUMAWA NG ACCOUNT</button>
+            <button type="submit" name="submit">Gumawa ng Account</button>
         </div>
     </form>
     <div class="text-below-form">

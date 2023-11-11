@@ -22,7 +22,7 @@ body {
     margin-bottom: 5px; /* Adjust as needed */
 }
 
-.text-above-form h3{
+.text-above-form h2{
     color: var(--background);
     font-weight: bold;
 }
