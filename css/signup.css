@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200vh;
+    height: 100vh;
 }
 
 .signup {
@@ -43,7 +43,7 @@ body {
 .signup label {
     display: block;
     text-align: left;
-    padding: 10px;
+    margin-left: 5px;
     margin-bottom: 5px;
     font-weight: bold;
     color: var(--foreground);
