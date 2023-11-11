@@ -40,8 +40,9 @@ body {
 .signup select {
     appearance: none;
     outline: none;
-    border: 1px solid; 
-    background-color: var(--background);
+    border: none;
+    background-color: var(--transparent);
+    color: #fff;
 }
 
 .signup select:focus {
