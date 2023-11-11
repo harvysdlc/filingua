@@ -40,12 +40,12 @@ body {
 .signup select {
     appearance: none;
     outline: none;
-    border: 1px solid var(--transparent); /* Optional: Set a border color to make it visually clear it's an input */
-    background-color: var(--transparent);
+    border: 1px solid; 
+    background-color: var(--background);
 }
 
 .signup select:focus {
-    border-color: var(--select-highlight);
+    border-color: var(--foreground);
 }
 
 .signup ::placeholder {
