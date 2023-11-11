@@ -6,7 +6,8 @@
 
 .exit {
     position: absolute;
-    left: 5vw;
+    left: 15vw;
+    top: 5vh;
 }
 
 .exit a {
