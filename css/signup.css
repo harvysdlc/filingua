@@ -14,6 +14,10 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
+    background-image: url(../filingua/images/accountbg.jpg);
+    background-size: cover;
+    background-repeat:inherit;
+    background-position: center;
 }
 
 .header {

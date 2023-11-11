@@ -36,21 +36,6 @@ if(isset($_POST["submit"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <style>
-        body {
-            background-image: url(../filingua/images/accountbg.jpg);
-            background-size: cover;
-            background-repeat:inherit;
-            background-position: center;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            height: 100vh;
-        }
-    </style>
     <form class="signup" action="" method="post" autocomplete="off">
         <label for="email">Sulatroniko:</label>
         <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
