@@ -33,11 +33,21 @@ if(isset($_POST["submit"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - login</title>
-    <link rel="stylesheet" href="../">
+    <link rel="stylesheet" href="../filingua/css/login.css">
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <form class="" action="" method="post" autocomplete="off">
+
+    <style>
+        body {
+            background-image: url(../filingua/images/accountbg.jpg);
+            background-size: cover;
+            background-repeat:inherit;
+            background-position: center;
+        }
+    </style>
+
+    <form class="login" action="" method="post" autocomplete="off">
         <input type="text" name="email" id="email" placeholder="email address" required value=""> <br><br>
         <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
         <div class="submitbtn">
