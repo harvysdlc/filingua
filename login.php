@@ -47,11 +47,17 @@ if(isset($_POST["submit"])){
         }
     </style>
 
+    <div class="text-above-form">
+        <h2>Magbukas ng Account</h2>
+    </div>
+
     <form class="login" action="" method="post" autocomplete="off">
-        <input type="text" name="email" id="email" placeholder="email address" required value=""> <br><br>
-        <input type="password" name="password" id="password" placeholder="password" required value=""> <br><br>
+        <label for="email">Sulatroniko:</label>
+        <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
+        <label for="password">Kontrasenyas:</label>
+        <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
         <div class="submitbtn">
-        <button type="submit" name="submit"> login </button>
+        <button type="submit" name="submit"> Buksan ang Account </button>
         </div>
     </form>
 </body>

@@ -4,6 +4,29 @@
     --transparent: rgba(255, 166, 0, 0.65);
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.text-above-form {
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+.text-above-form h2{
+    color: var(--background);
+    font-weight: bold;
+}
+
 .login{
     background-color: var(--background);
     padding: 20px 30px;
@@ -12,7 +35,46 @@
     text-align: center;
     max-width: 300px;
     width: 100%;
-    margin-top: 0.3vh; /* Adjust as needed */
+    margin-top: 1vh; /* Adjust as needed */
+}
+
+.login input,
+.login select,
+.login button {
+    width: calc(100% - 20px);
+    padding: 5px;
+    box-sizing: border-box;
+    border-style: none;
+    background-color: var(--transparent);
+    color: var(--background);
+}
+
+.login ::placeholder {
+    color: var(--background);
+}
+
+.login label {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--foreground);
+}
+
+.submitbtn button {
+    background-color: #ffbd59;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: ease;
+}
+
+.submitbtn button:hover {
+    background-color: #ff914d;
 }
 
 .login form{
