@@ -10,8 +10,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left; /* Align content at the bottom of the page */
+    align-items: flex-start;
+    justify-content: flex-end; /* Align content at the bottom of the page */
 }
 
 .buttons {
@@ -26,7 +26,7 @@ body {
     background-color: var(--transparent);
     color: var(--background);
     border-style: none;
-    margin: 15px 10px 15px 20px; /* Adjusted margin to align buttons to the left */
+    margin: 0 10px 15px 20px; /* Adjusted margin to align buttons to the left and bottom */
     padding: 15px 50px;
     cursor: pointer;
     border-radius: 15px;
