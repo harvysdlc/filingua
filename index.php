@@ -20,7 +20,7 @@ else if (isset($_POST["login"])){
     <style>
         body {
             background-image: url(../filingua/images/mybg.gif);
-            background-size: auto;
+            background-size: contain;
             background-repeat: no-repeat;
             height: 100vh;
             margin: 0;
