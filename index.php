@@ -42,11 +42,5 @@ else if (isset($_POST["login"])){
             }
         </script>
     </div>
-    <div class="logo">
-        <img src="../filingua/images/" alt="">
-    </div>
-    <div class="credits">
-            <p>Filingua 2024</p>
-    </div>
 </body>
 </html>

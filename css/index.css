@@ -17,7 +17,7 @@ body {
 .buttons {
     text-align: left;
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .buttons button {
@@ -31,18 +31,4 @@ body {
     padding: 15px 50px;
     cursor: pointer;
     border-radius: 15px;
-}
-
-.credits {
-    position: absolute;
-    top: 2vh;
-    right: 4vw;
-}
-
-.credits p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: right;
-    color: var(--background);
 }
