@@ -41,7 +41,7 @@ body {
 /* Responsive styles for screens with a minimum width of 1024px and a maximum width of 1920px */
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .buttons {
-        margin-left: 5%; /* Adjusted margin for larger screens */
+        margin-left: 4%; /* Adjusted margin for larger screens */
     }
 
     .buttons button {
