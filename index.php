@@ -17,15 +17,6 @@ else if (isset($_POST["login"])){
     <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
 </head>
 <body>
-    <style>
-        body {
-            background-image: url(../filingua/images/bgindex.gif);
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100vh;
-            margin: 0;
-        }
-    </style>
     <div class="buttons">
         <button onclick="signupPage()"> Salihan </button>
         <button onclick="loginPage()"> Simulan </button>

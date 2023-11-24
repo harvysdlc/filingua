@@ -12,6 +12,9 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end; /* Align content at the bottom of the page */
+    background-image: url('../filingua/images/bgindex.gif');
+    background-size: cover; /* Make the background image cover the entire background area */
+    background-repeat: no-repeat;
 }
 
 .buttons {
@@ -38,8 +41,9 @@ body {
     background-color: #ff914d;
 }
 
-/* Responsive styles for screens with a minimum width of 1024px and a maximum width of 1920px */
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+/* Responsive styles for screens with a minimum width of 1024px and a maximum width of 1920px,
+   and a minimum height of 768px and a maximum height of 1080px */
+@media screen and (min-width: 1024px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .buttons {
         margin-left: 4%; /* Adjusted margin for larger screens */
     }
