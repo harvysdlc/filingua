@@ -18,7 +18,7 @@ body {
     text-align: left;
     margin-bottom: 30px;
     margin-left: 60px;
-    position: absolute;
+    position: fixed;
 }
 
 .buttons button {
@@ -36,4 +36,15 @@ body {
 
 .buttons button:hover {
     background-color: #ff914d;
+}
+
+/* Responsive styles for screens with a minimum width of 1024px and a maximum width of 1920px */
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .buttons {
+        margin-left: 10%; /* Adjusted margin for larger screens */
+    }
+
+    .buttons button {
+        padding: 15px 60px; /* Adjusted padding for larger screens */
+    }
 }
