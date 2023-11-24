@@ -78,8 +78,8 @@ if(isset($_POST["submit"])){
             <option value="rather_not_say">Huwag Sabihin</option>
         </select>
         <br><br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>
+        <label for="password">Kontrasenyas:</label>
+        <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
         
         <div class="submitbtn">
             <button type="submit" name="submit">Gumawa ng Account</button>
