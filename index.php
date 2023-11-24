@@ -27,8 +27,8 @@ else if (isset($_POST["login"])){
         }
     </style>
     <div class="buttons">
-        <button onclick="signupPage()"> Magsimula  </button>
-        <button onclick="loginPage()"> Sumali </button>
+        <button onclick="signupPage()"> Simulan   </button>
+        <button onclick="loginPage()"> Salihan </button>
         <script>
             function signupPage(){
                 var signup = "../filingua/signup.php";
