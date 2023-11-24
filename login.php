@@ -48,7 +48,7 @@ if(isset($_POST["submit"])){
     </style>
 
     <div class="text-above-form">
-        <h2>Magbukas ng Account</h2>
+        <h2>Buksan ang Account</h2>
     </div>
 
     <form class="login" action="" method="post" autocomplete="off">
@@ -57,7 +57,7 @@ if(isset($_POST["submit"])){
         <label for="password">Kontrasenyas:</label>
         <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
         <div class="submitbtn">
-        <button type="submit" name="submit"> Buksan ang Account </button>
+        <button type="submit" name="submit"> Magsimula </button>
         </div>
     </form>
 </body>
