@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end; /* Align content at the bottom of the page */
-    background-image: url('../filingua/images/bgindex.gif');
+    background-image: url('../../filingua/images/bgindex.gif');
     background-size: cover; /* Make the background image cover the entire background area */
     background-repeat: no-repeat;
     background-position: center center; /* Center the background image */
