@@ -14,7 +14,7 @@ else if (isset($_POST["login"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua</title>
     <link rel="stylesheet" href="../filingua/css/index.css">
-    <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
+    <link rel="icon" type="image/png" href="../filingua/images/logo.png">
 </head>
 <body>
     <style>

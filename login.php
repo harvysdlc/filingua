@@ -34,7 +34,7 @@ if(isset($_POST["submit"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - login</title>
     <link rel="stylesheet" href="../filingua/css/login.css">
-    <link rel="icon" type="image/png" href="../filingua/images/icon.jpg">
+    <link rel="icon" type="image/png" href="../filingua/images/logo.png">
 </head>
 <body>
 
