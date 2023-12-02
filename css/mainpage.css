@@ -59,7 +59,8 @@ body {
 }
 
 .logo {
-    width: 50%; /* Set the size of the logo to 50% */
+    width: 100%; /* Set the size of the logo to 50% */
+    left: 0;
 }
 
 .logo img {
