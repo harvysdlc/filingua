@@ -29,6 +29,9 @@ if(!empty($_SESSION["email"])){
     <link rel="icon" type="image/png" href="../filingua/images/logo.png">
 </head>
 <body>
+    <style>
+        background-color: #ffa500;
+    </style>
     <button onclick="window.location.href='../../filingua/registered/logout.php'">logout</button>
     <!-- Your HTML body content -->
 </body>
