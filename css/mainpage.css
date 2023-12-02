@@ -27,7 +27,7 @@ body {
     justify-content: space-between; /* Add space between the logo and buttons */
     padding: 0; /* Adjusted padding for better spacing */
     z-index: 1; /* Ensure the "stage" div is above other elements */
-    padding-right: 5%;
+    margin-right: 5%;
 }
 
 .stage .buttons {
