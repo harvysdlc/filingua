@@ -33,7 +33,11 @@ if(!empty($_SESSION["email"])){
         body{background-color: #ffbd59;}
     </style>
     <div class="buttons">
-        <button onclick="window.location.href='../../filingua/registered/logout.php'">logout</button>
+        <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
+        <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
+        <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
+        <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
+        <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
     </div>
     <!-- Your HTML body content -->
 </body>
