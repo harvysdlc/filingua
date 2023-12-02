@@ -60,14 +60,19 @@ body {
     width: 200px; /* Set the same width as the buttons */
 }
 
-/* Add this style block for the .stage div */
+/* Add this style block for the .stage and .wrapper divs */
+.wrapper {
+    position: relative;
+}
+
 .stage {
     background-color: #dcdcdc;
     max-width: 80%;
     height: 100px; /* Set the height according to your requirements */
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Set z-index higher than other elements to ensure it's placed above them */
 }
+
