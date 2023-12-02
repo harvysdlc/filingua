@@ -47,12 +47,15 @@ body {
     background-color: var(--darker);
 }
 
-.header{
-    top:10px;
+.header {
+    position: relative; /* Add position relative */
+    top: 10px;
+    display: flex; /* Center the image vertically */
+    align-items: center;
 }
 
-.header header-photo {
+.header-photo {
     max-width: 50%;
-    height: 100%;
+    height: auto;
     width: 200px; /* Set the same width as the buttons */
 }
