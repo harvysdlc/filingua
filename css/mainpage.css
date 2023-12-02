@@ -17,12 +17,13 @@ body {
 
 .stage {
     background-color: #dcdcdc;
-    width: 15%;
+    width: 300px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1; /* Ensure the "stage" div is above other elements */
+    padding: 10px;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -36,6 +37,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .stage .buttons button {
@@ -64,6 +66,7 @@ body {
     top: -50px;
     display: flex; /* Center the image vertically */
     align-items: center;
+    width: 100%;
 }
 
 .stage .textimage img {
