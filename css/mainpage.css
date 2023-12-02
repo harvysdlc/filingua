@@ -74,14 +74,14 @@ body {
 	margin: 100px auto 50px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-	grid-gap: 50px;
+	grid-gap: 30px;
 	position: absolute;
 	top: 20px;
 	left: 30px;
 }
 
 .languages img {
-	width: 75%;
+	width: 60%;
 	cursor: pointer;
 }
 
