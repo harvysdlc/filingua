@@ -1,6 +1,9 @@
 <?php
 require '../server/config.php';
 
+// Start the session
+session_start();
+
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
@@ -27,11 +30,22 @@ if(!empty($_SESSION["email"])){
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../../filingua/css/mainpage.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
+    <style>
+        body { background-color: #ffbd59; }
+        .header-photo {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <style>
-        body{background-color: #ffbd59;}
-    </style>
+    <?php
+    // Insert your photo path below
+    $photoPath = "../../filingua/images/text.png";
+    ?>
+    
+    <img src="<?php echo $photoPath; ?>" alt="Header Photo" class="header-photo">
+
     <div class="buttons">
         <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
         <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
