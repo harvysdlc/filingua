@@ -74,7 +74,7 @@ body {
     margin: 100px auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 80px;
     position: fixed;
     top: 50%;
     left: 50%;
