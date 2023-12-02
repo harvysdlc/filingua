@@ -48,20 +48,6 @@ body {
     background-color: var(--base);
 }
 
-.textimage {
-    position: fixed; /* Add position relative */
-    top: -50px;
-    display: flex; /* Center the image vertically */
-    align-items: center;
-    width: 75px;
-}
-
-.textimage img {
-    max-width: 50%;
-    height: auto;
-    width: 200px; /* Set the same width as the buttons */
-}
-
 .stage {
     background-color: #dcdcdc;
     width: 15%;
