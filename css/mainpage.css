@@ -25,9 +25,8 @@ body {
     display: flex;
     align-items: center; /* Center the content vertically */
     justify-content: space-between; /* Add space between the logo and buttons */
-    padding: 0; /* Adjusted padding for better spacing */
+    padding: 0 20px; /* Add padding to both right and left sides */
     z-index: 1; /* Ensure the "stage" div is above other elements */
-    margin-right: 5%;
 }
 
 .stage .buttons {
