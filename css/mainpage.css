@@ -36,5 +36,5 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #ff914d;
+    background-color: var(--darker);
 }
