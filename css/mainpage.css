@@ -24,9 +24,11 @@ body {
     left: 0;
     z-index: 1; /* Ensure the "stage" div is above other elements */
     padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
-.stage .buttons {
+.stage .button {
     text-align: left;
     margin: 7rem 0 0 20px;
     display: flex;
@@ -35,12 +37,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-
-.stage .buttons button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -53,28 +49,21 @@ body {
     border-radius: 10px;
 }
 
-.stage .buttons button:first-child {
+.stage button:first-child {
     background-color: var(--base);
 }
 
-.stage .buttons button:hover {
+.stage button:hover {
     background-color: var(--base);
 }
 
-.stage .textimage {
+.stage img {
     position: fixed; /* Add position relative */
     top: -50px;
     display: flex; /* Center the image vertically */
     align-items: center;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-
-.stage .textimage img {
-    max-width: 50%;
     height: auto;
-    width: 200px; /* Set the same width as the buttons */
+    width: 200px;
 }
 
 
