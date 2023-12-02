@@ -26,7 +26,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.15rem;
-    background-color: var(--transparent);
+    background-color: gray;
     color: var(--background);
     border-style: none;
     margin: 0 10px 15px 20px; /* Adjusted margin to align buttons to the left and bottom */
