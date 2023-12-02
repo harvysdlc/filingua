@@ -47,14 +47,14 @@ body {
     background-color: var(--darker);
 }
 
-.header {
+.textimage {
     position: relative; /* Add position relative */
     top: 5px;
     display: flex; /* Center the image vertically */
     align-items: center;
 }
 
-.header-photo {
+.textimage img {
     max-width: 50%;
     height: auto;
     width: 200px; /* Set the same width as the buttons */

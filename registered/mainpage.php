@@ -32,13 +32,13 @@ if(!empty($_SESSION["email"])){
     </style>
 </head>
 <body>
-    <div class="header">
+    <div class="textimage">
         <?php
         // Insert your photo path below
         $photoPath = "../../filingua/images/text.png";
         ?>
         
-        <img src="<?php echo $photoPath; ?>" alt="Header Photo" class="header-photo">
+        <img src="<?php echo $photoPath; ?>">
     </div>
 
     <div class="buttons">
