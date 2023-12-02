@@ -61,7 +61,7 @@ body {
 }
 
 .stage {
-    background-color: #dcdcdc;
+    background-color: #000000;
     max-width: 80%;
     height: 100px; /* Set the height according to your requirements */
     position: absolute;
