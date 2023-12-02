@@ -68,5 +68,5 @@ body {
     top: 0;
     right: 50%;
     transform: translateX(-50%);
-    z-index: 1; /* Set z-index higher than other elements to ensure it's placed above them */
+    z-index: 2; /* Set z-index higher than other elements to ensure it's placed above them */
 }
