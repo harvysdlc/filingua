@@ -33,6 +33,7 @@ body {
     text-align: right; /* Align buttons to the right */
     display: flex;
     gap: 20px;
+    right: 5%;
 }
 
 .stage .buttons button {
