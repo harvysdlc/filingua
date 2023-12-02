@@ -1,6 +1,9 @@
 :root {
     --background: #ffffff;
     --foreground: #ffa500;
+    --base: #ff914d;
+    --lighter: #ffbd59;
+    --darker: #ffde59;
     --transparent: rgba(255, 165, 0, 0.5);
 }
 
