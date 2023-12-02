@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 75px;
 }
 
 .buttons button {
@@ -53,7 +53,7 @@ body {
     top: -50px;
     display: flex; /* Center the image vertically */
     align-items: center;
-    width: 150px;
+    width: 75px;
 }
 
 .textimage img {
