@@ -25,15 +25,8 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Learn</title>
-    <link rel="stylesheet" href="../">
-    <link rel="icon" type="image" href="../../filingua/images/logo.png">
-    <!-- Your HTML head content -->
-
-    <?php
-    echo $email;
-    echo $first_name; // Echo the first name
-    echo $last_name;  // Echo the last name
-    ?>
+    <link rel="stylesheet" href="../filingua/css/mainpage.css">
+    <link rel="icon" type="image/png" href="../filingua/images/logo.png">
 </head>
 <body>
     <button onclick="window.location.href='../../filingua/registered/logout.php'">logout</button>
