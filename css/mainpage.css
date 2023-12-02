@@ -23,17 +23,17 @@ body {
     top: 0;
     left: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    z-index: 1;
+    align-items: center; /* Center the content vertically */
+    justify-content: space-between; /* Add space between the logo and buttons */
+    padding: 0; /* No padding on the stage div */
+    z-index: 1; /* Ensure the "stage" div is above other elements */
 }
 
 .stage .buttons {
-    text-align: right;
+    text-align: right; /* Align buttons to the right */
     display: flex;
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 20px; /* Add padding to both right and left sides */
 }
 
 .stage .buttons button {
@@ -59,46 +59,34 @@ body {
 }
 
 .logo {
-    width: 100%;
+    width: 100%; /* Set the size of the logo to 100% */
     left: 0;
 }
 
 .logo img {
-    max-width: 75%;
-    height: auto;
-    display: block;
+    max-width: 75%; /* Ensure the image doesn't exceed 75% of the container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra spacing below the image */
 }
 
 .languages {
-    width: 100%;
-    margin: 100px auto 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
-
-.languages .language-box {
-    box-sizing: border-box;
-    border: 1px solid var(--base);
-    margin: 5px;
-    width: 200px;
-    text-align: center;
-    padding: 10px;
-}
-
-.languages .language-name {
-    padding: 10px;
+	width: 70%;
+	margin: 100px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+	position: fixed;
+	top: 45px;
+	left: 30px;
 }
 
 .languages img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
+	width: 95%;
+	cursor: pointer;
 }
 
 .languages img:hover {
-    transform: scale(1.1) rotate(0deg);
-    border-radius: 25px;
-    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
+	transform: scale(1.1) rotate(0deg);
+	border-radius: 25px;
+	box-shadow: 0 32px 75px rgba(0,0,0, 0.2);
 }
