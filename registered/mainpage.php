@@ -40,6 +40,9 @@ if(!empty($_SESSION["email"])){
             <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
+        <div class="logo">
+            <img src="../../filingua/images/textimage.png" alt="">
+        </div>
     </div>
 </body>
 </html>
