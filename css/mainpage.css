@@ -70,10 +70,10 @@ body {
 }
 
 .languages {
-	width: 80%;
+	width: 100%;
 	margin: 100px auto 50px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	grid-gap: 30px;
 	position: fixed;
 	top: 45px;
