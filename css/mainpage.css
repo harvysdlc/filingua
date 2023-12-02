@@ -21,7 +21,7 @@ body {
     height: 75px;
     position: fixed;
     top: 0;
-    left: 5%;
+    left: 0;
     display: flex;
     align-items: center; /* Center the content vertically */
     justify-content: space-between; /* Add space between the logo and buttons */
@@ -33,6 +33,7 @@ body {
     text-align: right; /* Align buttons to the right */
     display: flex;
     gap: 20px;
+    right: -5%;
 }
 
 .stage .buttons button {
