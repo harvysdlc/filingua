@@ -59,3 +59,8 @@ body {
     height: auto;
     width: 200px; /* Set the same width as the buttons */
 }
+
+.stage{
+    background-color: #dcdcdc;
+    max-width: 80%;
+}
