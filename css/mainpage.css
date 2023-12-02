@@ -32,7 +32,7 @@ body {
 .stage .buttons {
     text-align: right; /* Align buttons to the right */
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .stage .buttons button {
@@ -42,7 +42,7 @@ body {
     background-color: transparent;
     color: var(--background);
     border-style: none;
-    padding: 5px;
+    padding: 10px;
     width: 130px;
     cursor: pointer;
     border-radius: 30px;
