@@ -76,7 +76,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     grid-gap: 60px;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
