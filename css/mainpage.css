@@ -35,10 +35,11 @@ body {
     color: var(--background);
     border-style: none;
     padding: 10px;
-    flex: 1; /* Make each button take up equal space */
+    width: 190px; /* Set a fixed width for all buttons */
     cursor: pointer;
     border-radius: 10px;
 }
+
 
 .buttons button:first-child {
     background-color: var(--base);
