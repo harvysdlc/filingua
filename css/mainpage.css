@@ -28,7 +28,7 @@ body {
     overflow-y: scroll;
 }
 
-.stage .button {
+.stage button {
     text-align: left;
     margin: 7rem 0 0 20px;
     display: flex;
