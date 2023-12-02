@@ -18,7 +18,7 @@ body {
 .stage {
     background-color: #dcdcdc;
     width: 200px;
-    height: 100%;
+    height: 500px;
     z-index: 1; /* Ensure the "stage" div is above other elements */
     padding: 10px;
     overflow: hidden;
