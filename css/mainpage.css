@@ -70,7 +70,7 @@ body {
 }
 
 .languages {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
