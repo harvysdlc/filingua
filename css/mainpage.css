@@ -76,8 +76,7 @@ body {
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 30px;
 	position: fixed;
-	top: 45px;
-    justify-self: center;
+	top: 15px;
 }
 
 .languages img {
