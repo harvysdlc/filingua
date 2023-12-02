@@ -24,8 +24,6 @@ body {
     left: 0;
     z-index: 1; /* Ensure the "stage" div is above other elements */
     padding: 10px;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 .stage .buttons {
@@ -38,6 +36,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .stage .buttons button {
@@ -67,6 +67,8 @@ body {
     display: flex; /* Center the image vertically */
     align-items: center;
     width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .stage .textimage img {
