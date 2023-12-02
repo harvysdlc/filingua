@@ -32,13 +32,14 @@ if(!empty($_SESSION["email"])){
     </style>
 </head>
 <body>
-    <div class="buttons">
-        <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
-        <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
-        <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
-        <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
-        <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
+    <div class="stage">
+        <div class="buttons">
+            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
+            <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
+            <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
+            <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
+            <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
+        </div>
     </div>
-    <div class="stage"></div>
 </body>
 </html>
