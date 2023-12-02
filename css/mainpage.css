@@ -30,7 +30,7 @@ body {
 }
 
 .stage .buttons {
-    text-align: right; /* Align buttons to the right */
+    text-align: left; /* Align buttons to the right */
     display: flex;
     gap: 20px;
 }
