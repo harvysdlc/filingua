@@ -64,10 +64,10 @@ body {
 
 .stage {
     background-color: #dcdcdc;
-    width: 85%;
+    width: 15%;
     height: 100%;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 1; /* Ensure the "stage" div is above other elements */
 }
