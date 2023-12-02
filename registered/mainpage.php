@@ -34,7 +34,7 @@ if(!empty($_SESSION["email"])){
 <body>
     <div class="stage">
         <div class="logo">
-            <img src="../../filingua/images/logotext.png" alt="">
+            <img src="../../filingua/images/textimage.png" alt="">
         </div>
         <div class="buttons">
             <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
