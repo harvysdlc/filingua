@@ -71,7 +71,7 @@ body {
 
 .languages{
     display: inline-block;
-    border: 1px solid --transparent;
+    border: 1px solid --base;
     margin: 5px;
     width: 200px;
 }
@@ -81,7 +81,7 @@ body {
 
 }
 .languages:hover{
-    border: 1px solid --transparent;
+    border: 1px solid --base;
 }
 .languages img{
     width: 100%;
