@@ -46,6 +46,6 @@ body {
     top: 1rem;
     max-width: 100%;
     height: auto;
-    width: 200px; /* Set the same width as the buttons */
+    width: 250px; /* Set the same width as the buttons */
     margin-bottom: 15px; /* Add margin for separation */
 }
