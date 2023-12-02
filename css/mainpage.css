@@ -43,10 +43,6 @@ body {
     background-color: var(--base);
 }
 
-.buttons button:last-child {
-    margin-top: 30px; /* Set a higher margin for the last button */
-}
-
 .buttons button:hover {
     background-color: var(--base);
 }
