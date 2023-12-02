@@ -49,7 +49,7 @@ body {
 
 .textimage {
     position: relative; /* Add position relative */
-    top: 0px;
+    top: -20px;
     display: flex; /* Center the image vertically */
     align-items: center;
 }
