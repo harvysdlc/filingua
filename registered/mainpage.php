@@ -1,6 +1,9 @@
 <?php
 require '../server/config.php';
 
+// Start the session
+session_start();
+
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
@@ -25,15 +28,8 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Learn</title>
-    <link rel="stylesheet" href="../../filingua/css/mainpage.css">
+    <link rel="stylesheet" href="../../filingua/css/styles.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body { background-color: #ffbd59; }
-        .header-photo {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body>
     <?php
