@@ -30,7 +30,7 @@ body {
 }
 
 .stage .buttons {
-    text-align: left;
+    text-align: right; /* Align buttons to the right */
     display: flex;
     gap: 20px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .logo {
-    width: 50%; /* Set the size of the logo to 80% */
+    width: 50%; /* Set the size of the logo to 50% */
 }
 
 .logo img {
