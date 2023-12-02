@@ -30,7 +30,7 @@ if(!empty($_SESSION["email"])){
 </head>
 <body>
     <style>
-        background-color: #ffa500;
+        body{background-color: #ffa500;}
     </style>
     <button onclick="window.location.href='../../filingua/registered/logout.php'">logout</button>
     <!-- Your HTML body content -->
