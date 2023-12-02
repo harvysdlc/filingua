@@ -32,12 +32,14 @@ if(!empty($_SESSION["email"])){
     </style>
 </head>
 <body>
-    <?php
-    // Insert your photo path below
-    $photoPath = "../../filingua/images/text.png";
-    ?>
-    
-    <img src="<?php echo $photoPath; ?>" alt="Header Photo" class="header-photo">
+    <div class="header">
+        <?php
+        // Insert your photo path below
+        $photoPath = "../../filingua/images/text.png";
+        ?>
+        
+        <img src="<?php echo $photoPath; ?>" alt="Header Photo" class="header-photo">
+    </div>
 
     <div class="buttons">
         <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
