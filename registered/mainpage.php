@@ -35,7 +35,7 @@ if(!empty($_SESSION["email"])){
     <div class="textimage">
         <?php
         // Insert your photo path below
-        $photoPath = "../../filingua/images/text.png";
+        $photoPath = "../../filingua/images/textimage.png";
         ?>
         
         <img src="<?php echo $photoPath; ?>">
