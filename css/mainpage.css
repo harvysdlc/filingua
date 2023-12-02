@@ -23,17 +23,17 @@ body {
     top: 0;
     left: 0;
     display: flex;
-    align-items: center; /* Center the content vertically */
-    justify-content: space-between; /* Add space between the logo and buttons */
-    padding: 0; /* No padding on the stage div */
-    z-index: 1; /* Ensure the "stage" div is above other elements */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    z-index: 1;
 }
 
 .stage .buttons {
-    text-align: right; /* Align buttons to the right */
+    text-align: right;
     display: flex;
     gap: 20px;
-    padding: 0 20px; /* Add padding to both right and left sides */
+    padding: 0 20px;
 }
 
 .stage .buttons button {
@@ -59,31 +59,37 @@ body {
 }
 
 .logo {
-    width: 100%; /* Set the size of the logo to 100% */
+    width: 100%;
     left: 0;
 }
 
 .logo img {
-    max-width: 75%; /* Ensure the image doesn't exceed 75% of the container's width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Remove extra spacing below the image */
+    max-width: 75%;
+    height: auto;
+    display: block;
 }
 
-.languages{
-    display: inline-block;
-    border: 1px solid --base;
-    margin: 5px;
-    width: 200px;
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Add padding on top */
 }
-.languages .language-name{
+
+.languages div {
+    box-sizing: border-box;
+    border: 1px solid var(--base);
+    margin: 5px;
+    width: calc(33.33% - 10px); /* Three boxes per line with margin */
     padding: 10px;
     text-align: center;
+}
 
+.languages .language-name {
+    padding: 10px;
 }
-.languages:hover{
-    border: 1px solid --base;
-}
-.languages img{
+
+.languages img {
     width: 100%;
     height: auto;
 }
