@@ -68,3 +68,22 @@ body {
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Remove extra spacing below the image */
 }
+
+.languages{
+    display: inline-block;
+    border: 1px solid --transparent;
+    margin: 5px;
+    width: 200px;
+}
+.languages .language-name{
+    padding: 10px;
+    text-align: center;
+
+}
+.languages:hover{
+    border: 1px solid --transparent;
+}
+.languages img{
+    width: 100%;
+    height: auto;
+}
