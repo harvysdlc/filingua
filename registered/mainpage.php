@@ -1,9 +1,6 @@
 <?php
 require '../server/config.php';
 
-// Start the session
-session_start();
-
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
