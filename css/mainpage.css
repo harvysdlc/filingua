@@ -72,16 +72,28 @@ body {
 .languages {
     width: 100%;
     margin: 100px auto 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 30px;
-    position: relative; /* Change to relative to make the absolute positioning relative to the nearest positioned ancestor */
-    top: 20px;
-    text-align: center; /* Center-align the content */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.languages .language-box {
+    box-sizing: border-box;
+    border: 1px solid var(--base);
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.languages .language-name {
+    padding: 10px;
 }
 
 .languages img {
-    width: 40%;
+    width: 100%;
+    height: auto;
     cursor: pointer;
 }
 
