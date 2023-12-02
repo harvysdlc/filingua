@@ -32,21 +32,22 @@ if(!empty($_SESSION["email"])){
     </style>
 </head>
 <body>
-    <div class="textimage">
-        <?php
-        // Insert your photo path below
-        $photoPath = "../../filingua/images/textimage.png";
-        ?>
-        
-        <img src="<?php echo $photoPath; ?>">
-    </div>
-
-    <div class="buttons">
-        <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
-        <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
-        <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
-        <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
-        <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
+    <div class="holder">
+        <div class="textimage">
+            <?php
+            // Insert your photo path below
+            $photoPath = "../../filingua/images/textimage.png";
+            ?>
+            
+            <img src="<?php echo $photoPath; ?>">
+        </div>
+        <div class="buttons">
+            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
+            <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
+            <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
+            <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
+            <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
+        </div>
     </div>
     <div class="stage"></div>
 </body>

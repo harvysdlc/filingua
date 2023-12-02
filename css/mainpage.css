@@ -15,7 +15,11 @@ body {
     background-color: var(--lighter);
 }
 
-.buttons {
+.holder{
+    width: 15%;
+}
+
+.holder .buttons {
     text-align: left;
     margin: 7rem 0 0 20px;
     display: flex;
@@ -24,10 +28,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 15%;
 }
 
-.buttons button {
+.holder .buttons button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -40,23 +43,22 @@ body {
     border-radius: 10px;
 }
 
-.buttons button:first-child {
+.holder .buttons button:first-child {
     background-color: var(--base);
 }
 
-.buttons button:hover {
+.holder .buttons button:hover {
     background-color: var(--base);
 }
 
-.textimage {
-    width: 15%;
+.holder .textimage {
     position: relative; /* Add position relative */
     top: -50px;
     display: flex; /* Center the image vertically */
     align-items: center;
 }
 
-.textimage img {
+.holder .textimage img {
     max-width: 50%;
     height: auto;
     width: 200px; /* Set the same width as the buttons */
