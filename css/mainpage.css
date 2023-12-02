@@ -67,6 +67,11 @@ body {
     max-width: 75%; /* Ensure the image doesn't exceed 75% of the container's width */
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Remove extra spacing below the image */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .languages {
@@ -85,6 +90,11 @@ body {
   .languages img {
     width: 100%;
     cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
   
   .languages img:hover {
