@@ -25,7 +25,7 @@ body {
     display: flex;
     align-items: center; /* Center the content vertically */
     justify-content: space-between; /* Add space between the logo and buttons */
-    padding: 0; /* Adjusted padding for better spacing */
+    padding: 0 0; /* Adjusted padding for better spacing */
     z-index: 1; /* Ensure the "stage" div is above other elements */
 }
 
@@ -59,12 +59,11 @@ body {
 
 .logo {
     width: 100%; /* Set the size of the logo to 100% */
-    height: 90%;
     left: 0;
 }
 
 .logo img {
-    max-width: 75%; /* Ensure the image doesn't exceed 75% of the container's width */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 75%; /* Ensure the image doesn't exceed the container's width */
+    height: 16rem; /* Maintain the aspect ratio */
     display: block; /* Remove extra spacing below the image */
 }
