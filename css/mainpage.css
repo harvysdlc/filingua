@@ -42,7 +42,7 @@ body {
     color: var(--background);
     border-style: none;
     padding: 10px;
-    width: 190px; /* Set a fixed width for all buttons */
+    width: 130px; /* Set a fixed width for all buttons */
     cursor: pointer;
     border-radius: 30px;
     transition: background-color 0.3s; /* Add a smooth transition for the background color */
