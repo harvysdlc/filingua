@@ -48,8 +48,6 @@ if(!empty($_SESSION["email"])){
         <img src="../../filingua/images/tagalog.png" onclick="">
         <img src="../../filingua/images/bicolano.png" onclick="">
         <img src="../../filingua/images/cebuano.png" onclick="">
-	</div>
-    <div class="languages2">
         <img src="../../filingua/images/ilocano.png" onclick="">
         <img src="../../filingua/images/kapampangan.png" onclick="">
         <img src="../../filingua/images/pangasinense.png" onclick="">
