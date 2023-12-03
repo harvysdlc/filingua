@@ -64,7 +64,7 @@ if (!empty($_SESSION["email"])) {
     </script>
     <?php
     if(isset($_FILES["image"]["name"])){
-      $name = $_POST["name"];
+        $name = $_POST["email"];
 
       $imageName = $_FILES["image"]["name"];
       $imageSize = $_FILES["image"]["size"];
@@ -91,7 +91,7 @@ if (!empty($_SESSION["email"])) {
         ";
       }
       else{
-        $newImageName = $name . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
+        $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa");
         $newImageName .= '.' . $imageExtension;
         $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
         mysqli_query($conn, $query);
