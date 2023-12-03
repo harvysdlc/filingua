@@ -8,6 +8,7 @@ if(!empty($_SESSION["email"])){
     if ($row = mysqli_fetch_assoc($result)) {
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
+        $email = $row['email'];
     } else {
         // Handle the case where no user with the provided email was found.
         header("Location: login.php");
@@ -44,5 +45,25 @@ if(!empty($_SESSION["email"])){
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
     </div>    
+    
+    <div class="user">
+        <div class="container">
+        <?php
+        <h1>echo $first_name</h1>
+        <p>echo $email</p>
+        ?>
+        <img src="" id="profile-pic">
+        <label for="input-file">Baguhin ang larawan</labe>
+        <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+        </div>
+    </div>
+
+    <script>
+    let profilePic = document.getElementById("profile-pic");
+    let inputFile = document.getElementById("input-file");
+    inputFile.onchange = function(){
+        profilePic.src = URL.createObjectURL(inputFile.files[0]);
+    }
+    </script>
 </body>
 </html>
