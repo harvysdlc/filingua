@@ -96,6 +96,12 @@ if (!empty($_SESSION["email"])) {
         $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
         mysqli_query($conn, $query);
         move_uploaded_file($tmpName, 'img/' . $newImageName);
+        echo
+        "
+        <script>
+        document.location.href = '../../filingua/images/uploads/';
+        </script>
+        ";
       }
     }
     ?>
