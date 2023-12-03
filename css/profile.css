@@ -77,9 +77,8 @@ body {
 
 .upload{
     width: 200px;
-    position: absolute;
+    position: relative;
     margin: auto;
-    top: 40px;
   }
   
   .upload img{
