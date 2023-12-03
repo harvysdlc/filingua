@@ -79,6 +79,7 @@ body {
     width: 125px;
     position: relative;
     margin: auto;
+    top:50%;
   }
   
   .upload img{
