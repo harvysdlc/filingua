@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: var(--lighter);
+    box-sizing: border-box;
 }
 
 .stage {
@@ -73,3 +74,4 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+

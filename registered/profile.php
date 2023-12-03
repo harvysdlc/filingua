@@ -55,7 +55,6 @@ if(!empty($_SESSION["email"])){
         <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
         </div>
     </div>
-
     <script>
     let profilePic = document.getElementById("profile-pic");
     let inputFile = document.getElementById("input-file");
