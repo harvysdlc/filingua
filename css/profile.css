@@ -79,20 +79,20 @@ body {
     width: 125px;
     position: absolute;
     left: 10%;
-    top: 150px;
+    top: 0px;
     margin: auto;
   }
   
   .upload img{
     border-radius: 50%;
-    border: 8px solid var(--base);
+    border: 8px solid var(--background);
   }
   
   .upload .round{
     position: absolute;
     bottom: 0;
     right: 0;
-    background: var(--darker);
+    background: var(--background);
     width: 32px;
     height: 32px;
     line-height: 33px;
