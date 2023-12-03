@@ -51,7 +51,7 @@ if (!empty($_SESSION["email"])) {
       <div class="upload">
         <img src="img/<?php echo $profile_image_path; ?>" width = 125 height = 125 title="<?php echo $profile_image_path; ?>">
         <div class="round">
-          <input type="hidden" name="name" value="<?php echo $name; ?>">
+        <input type="hidden" name="email" value="<?php echo $email; ?>">
           <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png">
           <i class = "fa fa-camera" style = "color: #fff;"></i>
         </div>
@@ -74,7 +74,7 @@ if (!empty($_SESSION["email"])) {
       $validImageExtension = ['jpg', 'jpeg', 'png'];
       $imageExtension = explode('.', $imageName);
       $imageExtension = strtolower(end($imageExtension));
-      if (!in_array($imageExtension, $validImageExtension)){
+      if (!in_array(strtolower($imageExtension), $validImageExtension)){
         echo
         "
         <script>
@@ -95,7 +95,7 @@ if (!empty($_SESSION["email"])) {
       else{
         $newImageName = $name . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
         $newImageName .= '.' . $imageExtension;
-        $query = "UPDATE tb_user SET image = '$newImageName' WHERE email = $email";
+        $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
         mysqli_query($conn, $query);
         move_uploaded_file($tmpName, 'img/' . $newImageName);
         echo
