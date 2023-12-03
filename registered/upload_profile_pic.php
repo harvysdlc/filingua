@@ -26,7 +26,7 @@ if (!empty($_SESSION["email"])) {
             // Check if the database update is successful
             if (!mysqli_stmt_error($stmt)) {
                 // Redirect back to the profile page
-                header("Location: ../../filingua/registered/profile.php");
+                header("Location: /filingua/registered/profile.php");
                 exit();
             } else {
                 // Handle database update failure
