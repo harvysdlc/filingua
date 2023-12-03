@@ -99,8 +99,7 @@ body {
     text-align: center;
     border-radius: 50%;
     overflow: hidden;
-    border-width:5px ;
-    border-color: #ffffff;
+    border: 2px solid var(--base);
   }
   
   .upload .round input[type = "file"]{
