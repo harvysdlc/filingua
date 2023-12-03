@@ -4,6 +4,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 require '../server/config.php';
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 
 if (!empty($_SESSION["email"])) {
     $email = $_SESSION["email"];
