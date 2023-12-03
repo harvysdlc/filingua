@@ -63,48 +63,66 @@ if (!empty($_SESSION["email"])) {
       };
     </script>
     <?php
-    if(isset($_FILES["image"]["name"])){
+    if (isset($_FILES["image"]["name"]) && $_FILES["image"]["error"] == UPLOAD_ERR_OK){
         $name = $_POST["email"];
-
-      $imageName = $_FILES["image"]["name"];
-      $imageSize = $_FILES["image"]["size"];
-      $tmpName = $_FILES["image"]["tmp_name"];
-
-      // Image validation
-      $validImageExtension = ['jpg', 'jpeg', 'png'];
-      $imageExtension = explode('.', $imageName);
-      $imageExtension = strtolower(end($imageExtension));
-      if (!in_array(strtolower($imageExtension), $validImageExtension)){
-        echo
-        "
-        <script>
-          alert('Invalid Image Extension');
-        </script>
-        ";
-      }
-      elseif ($imageSize > 1200000){
-        echo
-        "
-        <script>
-          alert('Image Size Is Too Large');
-        </script>
-        ";
-      }
-      else{
-        $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
-        $newImageName .= '.' . $imageExtension;
-        $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
-        mysqli_query($conn, $query);
-        move_uploaded_file($tmpName, 'img/' . $newImageName);
-
-        // Update the source of the image dynamically
+    
+        $imageName = $_FILES["image"]["name"];
+        $imageSize = $_FILES["image"]["size"];
+        $tmpName = $_FILES["image"]["tmp_name"];
+    
+        // Image validation
+        $validImageExtension = ['jpg', 'jpeg', 'png'];
+        $imageExtension = explode('.', $imageName);
+        $imageExtension = strtolower(end($imageExtension));
+        
+        if (!in_array(strtolower($imageExtension), $validImageExtension)){
+            echo "
+            <script>
+              alert('Invalid Image Extension');
+            </script>
+            ";
+        } elseif ($imageSize > 1200000){
+            echo "
+            <script>
+              alert('Image Size Is Too Large');
+            </script>
+            ";
+        } else {
+            // Create the 'img' directory if it doesn't exist
+            $imageDirectory = 'img';
+            if (!is_dir($imageDirectory)) {
+                mkdir($imageDirectory);
+            }
+    
+            $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa");
+            $newImageName .= '.' . $imageExtension;
+    
+            $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
+            mysqli_query($conn, $query);
+    
+            // Move the uploaded file to the 'img' directory
+            if (move_uploaded_file($tmpName, 'img/' . $newImageName)) {
+                // Update the source of the image dynamically
+                echo "
+                <script>
+                  document.getElementById('profileImage').src = 'img/$newImageName';
+                </script>
+                ";
+            } else {
+                echo "
+                <script>
+                  alert('Failed to move uploaded file');
+                </script>
+                ";
+            }
+        }
+    } else {
         echo "
         <script>
-          document.getElementById('profileImage').src = 'img/$newImageName';
+          alert('File upload failed');
         </script>
         ";
-      }
-    }
+    }    
     ?>
 
 </body>
