@@ -115,7 +115,7 @@ body {
 
   .upload .details h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--base);
+    color: black;
   }
   
   input[type=file]::-webkit-file-upload-button{
