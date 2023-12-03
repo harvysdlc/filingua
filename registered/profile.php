@@ -111,17 +111,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <form class="form" id="form" action="" enctype="multipart/form-data" method="post">
       <div class="upload">
         <img src="img/<?php echo $profile_image_path; ?>" width=125 height=125 title="<?php echo $profile_image_path; ?>" id="profileImage">
-        <div class="round">
-            <input type="hidden" name="email" value="<?php echo $email; ?>">
-            <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
-            <i class="fa fa-camera" style="color: #fff;"></i>
-        </div>
+            <div class="round">
+                <input type="hidden" name="email" value="<?php echo $email; ?>">
+                <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
+                <i class="fa fa-camera" style="color: #fff;"></i>
+            </div>
+            <div class="details">
+            <h1>
+                <?php
+                echo $email
+                ?>
+            </h1>
+            </div>
       </div>
-      <h1>
-        <?php
-        echo $email
-        ?>
-        </h1>
     </form>
     <script type="text/javascript">
       document.getElementById("image").onchange = function(){
