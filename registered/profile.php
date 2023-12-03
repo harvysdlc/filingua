@@ -50,7 +50,7 @@ if(!empty($_SESSION["email"])){
         <div class="container">
         <h1><?php echo $first_name?></h1>
         <p><?php echo $email?></p>
-        <img src="" id="profile-pic">
+        <img src="../../filingua/images/default.png" id="profile-pic">
         <label for="input-file">Baguhin ang larawan</labe>
         <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
         </div>
