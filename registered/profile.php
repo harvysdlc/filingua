@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="../../filingua/css/profile.css">
     <link rel="icon" type="image/png" href="/filingua/images/logo.png">
     <style>
-        body { background-color: #ffbd59; }
+        body { background-color: #dcdcdc; }
     </style>
 </head>
 <body>
