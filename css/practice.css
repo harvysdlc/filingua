@@ -50,7 +50,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.stage .buttons button:first-child {
+.stage .buttons button:nth-child(2) {
     background-color: var(--base);
 }
 
