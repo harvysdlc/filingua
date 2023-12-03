@@ -47,13 +47,13 @@ if (!empty($_SESSION["email"])) {
         </div>
     </div>    
 
-    <form class="form" id = "form" action="" enctype="multipart/form-data" method="post">
+    <form class="form" id="form" action="" enctype="multipart/form-data" method="post">
       <div class="upload">
-        <img src="img/<?php echo $profile_image_path; ?>" width = 125 height = 125 title="<?php echo $profile_image_path; ?>">
+        <img src="img/<?php echo $profile_image_path; ?>" width=125 height=125 title="<?php echo $profile_image_path; ?>" id="profileImage">
         <div class="round">
         <input type="hidden" name="email" value="<?php echo $email; ?>">
-          <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png">
-          <i class = "fa fa-camera" style = "color: #fff;"></i>
+          <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
+          <i class="fa fa-camera" style="color: #fff;"></i>
         </div>
       </div>
     </form>
@@ -90,18 +90,20 @@ if (!empty($_SESSION["email"])) {
         </script>
         ";
       }
-      else {
-            $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
-            $newImageName .= '.' . $imageExtension;
-            $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
-            mysqli_query($conn, $query);
-            move_uploaded_file($tmpName, 'img/' . $newImageName);
-            echo "
-            <script>
-            document.location.href = '../../filingua/images/uploads/';
-            </script>
-            ";
-        }    
+      else{
+        $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
+        $newImageName .= '.' . $imageExtension;
+        $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
+        mysqli_query($conn, $query);
+        move_uploaded_file($tmpName, 'img/' . $newImageName);
+
+        // Update the source of the image dynamically
+        echo "
+        <script>
+          document.getElementById('profileImage').src = 'img/$newImageName';
+        </script>
+        ";
+      }
     }
     ?>
 
