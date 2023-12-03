@@ -50,12 +50,10 @@ body {
     transition: background-color 0.3s;
 }
 
-/* Style for the second button */
 .stage .buttons button:nth-child(2) {
     background-color: var(--base);
 }
 
-/* Hover effect for all buttons */
 .stage .buttons button:hover {
     background-color: var(--base);
 }
