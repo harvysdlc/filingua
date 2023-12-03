@@ -48,10 +48,8 @@ if(!empty($_SESSION["email"])){
     
     <div class="user">
         <div class="container">
-        <?php
-        <h1>echo $first_name</h1>
-        <p>echo $email</p>
-        ?>
+        <h1><?php echo $first_name?></h1>
+        <p><?php echo $email?></p>
         <img src="" id="profile-pic">
         <label for="input-file">Baguhin ang larawan</labe>
         <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
