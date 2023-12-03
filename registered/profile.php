@@ -91,14 +91,17 @@ if (!empty($_SESSION["email"])) {
         ";
       }
       else{
-        $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa");
+        $newImageName = $email . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
         $newImageName .= '.' . $imageExtension;
         $query = "UPDATE tb_user SET profile_image_path = '$newImageName' WHERE email = '$email'";
         mysqli_query($conn, $query);
         move_uploaded_file($tmpName, 'img/' . $newImageName);
+        echo
+        "
         <script>
         document.location.href = '../../filingua/images/uploads/';
         </script>
+        ";
       }
     }
     ?>
