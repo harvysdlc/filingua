@@ -9,7 +9,7 @@ if (!empty($_SESSION["email"])) {
     require '../server/config.php';
 
     // Define the upload directory
-    $uploadDir = '../../filingua/images/uploads';
+    $uploadDir = '../../filingua/images/uploads/';
 
     // Handle file upload
     if ($_FILES['profile_pic']['error'] === UPLOAD_ERR_OK) {
