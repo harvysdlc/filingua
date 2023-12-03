@@ -60,6 +60,7 @@ if (!empty($_SESSION["email"])) {
         </form>
         </div>
     </div>
+    
     <script>
     let profilePic = document.getElementById("profile-pic");
     let inputFile = document.getElementById("input-file");
