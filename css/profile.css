@@ -84,7 +84,7 @@ body {
   }
   
   .upload img{
-    border-radius: 50%;
+    border-radius: 20%;
     border: 8px solid var(--background);
   }
   
