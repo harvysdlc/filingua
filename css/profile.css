@@ -84,8 +84,8 @@ body {
   }
   
   .upload img{
-    border-radius: 20%;
-    border: 8px solid #000000;
+    border-radius: 40%;
+    border: 8px solid var(--darker);
   }
   
   .upload .round{
