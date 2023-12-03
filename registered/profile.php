@@ -1,7 +1,6 @@
 <?php
-require '../server/config.php';
-
 session_start();
+require '../server/config.php';
 
 if (!empty($_SESSION["email"])) {
     $email = $_SESSION["email"];
@@ -60,7 +59,7 @@ if (!empty($_SESSION["email"])) {
         </form>
         </div>
     </div>
-    
+
     <script>
     let profilePic = document.getElementById("profile-pic");
     let inputFile = document.getElementById("input-file");
