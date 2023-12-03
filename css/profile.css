@@ -85,7 +85,7 @@ body {
   
   .upload img{
     border-radius: 20%;
-    border: 8px solid var(--background);
+    border: 8px solid var(#000000);
   }
   
   .upload .round{
