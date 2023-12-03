@@ -1,13 +1,6 @@
 <?php
 session_start();
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 require '../server/config.php';
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
 
 if (!empty($_SESSION["email"])) {
     $email = $_SESSION["email"];
@@ -53,26 +46,68 @@ if (!empty($_SESSION["email"])) {
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
     </div>    
-    
-    <div class="user">
-        <div class="container">
-            <h1><?php echo $first_name ?></h1>
-            <p><?php echo $email ?></p>
-            <img src="<?php echo $profile_image_path ? $profile_image_path : '../../filingua/images/default.png'; ?>" id="profile-pic">
-            <form action="/filingua/registered/upload_profile_pic.php" method="post" enctype="multipart/form-data">
-            <label for="input-file">Baguhin ang larawan</label>
-            <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file" name="profile_pic">
-            <input type="submit" value="Upload">
-        </form>
-        </div>
-    </div>
 
-    <script>
-    let profilePic = document.getElementById("profile-pic");
-    let inputFile = document.getElementById("input-file");
-    inputFile.onchange = function(){
-        profilePic.src = URL.createObjectURL(inputFile.files[0]);
-    }
+    <form class="form" id = "form" action="" enctype="multipart/form-data" method="post">
+      <div class="upload">
+        <img src="img/<?php echo $profile_image_path; ?>" width = 125 height = 125 title="<?php echo $profile_image_path; ?>">
+        <div class="round">
+          <input type="hidden" name="name" value="<?php echo $name; ?>">
+          <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png">
+          <i class = "fa fa-camera" style = "color: #fff;"></i>
+        </div>
+      </div>
+    </form>
+    <script type="text/javascript">
+      document.getElementById("image").onchange = function(){
+          document.getElementById("form").submit();
+      };
     </script>
+    <?php
+    if(isset($_FILES["image"]["name"])){
+      $id = $_POST["id"];
+      $name = $_POST["name"];
+
+      $imageName = $_FILES["image"]["name"];
+      $imageSize = $_FILES["image"]["size"];
+      $tmpName = $_FILES["image"]["tmp_name"];
+
+      // Image validation
+      $validImageExtension = ['jpg', 'jpeg', 'png'];
+      $imageExtension = explode('.', $imageName);
+      $imageExtension = strtolower(end($imageExtension));
+      if (!in_array($imageExtension, $validImageExtension)){
+        echo
+        "
+        <script>
+          alert('Invalid Image Extension');
+          document.location.href = '../../filingua/images/uploads';
+        </script>
+        ";
+      }
+      elseif ($imageSize > 1200000){
+        echo
+        "
+        <script>
+          alert('Image Size Is Too Large');
+          document.location.href = '../../filingua/images/uploads';
+        </script>
+        ";
+      }
+      else{
+        $newImageName = $name . " - " . date("Y.m.d") . " - " . date("h.i.sa"); // Generate new image name
+        $newImageName .= '.' . $imageExtension;
+        $query = "UPDATE tb_user SET image = '$newImageName' WHERE id = $id";
+        mysqli_query($conn, $query);
+        move_uploaded_file($tmpName, 'img/' . $newImageName);
+        echo
+        "
+        <script>
+        document.location.href = '../../filingua/images/uploads';
+        </script>
+        ";
+      }
+    }
+    ?>
+
 </body>
 </html>
