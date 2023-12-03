@@ -76,7 +76,7 @@ body {
 }
 
 .upload{
-    width: 200px;
+    width: 125px;
     position: relative;
     margin: auto;
   }
@@ -91,9 +91,9 @@ body {
     bottom: 0;
     right: 0;
     background: #00B4FF;
-    width: 32px;
-    height: 32px;
-    line-height: 33px;
+    width: 50px;
+    height: 50px;
+    line-height: 51px;
     text-align: center;
     border-radius: 50%;
     overflow: hidden;
