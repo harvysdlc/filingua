@@ -116,12 +116,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
             <i class="fa fa-camera" style="color: #fff;"></i>
         </div>
-        <h1>
+      </div>
+      <h1>
         <?php
         echo $email
         ?>
         </h1>
-      </div>
     </form>
     <script type="text/javascript">
       document.getElementById("image").onchange = function(){
