@@ -82,15 +82,15 @@ body {
   }
   
   .upload img{
-    border-radius: 20%;
-    border: 8px solid #DCDCDC;
+    border-radius: 50%;
+    border: 8px solid var(--base);
   }
   
   .upload .round{
     position: absolute;
     bottom: 0;
     right: 0;
-    background: #00B4FF;
+    background: var(--darker);
     width: 32px;
     height: 32px;
     line-height: 33px;
