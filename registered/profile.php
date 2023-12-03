@@ -1,5 +1,4 @@
 <?php
-session_start();
 require '../server/config.php';
 
 if (!empty($_SESSION["email"])) {
