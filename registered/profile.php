@@ -79,7 +79,6 @@ if (!empty($_SESSION["email"])) {
         "
         <script>
           alert('Invalid Image Extension');
-          document.location.href = '../../filingua/images/uploads';
         </script>
         ";
       }
@@ -88,7 +87,6 @@ if (!empty($_SESSION["email"])) {
         "
         <script>
           alert('Image Size Is Too Large');
-          document.location.href = '../../filingua/images/uploads';
         </script>
         ";
       }
