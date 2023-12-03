@@ -112,9 +112,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class="upload">
         <img src="img/<?php echo $profile_image_path; ?>" width=125 height=125 title="<?php echo $profile_image_path; ?>" id="profileImage">
         <div class="round">
-        <input type="hidden" name="email" value="<?php echo $email; ?>">
-          <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
-          <i class="fa fa-camera" style="color: #fff;"></i>
+            <input type="hidden" name="email" value="<?php echo $email; ?>">
+            <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
+            <i class="fa fa-camera" style="color: #fff;"></i>
         </div>
       </div>
     </form>
