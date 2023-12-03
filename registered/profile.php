@@ -29,7 +29,7 @@ if (!empty($_SESSION["email"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Profile</title>
     <link rel="stylesheet" href="../../filingua/css/profile.css">
-    <link rel="icon" type="image/png" href="../filingua/images/logo.png">
+    <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
     <style>
         body { background-color: #ffbd59; }
     </style>
