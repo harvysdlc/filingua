@@ -53,7 +53,7 @@ if (!empty($_SESSION["email"])) {
             <h1><?php echo $first_name ?></h1>
             <p><?php echo $email ?></p>
             <img src="<?php echo $profile_image_path ? $profile_image_path : '../../filingua/images/default.png'; ?>" id="profile-pic">
-            <form action="upload_profile_pic.php" method="post" enctype="multipart/form-data">
+            <form action="../../filingua/registered/upload_profile_pic.php" method="post" enctype="multipart/form-data">
             <label for="input-file">Baguhin ang larawan</label>
             <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file" name="profile_pic">
             <input type="submit" value="Upload">
