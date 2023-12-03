@@ -107,6 +107,16 @@ body {
     transform: scale(2);
     opacity: 0;
   }
+
+  .upload .details{
+    position: absolute;
+    top: 150px;
+  }
+
+  .upload .details h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--base);
+  }
   
   input[type=file]::-webkit-file-upload-button{
       cursor: pointer;
