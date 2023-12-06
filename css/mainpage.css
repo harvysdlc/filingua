@@ -51,7 +51,7 @@ body {
 }
 
 .stage .buttons button:first-child {
-    color: var(--darker);
+    color: var(--base);
     background-color: var(--background);
 }
 
