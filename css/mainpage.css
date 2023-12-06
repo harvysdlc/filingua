@@ -12,11 +12,11 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--lighter);
+    background-color: var(--background);
 }
 
 .stage {
-    background-color: var(--background);
+    background-color: var(--lighter);
     width: 100%;
     height: 75px;
     position: absolute;
