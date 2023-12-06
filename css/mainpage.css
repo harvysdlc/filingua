@@ -56,7 +56,8 @@ body {
 }
 
 .stage .buttons button:hover {
-    background-color: var(--background);
+    background-color: var(--base);
+    color: var(--base);
 }
 
 .logo {
