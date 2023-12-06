@@ -47,6 +47,13 @@ body {
     border-style: none;
     background-color: var(--transparent);
     color: var(--background);
+    all: unset;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active{
+    transition: all 0s 5000s;
 }
 
 .login ::placeholder {
