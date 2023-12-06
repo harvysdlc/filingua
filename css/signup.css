@@ -75,7 +75,6 @@ body {
     border-style: none;
     background-color: var(--transparent);
     color: var(--background);
-    all: unset;
 }
 
 input:-webkit-autofill,
