@@ -16,7 +16,7 @@ body {
 }
 
 .stage {
-    background: #ffbd59;
+    background-color: #ffbd59;
     width: 100%;
     height: 75px;
     position: absolute;
@@ -51,11 +51,11 @@ body {
 }
 
 .stage .buttons button:first-child {
-    background-color: var(--base);
+    background-color: var(--background);
 }
 
 .stage .buttons button:hover {
-    background-color: var(--base);
+    background-color: var(--background);
 }
 
 .logo {
