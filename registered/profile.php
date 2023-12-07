@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="../../filingua/css/profile.css">
     <link rel="icon" type="image/png" href="/filingua/images/logo.png">
     <style>
-        body { background-color: #dcdcdc; }
+        body { background-color: #f0f0f0; }
     </style>
 </head>
 <body>
@@ -100,8 +100,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <img src="../../filingua/images/textimage.png" alt="">
         </div>
         <div class="buttons">
-            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
-            <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
+            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Mag-Aral</button>
+            <button onclick="window.location.href='../../filingua/registered/practice.php'">Magsanay</button>
             <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
             <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>

@@ -16,59 +16,65 @@ body {
 }
 
 .stage {
-    background-color: #ffbd59;
+    background-color: var(--lighter);
     width: 100%;
     height: 75px;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    align-items: center; /* Center the content vertically */
-    justify-content: space-between; /* Add space between the logo and buttons */
-    padding: 0; /* No padding on the stage div */
-    z-index: 1; /* Ensure the "stage" div is above other elements */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    z-index: 1;
 }
 
 .stage .buttons {
-    text-align: right; /* Align buttons to the right */
+    text-align: right;
     display: flex;
     gap: 20px;
-    padding: 0 20px; /* Add padding to both right and left sides */
+    padding: 0 20px;
 }
 
 .stage .buttons button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    background-color: transparent;
-    color: var(--background);
+    color: white; 
     border-style: none;
     padding: 10px;
-    width: 110px;
+    width: 105px;
     cursor: pointer;
     border-radius: 30px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .stage .buttons button:first-child {
-    color: var(--base);
-    background-color: var(--background);
+    background-color: white; 
+    color: var(--lighter);
+}
+
+.stage .buttons button:not(:first-child):hover {
+    color: #ffbd59; /* Change font color on hover for buttons from 2nd child to last child */
+}
+
+.stage .buttons button:not(:first-child):not(:hover) {
+    background-color: transparent; /* Set background color of other buttons to transparent when not hovered */
 }
 
 .stage .buttons button:hover {
-    background-color: var(--base);
-    color: var(--base);
+    background-color: var(--background);
 }
 
 .logo {
-    width: 100%; /* Set the size of the logo to 100% */
+    width: 100%;
     left: 0;
 }
 
 .logo img {
-    max-width: 75%; /* Ensure the image doesn't exceed 75% of the container's width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Remove extra spacing below the image */
+    max-width: 75%;
+    height: auto;
+    display: block;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -97,11 +103,10 @@ body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-  }
-  
+}
+
 .languages img:hover {
     transform: scale(1.1) rotate(0deg);
     border-radius: 25px;
     box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
-  }
-  
+}
