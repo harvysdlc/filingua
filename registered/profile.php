@@ -117,11 +117,28 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <i class="fa fa-camera" style="color: #fff;"></i>
             </div>
             <div class="details">
-            <h1>
+            <?php
+                $sql = "SELECT AccType FROM tb_user WHERE email = '$email'";
+                $sqlresult = mysqli_query($conn, $sql);
+                $sqldisplay = mysqli_fetch_assoc($sqlresult);
+                $Acctype = $sqldisplay['AccType'];
+
+                echo '<div class="user-details">';
+                echo '<h1>' . $first_name . '</h1>';
+
+                if ($Acctype == "developer") {
+                    echo '<img src="../../filingua/images/developer.png" alt="System Developer" class="verified-badge">';
+                } else {
+                    // You can add an alternative image or content here if the user is not a developer.
+                }
+
+                echo '</div>';
+            ?>
+            <p>
                 <?php
                 echo $email
                 ?>
-            </h1>
+            </p>
             </div>
       </div>
     </form>

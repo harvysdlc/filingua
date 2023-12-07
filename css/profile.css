@@ -108,49 +108,86 @@ body {
   box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
 }
 
-.upload{
-    width: 125px;
-    position: absolute;
-    left: 10%;
-    top: 130px;
-    margin: auto;
-  }
-  
-  .upload img{
-    border-radius: 50%;
-    border: 8px solid var(--lighter);
-  }
-  
-  .upload .round{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: var(--lighter);
-    width: 32px;
-    height: 32px;
-    line-height: 33px;
-    text-align: center;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 5px solid var(--background);
-  }
-  
-  .upload .round input[type = "file"]{
-    position: absolute;
-    transform: scale(2);
-    opacity: 0;
-  }
+.upload {
+  width: 125px;
+  position: absolute;
+  left: 10%;
+  top: 130px;
+  margin: auto;
+}
 
-  .upload .details{
-    position: absolute;
-    top: 150px;
-  }
+.upload img {
+  border-radius: 50%;
+  border: 8px solid var(--lighter);
+}
 
-  .upload .details h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-  }
-  
-  input[type=file]::-webkit-file-upload-button{
-      cursor: pointer;
-  }
+.upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--lighter);
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--background);
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.upload .details {
+  position: absolute;
+  top: 20px;
+  left: 170px;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-details h1 {
+  margin-right: 10px;
+}
+
+.verified-badge {
+  width:max-content;
+  height: max-content;
+  margin-bottom: 4px;
+}
+
+
+.upload .details .user-details {
+  display: flex;
+  align-items: center;
+  gap: 1px; /* Adjust the space between the h1 and img */
+}
+
+.upload .details h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  color: var(--base);
+  width:max-content;
+}
+
+.upload .details p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  color: var(--base);
+  position: absolute;
+  font-size: medium;
+  top: 45px;
+}
+
+.upload .details img {
+  border: none;
+  border-radius: 0%;
+}
