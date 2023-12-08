@@ -9,7 +9,11 @@ if (!empty($_SESSION["email"])) {
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
         $email = $row['email'];
+        $age = $row['age'];
+        $sex = $row['sex'];
         $profile_image_path = $row['profile_image_path'];
+        $nationality = $row['nationality'];
+        $bio = $row['bio'];
     } else {
         header("Location: /filingua/login.php");
         exit;
@@ -109,38 +113,53 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>    
 
     <form class="form" id="form" action="" enctype="multipart/form-data" method="post">
-      <div class="upload">
-        <img src="img/<?php echo $profile_image_path; ?>" width=125 height=125 title="<?php echo $profile_image_path; ?>" id="profileImage">
+        <div class="upload">
+            <img src="img/<?php echo $profile_image_path; ?>" width=400 height=400 id="profileImage">
             <div class="round">
                 <input type="hidden" name="email" value="<?php echo $email; ?>">
+                <img src="../../filingua/images/add.png" alt="Change Photo">
                 <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
-                <i class="fa fa-camera" style="color: #fff;"></i>
             </div>
             <div class="details">
-            <?php
-                $sql = "SELECT AccType FROM tb_user WHERE email = '$email'";
-                $sqlresult = mysqli_query($conn, $sql);
-                $sqldisplay = mysqli_fetch_assoc($sqlresult);
-                $Acctype = $sqldisplay['AccType'];
-
-                echo '<div class="user-details">';
-                echo '<h1>' . $first_name . '</h1>';
-
-                if ($Acctype == "developer") {
-                    echo '<img src="../../filingua/images/developer.png" alt="System Developer" class="verified-badge">';
-                } else {
-                    // You can add an alternative image or content here if the user is not a developer.
-                }
-
-                echo '</div>';
-            ?>
-            <p>
                 <?php
-                echo $email
+                    $sql = "SELECT AccType FROM tb_user WHERE email = '$email'";
+                    $sqlresult = mysqli_query($conn, $sql);
+                    $sqldisplay = mysqli_fetch_assoc($sqlresult);
+                    $Acctype = $sqldisplay['AccType'];
+
+                    echo '<div class="user-details">';
+                    echo '<h1>' . $first_name . '</h1>';
+
+                    if ($Acctype == "developer") {
+                        echo '<img src="../../filingua/images/developer.png" alt="System Developer" class="verified-badge">';
+                    } else {
+                        // You can add an alternative image or content here if the user is not a developer.
+                    }
+
+                    echo '</div>';
                 ?>
-            </p>
+                <p>
+                    <?php
+                    echo '<b>' .$email . '</b><br><br>';
+                    echo $bio;
+                    ?>
+                <p>
+                <div class="updates"> 
+                    <a href="../../filingua/registered/update.php">baguhin</a>
+                </div>
             </div>
-      </div>
+            <div class="credentials">
+                <p>
+                    <?php
+                    echo '<b>Pangalan: </b>'. '<br>' .$first_name . ' ' .$last_name . '<br><br>'; 
+                    echo '<b>Sulatroniko: </b>'. '<br>' .$email . '<br><br>'; 
+                    echo '<b>Edad: </b>'. '<br>' .$age .' taong gulang' . '<br><br>'; 
+                    echo '<b>Kasarian: </b>'. '<br>' .$sex . '<br><br>';
+                    echo '<b>Nasyonalidad: </b>'. '<br>' .$nationality . '<br>';            
+                    ?>
+                </p>
+            </div>
+        </div>
     </form>
     <script type="text/javascript">
       document.getElementById("image").onchange = function(){

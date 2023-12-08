@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
         "<script> alert('Email has already been taken'); </script>";
     }
     else{
-        $query = "INSERT INTO tb_user VALUES ('$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', '', '')";
+        $query = "INSERT INTO tb_user VALUES ('$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', 'default.png', 'user', 'none', 'none')";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
@@ -65,17 +65,17 @@ if(isset($_POST["submit"])){
         <input type="text" name="first_name" id="first_name" placeholder="Pangalan" required value=""> <br><br>
         <label for="last_name">Apelyido:</label>
         <input type="text" name="last_name" id="last_name" placeholder="Apelyido" required value=""> <br><br>
-        <label for="agel">Edad:</label>
+        <label for="age">Edad:</label>
         <input type="number" name="age" id="age" placeholder="Edad" required value="" min="0" max="200"> <br><br>
 
        <!-- Dropdown for sex -->
         <label for="sex">Kasarian:</label>
         <select id="sex" name="sex" required>
             <option value="" disabled selected>--Kasarian--</option>
-            <option value="male">Lalaki</option>
-            <option value="female">Babae</option>
-            <option value="lgbtqia">LGBTQIA+</option>
-            <option value="rather_not_say">Huwag Sabihin</option>
+            <option value="Lalaki">Lalaki</option>
+            <option value="Babae">Babae</option>
+            <option value="LGBTQIA+++">LGBTQIA+</option>
+            <option value="Huwag Ipaalam">Huwag Ipaalam</option>
         </select>
         <br><br>
         <label for="password">Kontrasenyas:</label>
