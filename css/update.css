@@ -13,141 +13,75 @@
     width: 100%;
     height: 100%;
     background-color: var(--background);
-  }
-  
-  .stage {
-    background-color: var(--lighter);
-    width: 100%;
-    height: 75px;
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    z-index: 1;
-  }
-  
-  .stage .buttons {
-    text-align: right;
-    display: flex;
-    gap: 20px;
-    padding: 0 20px;
-  }
-  
-  .stage .buttons button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    color: white; /* Set default font color to white */
-    background-color: transparent; /* Set default background color to transparent */
-    border-style: none;
-    padding: 10px;
-    width: 105px;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: color 0.3s; /* Add transition for smooth color change */
-  }
-  
-  .stage .buttons button:nth-child(3) {
-    background-color: white; /* Set background color of the second button to white */
-    color: #ffbd59; /* Set font color of the second button to #ffbd59 */
-  }
-  
-  .stage .buttons button:hover {
-    color: #ffbd59; /* Change font color on hover for all buttons */
-  }
-  
-  .stage .buttons button:hover:not(:nth-child(3)) {
-    background-color: var(--background); /* Change background color on hover for buttons other than the second child */
-  }
-  
-  .logo {
-    width: 100%;
-    left: 0;
-  }
-  
-  .logo img {
-    max-width: 75%;
-    height: auto;
-    display: block;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-  
-  .languages {
-    width: 55%;
-    margin: 50px auto 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-    grid-gap: 60px;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     justify-content: center;
-  }
-  
-  .languages img {
-    width: 100%;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-  
-  .languages img:hover {
-    transform: scale(1.1) rotate(0deg);
-    border-radius: 25px;
-    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
+    height: 100vh;
   }
   
 .form {
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: var(--lighter);
+  width: 330px;
+  max-width: 100%;
+  background-color: var(--background);
+  padding: 5px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-content: center;
 }
 
 .update-section {
     flex: 0 0 20%; /* Adjust the width as needed */
-    background-color: var(--base);
-    padding: 15px;
-    border-radius: 10px;
+    padding: 10px;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width:max-content;
+  margin-bottom: 3px;
+  color: var(--lighter);
 }
 
 input,
 select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 1px solid var(--lighter);
-    border-radius: 5px;
+  color: var(--background);
+  background: var(--lighter);
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid var(--lighter);
+  border-radius: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active{
+    transition: all 0s 5000s;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: var(--lighter);
     color: var(--background);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 button:hover {
-    background-color: var(--darker);
+    background-color: var(--base);
 }
 
 /* Centering the Form */

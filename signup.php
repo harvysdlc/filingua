@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
         "<script> alert('Email has already been taken'); </script>";
     }
     else{
-        $query = "INSERT INTO tb_user VALUES ('$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', 'default.png', 'user', 'none', 'none')";
+        $query = "INSERT INTO tb_user VALUES ('$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', 'default.png', 'user', 'none', 'none', 'none', 'none')";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";

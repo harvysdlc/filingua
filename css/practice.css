@@ -13,7 +13,12 @@ body {
     width: 100%;
     height: 100%;
     background-color: var(--background);
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
 
 .stage {
     background-color: var(--lighter);
@@ -79,31 +84,71 @@ body {
     -ms-user-select: none;
 }
 
-.languages {
-    width: 55%;
-    margin: 50px auto 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-    grid-gap: 60px;
+.form {
     position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-}
-
-.languages img {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: var(--lighter);
+    width: 330px;
+    height: 270px;
+    max-width: 100%;
+    background-color: var(--background);
+    padding: 5px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-content: center;
+  }
+  
+  .update-form {
+      flex: 0 0 20%; /* Adjust the width as needed */
+      padding: 10px;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width:max-content;
+    margin-bottom: 3px;
+    color: var(--lighter);
+  }
+  
+  input,
+  select {
+    color: var(--background);
+    background: var(--lighter);
     width: 100%;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-.languages img:hover {
-    transform: scale(1.1) rotate(0deg);
-    border-radius: 25px;
-    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
-}
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid var(--lighter);
+    border-radius: 5px;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:active{
+      transition: all 0s 5000s;
+  }
+  
+  button {
+      width: 100%;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      background-color: var(--lighter);
+      color: var(--background);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: var(--base);
+  }
+  
+  /* Centering the Form */
+  .form {
+      margin-top: 50px; /* Adjust as needed for spacing from the top */
+  }

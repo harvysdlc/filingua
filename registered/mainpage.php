@@ -28,7 +28,7 @@ if(!empty($_SESSION["email"])){
     <link rel="stylesheet" href="../../filingua/css/mainpage.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
     <style>
-        body { background-color: #f0f0f0; }
+        body { background-color: #ffffff; }
     </style>
 </head>
 <body>

@@ -54,26 +54,19 @@ if (!empty($_SESSION["email"])) {
     <link rel="stylesheet" href="../../filingua/css/update.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
     <style>
-        body { background-color: #f0f0f0; }
+        body {
+            background-image: url(../../filingua/images/bgaccount.gif);
+            background-size: cover;
+            background-repeat:inherit;
+            background-position: center;
+        }
     </style>
 </head>
-<body>
-    <div class="stage">
-        <div class="logo">
-            <img src="../../filingua/images/textimage.png" alt="">
-        </div>
-        <div class="buttons">
-            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Mag-Aral</button>
-            <button onclick="window.location.href='../../filingua/registered/practice.php'">Magsanay</button>
-            <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
-            <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
-            <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
-        </div>
-    </div>   
+<body>   
     <!-- Add the update form -->
     <form class="form" id="updateForm" action="" method="post">
         <div class="update-section">
-            <h2>Baguhin ang Personal na mga Detalye</h2>
+            <h2>Baguhin ang mga Detalye</h2>
 
             <label for="first_name">Pangalan:</label>
             <input type="text" id="first_name" name="first_name" maxlength="50" value="<?php echo $first_name; ?>">
