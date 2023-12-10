@@ -29,147 +29,147 @@ require '../server/config.php';
 
         // Redirect or display a success message as needed
         if ($language == 'Tagalog' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Tagalog1.php");
+            header("Location: /filingua/quiz/Tagalog1.php");
             exit;
         }
         else if ($language == 'Tagalog' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Tagalog2.php");
+            header("Location: /filingua/quiz/Tagalog2.php");
             exit;
         }
         else if ($language == 'Tagalog' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Tagalog3.php");
+            header("Location: /filingua/quiz/Tagalog3.php");
             exit;
         }
         else if ($language == 'Tagalog' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Tagalog4.php");
+            header("Location: /filingua/quiz/Tagalog4.php");
             exit;
         }
         else if ($language == 'Tagalog' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Tagalog5.php");
+            header("Location: /filingua/quiz/Tagalog5.php");
             exit;
         }
         else if ($language == 'Tagalog' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Tagalog6.php");
+            header("Location: /filingua/quiz/Tagalog6.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Bicolano1.php");
+            header("Location: /filingua/quiz/Bicolano1.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Bicolano2.php");
+            header("Location: /filingua/quiz/Bicolano2.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Bicolano3.php");
+            header("Location: /filingua/quiz/Bicolano3.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Bicolano4.php");
+            header("Location: /filingua/quiz/Bicolano4.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Bicolano5.php");
+            header("Location: /filingua/quiz/Bicolano5.php");
             exit;
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Bicolano6.php");
+            header("Location: /filingua/quiz/Bicolano6.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Cebuano1.php");
+            header("Location: /filingua/quiz/Cebuano1.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Cebuano2.php");
+            header("Location: /filingua/quiz/Cebuano2.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Cebuano3.php");
+            header("Location: /filingua/quiz/Cebuano3.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Cebuano4.php");
+            header("Location: /filingua/quiz/Cebuano4.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Cebuano5.php");
+            header("Location: /filingua/quiz/Cebuano5.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Cebuano6.php");
+            header("Location: /filingua/quiz/Cebuano6.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Ilocano1.php");
+            header("Location: /filingua/quiz/Ilocano1.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Ilocano2.php");
+            header("Location: /filingua/quiz/Ilocano2.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Ilocano3.php");
+            header("Location: /filingua/quiz/Ilocano3.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Ilocano4.php");
+            header("Location: /filingua/quiz/Ilocano4.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Ilocano5.php");
+            header("Location: /filingua/quiz/Ilocano5.php");
             exit;
         }
         else if ($language == 'Ilocano' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Ilocano6.php");
+            header("Location: /filingua/quiz/Ilocano6.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Kapampangan1.php");
+            header("Location: /filingua/quiz/Kapampangan1.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Kapampangan2.php");
+            header("Location: /filingua/quiz/Kapampangan2.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Kapampangan3.php");
+            header("Location: /filingua/quiz/Kapampangan3.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Kapampangan4.php");
+            header("Location: /filingua/quiz/Kapampangan4.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Kapampangan5.php");
+            header("Location: /filingua/quiz/Kapampangan5.php");
             exit;
         }
         else if ($language == 'Kapampangan' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Kapampangan6.php");
+            header("Location: /filingua/quiz/Kapampangan6.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/lessons/Pangasinense1.php");
+            header("Location: /filingua/quiz/Pangasinense1.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/lessons/Pangasinense2.php");
+            header("Location: /filingua/quiz/Pangasinense2.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/lessons/Pangasinense3.php");
+            header("Location: /filingua/quiz/Pangasinense3.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/lessons/Pangasinense4.php");
+            header("Location: /filingua/quiz/Pangasinense4.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/lessons/Pangasinense5.php");
+            header("Location: /filingua/quiz/Pangasinense5.php");
             exit;
         }
         else if ($language == 'Pangasinense' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/lessons/Pangasinense6.php");
+            header("Location: /filingua/quiz/Pangasinense6.php");
             exit;
         }
     }
@@ -221,9 +221,9 @@ require '../server/config.php';
             <label for="lesson">Aralin:</label>
             <select id="lesson" name="lesson">
                 <?php
-                $lessons = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6");
+                $quiz = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6");
                 
-                foreach ($lessons as $lessonoption) {
+                foreach ($quiz as $lessonoption) {
                     $selected = ($lessonoption == $lesson) ? 'selected' : '';
                     echo "<option value=\"$lessonoption\" $selected>$lessonoption</option>";
                 }

@@ -45,12 +45,24 @@ if(!empty($_SESSION["email"])){
         </div>
     </div>
     <div class="languages">
-        <img src="../../filingua/images/tagalog.png" onclick="">
-        <img src="../../filingua/images/bicolano.png" onclick="">
-        <img src="../../filingua/images/cebuano.png" onclick="">
-        <img src="../../filingua/images/ilocano.png" onclick="">
-        <img src="../../filingua/images/kapampangan.png" onclick="">
-        <img src="../../filingua/images/pangasinense.png" onclick="">
+        <a href="../../filingua/lessons/tagalog/landing.php">
+            <img src="../../filingua/images/tagalog.png" alt="Tagalog">
+        </a>
+        <a href="../../filingua/lessons/bicolano/landing.php">
+            <img src="../../filingua/images/bicolano.png" alt="Bicolano">
+        </a>
+        <a href="../../filingua/lessons/cebuano/landing.php">
+            <img src="../../filingua/images/cebuano.png" alt="Cebuano">
+        </a>
+        <a href="../../filingua/lessons/ilocano/landing.php">
+            <img src="../../filingua/images/ilocano.png" alt="Ilocano">
+        </a>
+        <a href="../../filingua/lessons/kapampangan/landing.php">
+            <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
+        </a>
+        <a href="../../filingua/lessons/pangasinense/landing.php">
+            <img src="../../filingua/images/pangasinense.png" alt="Pangasinense">
+        </a>
 	</div>
     
 </body>

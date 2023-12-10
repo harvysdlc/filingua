@@ -83,8 +83,3 @@ button {
 button:hover {
     background-color: var(--base);
 }
-
-/* Centering the Form */
-.form {
-    margin-top: 50px; /* Adjust as needed for spacing from the top */
-}
