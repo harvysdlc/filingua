@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `tb_user` (
+  `userID` int(3) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `email` varchar(50) NOT NULL,
   `first_name` varchar(50) NOT NULL,
   `last_name` varchar(50) NOT NULL,
@@ -47,11 +48,6 @@ CREATE TABLE `tb_user` (
 -- Dumping data for table `tb_user`
 --
 
-INSERT INTO `tb_user` (`email`, `first_name`, `last_name`, `age`, `sex`, `password`, `progress`, `profile_image_path`, `AccType`, `nationality`, `bio`, `language`, `lesson`) VALUES
-('harvy@gmail.com', 'Javie', 'Soriano', 20, 'Lalaki', 'soriano22', 0, 'default.png', 'user', 'none', 'none', 'Tagalog', 'Aralin 6'),
-('harvysdlc@gmail.com', 'Harvy', 'Dela Cruz', 20, 'Lalaki', 'soriano22', 0, 'harvysdlc@gmail.com - 2023.12.09 - 07.29.14am.jpg', 'developer', 'Filipino', 'Wala ka na sa search list ko! Tandaan mo yan...', 'Tagalog', 'Aralin 5'),
-('joshelland@gmail.com', 'Josh Elland', 'Sombrano', 21, 'Lalaki', 'ejsombrano', 0, 'joshelland@gmail.com - 2023.12.08 - 12.56.39pm.jpg', 'developer', 'Filipino', 'Ashen Intrepid', '', '');
-
 --
 -- Indexes for dumped tables
 --
@@ -60,7 +56,7 @@ INSERT INTO `tb_user` (`email`, `first_name`, `last_name`, `age`, `sex`, `passwo
 -- Indexes for table `tb_user`
 --
 ALTER TABLE `tb_user`
-  ADD PRIMARY KEY (`email`);
+  ADD PRIMARY KEY (`userID`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -89,7 +89,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     grid-gap: 60px;
     position: absolute;
-    top: 48%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -103,6 +103,7 @@ body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    border: solid 5px var(--background);
 }
 
 .languages img:hover {

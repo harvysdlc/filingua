@@ -55,10 +55,9 @@ if (!empty($_SESSION["email"])) {
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
     <style>
         body {
-            background-image: url(../../filingua/images/bgaccount.gif);
-            background-size: cover;
-            background-repeat:inherit;
-            background-position: center;
+            background-image: url(../../../filingua/images/static.jpg);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
         }
     </style>
 </head>

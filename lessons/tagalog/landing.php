@@ -27,41 +27,46 @@ if(!empty($_SESSION["email"])){
     <title>Filingua - Tagalog</title>
     <link rel="stylesheet" href="../../../filingua/lessons/tagalog/css/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
-    <style>
-        body { background-color: #ffffff; }
-    </style>
 </head>
 <body>
-    <div class="stage">
-        <div class="logo">
-            <img src="../../../filingua/images/textimage.png" alt="">
+    <style>
+        body {
+            background-image: url(../../../filingua/images/static.jpg);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+    </style>
+    <div class="label">
+            <h2>Mag-Aral ng Tagalog</h2>
+            <p>Learn Tagalog at Filingua</p>
         </div>
-        <div class="buttons">
-            <button onclick="window.location.href='../../../filingua/registered/mainpage.php'">Mag-Aral</button>
-            <button onclick="window.location.href='../../../filingua/registered/practice.php'">Magsanay</button>
-            <button onclick="window.location.href='../../../filingua/registered/profile.php'">Profile</button>
-            <button onclick="window.location.href='../../../filingua/registered/about.php'">About</button>
-            <button onclick="window.location.href='../../../filingua/registered/logout.php'">Logout</button>
-        </div>
-    </div>
     <div class="languages">
-        <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/1.png" alt="isa">
+        <a href="../../../filingua/lessons/tagalog/aralin1.php">
+            <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
         </a>
         <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/2.png" alt="dalawa">
+            <img src="../../../filingua/lessons/tagalog/images/A2.png" alt="Aralin 2">
         </a>
         <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/3.png" alt="tatlo">
+            <img src="../../../filingua/lessons/tagalog/images/A3.png" alt="Aralin 3">
         </a>
         <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/4.png" alt="apat">
+            <img src="../../../filingua/lessons/tagalog/images/A4.png" alt="Aralin 4">
         </a>
         <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/5.png" alt="lima">
+            <img src="../../../filingua/lessons/tagalog/images/A5.png" alt="Aralin 5">
         </a>
         <a href="">
-            <img src="../../../filingua/lessons/tagalog/images/6.png" alt="anim">
+            <img src="../../../filingua/lessons/tagalog/images/A6.png" alt="Aralin 6">
+        </a>
+        <a href="">
+            <img src="../../../filingua/lessons/tagalog/images/A7.png" alt="Aralin 7">
+        </a>
+        <a href="">
+            <img src="../../../filingua/lessons/tagalog/images/A8.png" alt="Aralin 8">
+        </a>
+        <a href="">
+            <img src="../../../filingua/lessons/tagalog/images/A9.png" alt="Aralin 9">
         </a>
 	</div>
     

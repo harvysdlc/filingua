@@ -12,58 +12,6 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--background);
-}
-
-.stage {
-    background-color: var(--lighter);
-    width: 100%;
-    height: 75px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    z-index: 1;
-}
-
-.stage .buttons {
-    text-align: right;
-    display: flex;
-    gap: 20px;
-    padding: 0 20px;
-}
-
-.stage .buttons button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    color: white; 
-    border-style: none;
-    padding: 10px;
-    width: 105px;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.stage .buttons button:first-child {
-    background-color: white; 
-    color: var(--lighter);
-}
-
-.stage .buttons button:not(:first-child):hover {
-    color: #ffbd59; /* Change font color on hover for buttons from 2nd child to last child */
-}
-
-.stage .buttons button:not(:first-child):not(:hover) {
-    background-color: transparent; /* Set background color of other buttons to transparent when not hovered */
-}
-
-.stage .buttons button:hover {
-    background-color: var(--background);
 }
 
 .logo {
@@ -82,12 +30,38 @@ body {
     -ms-user-select: none;
 }
 
+.label {
+    position: absolute;
+    top: 12%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text horizontally */
+}
+
+.label h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: var(--base);
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.label p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: var(--base);
+    margin: 0;
+}
+
 .languages {
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 40px;
-    height: 60%;
-    width: 80%;
+    padding: 15px 40px 20px 30px; /* top right bottom left */
+    height: 55%;
+    width: 55%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 50px;
@@ -96,18 +70,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: var(--lighter); /* Set the color of the thumb */
-    border-radius: 6px; /* Optional: Round the corners of the thumb */
+    background-color: var(--base); /* Set the color of the thumb */
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Set the color of the track */
+    background-color:#3F3931; /* Set the color of the track */
   }
   
 
@@ -119,10 +93,10 @@ body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    border: solid 5px var(--background);
 }
-
 .languages img:hover {
     transform: scale(1.1) rotate(0deg);
     border-radius: 25px;
-    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.125);
 }
