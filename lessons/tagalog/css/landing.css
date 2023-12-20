@@ -60,7 +60,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     padding: 15px 40px 20px 30px; /* top right bottom left */
-    height: 55%;
+    height: 60%;
     width: 55%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

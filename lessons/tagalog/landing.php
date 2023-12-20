@@ -44,28 +44,28 @@ if(!empty($_SESSION["email"])){
         <a href="../../../filingua/lessons/tagalog/aralin1.php">
             <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin2.php">
             <img src="../../../filingua/lessons/tagalog/images/A2.png" alt="Aralin 2">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin3.php">
             <img src="../../../filingua/lessons/tagalog/images/A3.png" alt="Aralin 3">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin4.php">
             <img src="../../../filingua/lessons/tagalog/images/A4.png" alt="Aralin 4">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin5.php">
             <img src="../../../filingua/lessons/tagalog/images/A5.png" alt="Aralin 5">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin6.php">
             <img src="../../../filingua/lessons/tagalog/images/A6.png" alt="Aralin 6">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin7.php">
             <img src="../../../filingua/lessons/tagalog/images/A7.png" alt="Aralin 7">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin8.php">
             <img src="../../../filingua/lessons/tagalog/images/A8.png" alt="Aralin 8">
         </a>
-        <a href="">
+        <a href="../../../filingua/lessons/tagalog/aralin9.php">
             <img src="../../../filingua/lessons/tagalog/images/A9.png" alt="Aralin 9">
         </a>
 	</div>

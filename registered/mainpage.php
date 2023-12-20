@@ -27,11 +27,15 @@ if(!empty($_SESSION["email"])){
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../../filingua/css/mainpage.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body { background-color: #ffffff; }
-    </style>
 </head>
 <body>
+    <style>
+        body {
+            background-image: url(../../../filingua/images/static.jpg);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+    </style>
     <div class="stage">
         <div class="logo">
             <img src="../../filingua/images/textimage.png" alt="">
