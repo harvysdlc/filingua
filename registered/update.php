@@ -56,8 +56,8 @@ if (!empty($_SESSION["email"])) {
     <style>
         body {
             background-image: url(../../../filingua/images/static.jpg);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
+            background-size: 100% 100%; 
+            background-repeat: no-repeat; 
         }
     </style>
 </head>
