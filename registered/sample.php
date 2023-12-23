@@ -100,11 +100,7 @@ if(isset($_POST['submit_ans'])){
 
     }
 }
-
-
 ?>
-
-
 </form>
 </body>
 </html>

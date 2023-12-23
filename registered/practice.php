@@ -189,6 +189,13 @@ require '../server/config.php';
     </style>
 </head>
 <body>
+    <style>
+        body {
+            background-image: url(../../../filingua/images/static.jpg);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+    </style>
     <div class="stage">
         <div class="logo">
             <img src="../../filingua/images/textimage.png" alt="">
@@ -221,7 +228,7 @@ require '../server/config.php';
             <label for="lesson">Aralin:</label>
             <select id="lesson" name="lesson">
                 <?php
-                $quiz = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6");
+                $quiz = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6", "Aralin 7", "Aralin 8", "Aralin 9");
                 
                 foreach ($quiz as $lessonoption) {
                     $selected = ($lessonoption == $lesson) ? 'selected' : '';
