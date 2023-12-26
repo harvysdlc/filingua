@@ -1,5 +1,6 @@
 <?php
 require '../server/config.php';
+session_start();
 
 if (!empty($_SESSION["email"])) {
     $email = $_SESSION["email"];

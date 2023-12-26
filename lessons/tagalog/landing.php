@@ -1,5 +1,6 @@
 <?php
 require '../../server/config.php';
+session_start();
 
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
@@ -31,15 +32,20 @@ if(!empty($_SESSION["email"])){
 <body>
     <style>
         body {
-            background-image: url(../../../filingua/images/static.jpg);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
+            background-color:#ffbd59;
         }
     </style>
-    <div class="label">
-            <h2>Mag-Aral ng Tagalog</h2>
-            <p>Learn Tagalog at Filingua</p>
+    <div class="stage">
+        <div class="label">
+                <h2>Mag-Aral ng Tagalog</h2>
+                <p>Learn Tagalog</p>
         </div>
+        <div class="larrow">
+            <a href="../../registered/mainpage.php">
+                <img src="../../images/larrow.png" alt="left-arrow">
+            </a>
+        </div>
+    </div>
     <div class="languages">
         <a href="../../../filingua/lessons/tagalog/aralin1.php">
             <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
@@ -69,6 +75,5 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/tagalog/images/A9.png" alt="Aralin 9">
         </a>
 	</div>
-    
 </body>
 </html>

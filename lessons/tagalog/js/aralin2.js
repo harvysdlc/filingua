@@ -117,14 +117,14 @@ function playAudio7() {
   audio.play();
 }
 function seventh(element) {
-  if (element.textContent === "change this one") {
-    element.textContent = "7. No";
+  if (element.textContent === "7. Ako ay labing-walong taong gulang") {
+    element.textContent = "7. Iam eighteen years old";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "change this one";
+    element.textContent = "7. Ako ay labing-walong taong gulang";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -182,6 +182,88 @@ function tenth(element) {
     element.style.fontWeight = "bold";
   } else {
     element.textContent = "10. Masaya akong nakilala kita!";
+    element.style.color = "#ff914d";
+    element.style.fontStyle = "normal";
+    element.style.fontSize = "initial";
+    element.style.fontWeight = "bold";
+  }
+}
+function eleven(element) {
+  if (
+    element.textContent === "11. Ako ay nag-aaral sa Unibersidad ng Pilipinas"
+  ) {
+    element.textContent =
+      "11. I am studying at the University of the Philippines";
+    element.style.color = "#3F3931";
+    element.style.fontStyle = "italic";
+    element.style.fontSize = "small";
+    element.style.fontWeight = "bold";
+  } else {
+    element.textContent = "11. Ako ay nag-aaral sa Unibersidad ng Pilipinas";
+    element.style.color = "#ff914d";
+    element.style.fontStyle = "normal";
+    element.style.fontSize = "initial";
+    element.style.fontWeight = "bold";
+  }
+}
+function twelve(element) {
+  if (
+    element.textContent ===
+    "12. Ang trabaho ko ay magkumpuni ng sirang kompyuter"
+  ) {
+    element.textContent = "12. My job is to repair a broken computer";
+    element.style.color = "#3F3931";
+    element.style.fontStyle = "italic";
+    element.style.fontSize = "small";
+    element.style.fontWeight = "bold";
+  } else {
+    element.textContent =
+      "12. Ang trabaho ko ay magkumpuni ng sirang kompyuter";
+    element.style.color = "#ff914d";
+    element.style.fontStyle = "normal";
+    element.style.fontSize = "initial";
+    element.style.fontWeight = "bold";
+  }
+}
+function thirteen(element) {
+  if (element.textContent === "13. Nagmula ako sa siyudad ng Trece Martires") {
+    element.textContent = "13. I'm from the city of Trece Martires";
+    element.style.color = "#3F3931";
+    element.style.fontStyle = "italic";
+    element.style.fontSize = "small";
+    element.style.fontWeight = "bold";
+  } else {
+    element.textContent = "13. Nagmula ako sa siyudad ng Trece Martires";
+    element.style.color = "#ff914d";
+    element.style.fontStyle = "normal";
+    element.style.fontSize = "initial";
+    element.style.fontWeight = "bold";
+  }
+}
+function fourteen(element) {
+  if (element.textContent === "14. Ako ay isang estudyante") {
+    element.textContent = "14. I'm a student";
+    element.style.color = "#3F3931";
+    element.style.fontStyle = "italic";
+    element.style.fontSize = "small";
+    element.style.fontWeight = "bold";
+  } else {
+    element.textContent = "14. Ako ay isang estudyante";
+    element.style.color = "#ff914d";
+    element.style.fontStyle = "normal";
+    element.style.fontSize = "initial";
+    element.style.fontWeight = "bold";
+  }
+}
+function fifteen(element) {
+  if (element.textContent === "15. Asul ang paborito kong kulay") {
+    element.textContent = "15. Blue is my favorite color";
+    element.style.color = "#3F3931";
+    element.style.fontStyle = "italic";
+    element.style.fontSize = "small";
+    element.style.fontWeight = "bold";
+  } else {
+    element.textContent = "15. Asul ang paborito kong kulay";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

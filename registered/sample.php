@@ -16,14 +16,14 @@ require '../server/config.php';
 $questions = array();
 $lang_id = 1;
 $quiz_id = 1;
-$max_num_question = 3;
+$max_num_question = 10;
 
 for ($i = 1; $i <= $max_num_question; $i++) {
 
-    $question_num = rand(1, 5);
+    $question_num = rand(1, 10);
 
     while (in_array($question_num, $questions)) {
-        $question_num = rand(1, 5);
+        $question_num = rand(1, 10);
     }
 
     if (!in_array($question_num, $questions)) {
@@ -65,7 +65,6 @@ for ($i = 1; $i <= $max_num_question; $i++) {
         }
     }
 }
-
 ?>
 <input type="submit" value="submit" name="submit_ans">
 
@@ -104,4 +103,3 @@ if(isset($_POST['submit_ans'])){
 </form>
 </body>
 </html>
-

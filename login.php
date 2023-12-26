@@ -1,5 +1,7 @@
 <?php
 require '../filingua/server/config.php';
+session_start();
+
 if(!empty($_SESSION["id"])){
     header("Location: index.php");
 }
@@ -12,6 +14,7 @@ if(isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["signin"] = true;
             $_SESSION["email"] = $row["email"];
+            $_SESSION["user_id"] = $row["user_id"];
             header("Location: /filingua/registered/mainpage.php");
         }
         else{
@@ -26,7 +29,6 @@ if(isset($_POST["submit"])){
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

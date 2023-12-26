@@ -1,5 +1,6 @@
 <?php
 require '../server/config.php';
+session_start();
     if (!empty($_SESSION["email"])) {
         $email = $_SESSION["email"];
         $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
@@ -183,18 +184,11 @@ require '../server/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Practice</title>
     <link rel="stylesheet" href="../../filingua/css/practice.css">
-    <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body { background-color: #ffffff; };
-    </style>
+    <link rel="icon" type="image/png" href="../../filingua/images/logo.png">   
 </head>
 <body>
     <style>
-        body {
-            background-image: url(../../../filingua/images/static.jpg);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
+        body { background-color: #ffbd59; };
     </style>
     <div class="stage">
         <div class="logo">
@@ -213,7 +207,7 @@ require '../server/config.php';
         <div class="update-form">
             <h2>Pagsasanay - Tagasala</h2>
 
-            <label for="language">Wika:</label>
+            <label for="language">Wika (Language)</label>
             <select id="language" name="language">
                 <?php
                 $languages = array("Bicolano", "Cebuano", "Ilocano", "Kapampangan", "Pangasinense", "Tagalog");
@@ -225,7 +219,7 @@ require '../server/config.php';
                 ?>
             </select>
 
-            <label for="lesson">Aralin:</label>
+            <label for="lesson">Aralin (Lesson)</label>
             <select id="lesson" name="lesson">
                 <?php
                 $quiz = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6", "Aralin 7", "Aralin 8", "Aralin 9");

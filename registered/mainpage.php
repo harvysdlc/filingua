@@ -1,5 +1,6 @@
 <?php
 require '../server/config.php';
+session_start();
 
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
@@ -31,9 +32,7 @@ if(!empty($_SESSION["email"])){
 <body>
     <style>
         body {
-            background-image: url(../../../filingua/images/static.jpg);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
+            background-color: #ffbd59;
         }
     </style>
     <div class="stage">

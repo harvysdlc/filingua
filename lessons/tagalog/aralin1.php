@@ -1,5 +1,6 @@
 <?php
 require '../../server/config.php';
+session_start();
 
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
@@ -38,6 +39,11 @@ if(!empty($_SESSION["email"])){
         <div class="larrow">
             <a href="../../lessons/tagalog/landing.php">
                 <img src="../../images/larrow.png" alt="left-arrow">
+            </a>
+        </div>
+        <div class="home">
+            <a href="../../lessons/tagalog/landing.php">
+                <img src="../../images/home.png" alt="home">
             </a>
         </div>
         <div class="rarrow">

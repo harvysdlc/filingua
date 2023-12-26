@@ -1,5 +1,6 @@
 <?php
 require '../../server/config.php';
+session_start();
 
 if(!empty($_SESSION["email"])){
     $email = $_SESSION["email"];
@@ -40,6 +41,11 @@ if(!empty($_SESSION["email"])){
                 <img src="../../images/larrow.png" alt="left-arrow">
             </a>
         </div>
+        <div class="home">
+            <a href="../../lessons/tagalog/landing.php">
+                <img src="../../images/home.png" alt="home">
+            </a>
+        </div>
         <div class="rarrow">
             <a href="../../lessons/tagalog/aralin3.php">
                 <img src="../../images/rarrow.png" alt="right-arrow">
@@ -58,6 +64,11 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/tagalog/recordings/2/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/tagalog/recordings/2/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/tagalog/recordings/2/10.wav"></audio>
+        <audio id="audio11" src="../../../filingua/lessons/tagalog/recordings/2/11.wav"></audio>
+        <audio id="audio12" src="../../../filingua/lessons/tagalog/recordings/2/12.wav"></audio>
+        <audio id="audio13" src="../../../filingua/lessons/tagalog/recordings/2/13.wav"></audio>
+        <audio id="audio14" src="../../../filingua/lessons/tagalog/recordings/2/14.wav"></audio>
+        <audio id="audio15" src="../../../filingua/lessons/tagalog/recordings/2/15.wav"></audio>
 
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
@@ -103,11 +114,11 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Act of inquiring about the number of years a person has lived since their birth, often done to learn more about their life stage or to establish a basic understanding of their chronological age.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="seventh(this)">change this one</span>
+            <span onclick="seventh(this)">7. Ako ay labing-walong taong gulang</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hin-di /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Hindi tama ang sagot ko sa pagsusulit.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to give a negative response.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay <b>[Age]</b> ta-ong gu--lang /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Maria, ako ay labing-walong taong gulang na, ikaw?.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's age.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eight(this)">8. Kapatid ko si Pedro</span>
@@ -129,6 +140,41 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-sa-ya a-kong na-ki-la-la ki-ta! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko lang sabihin na masaya akong nakilala kita, Marie.</span><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of a positive sentiment about meeting and getting to know the person. It conveys a sense of joy or satisfaction in having had the opportunity to make the acquaintance of the individual.</span><br><br>
+            <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
+            <br><br>
+            <span onclick="eleven(this)">11. Ako ay nag-aaral sa Unibersidad ng Pilipinas</span>
+            <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay nag-a-a-ral sa <b>[School Name]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Tama tita, ako ay nag-aaral sa Unibersidad ng Pilipinas bilang Nurse.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">A statement that tells that the speaker is a student of a specific school or university.</span><br><br>
+            <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
+            <br><br>
+            <span onclick="twelve(this)">12. Ang trabaho ko ay magkumpuni ng sirang kompyuter</span>
+            <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ang tra-ba-ho ko ay <b>[Occupation]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Dati akong gwardya, ngayon, ang trabaho ko ay magkumpuni ng sirang kompyuter.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's occupation.</span><br><br>
+            <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
+            <br><br>
+            <span onclick="thirteen(this)">13. Nagmula ako sa siyudad ng Trece Martires</span>
+            <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/Nag-mu-la a-ko sa si-yu-dad ng <b>[Place]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ako si David at nagmula ako sa siyudad ng Trece Martires.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">A statement that expressess someone's hometown or the place the person originated.</span><br><br>
+            <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
+            <br><br>
+            <span onclick="fourteen(this)">14. Ako ay isang estudyante</span>
+            <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay i-sang es-tu-dyan-te /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ako ay isang estudyante sa umaga at trabahador naman sa gabi.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">It indicates that the speaker is currenly, still a learner.</span><br><br>
+            <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
+            <br><br>
+            <span onclick="fifteen(this)">15. Asul ang paborito kong kulay</span>
+            <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sul ang pa-bo-ri-to kong ku-lay /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Asul ang paborito kong kulay para sa sasakyan.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's favorite color.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
             <button onclick="startPractice()">Magsanay | Practice </button>

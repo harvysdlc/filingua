@@ -46,6 +46,24 @@ body {
     -ms-user-select: none;
 }
 
+.home {
+    position: absolute;
+    width: 10%;
+    left: 10%;
+}
+
+.home img {
+    padding-left: 30px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .rarrow {
     position: absolute;
     width: 10%;
