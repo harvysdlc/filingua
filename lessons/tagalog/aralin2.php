@@ -172,7 +172,7 @@ if(!empty($_SESSION["email"])){
             <br><br>
             <span onclick="fifteen(this)">15. Asul ang paborito kong kulay</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sul ang pa-bo-ri-to kong ku-lay /</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ <b>[Color]</b> ang pa-bo-ri-to kong ku-lay /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Asul ang paborito kong kulay para sa sasakyan.</span><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's favorite color.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>

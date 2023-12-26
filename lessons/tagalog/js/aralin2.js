@@ -188,6 +188,10 @@ function tenth(element) {
     element.style.fontWeight = "bold";
   }
 }
+function playAudio11() {
+  var audio = document.getElementById("audio11");
+  audio.play();
+}
 function eleven(element) {
   if (
     element.textContent === "11. Ako ay nag-aaral sa Unibersidad ng Pilipinas"
@@ -205,6 +209,10 @@ function eleven(element) {
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
+}
+function playAudio12() {
+  var audio = document.getElementById("audio12");
+  audio.play();
 }
 function twelve(element) {
   if (
@@ -225,6 +233,10 @@ function twelve(element) {
     element.style.fontWeight = "bold";
   }
 }
+function playAudio13() {
+  var audio = document.getElementById("audio13");
+  audio.play();
+}
 function thirteen(element) {
   if (element.textContent === "13. Nagmula ako sa siyudad ng Trece Martires") {
     element.textContent = "13. I'm from the city of Trece Martires";
@@ -240,6 +252,10 @@ function thirteen(element) {
     element.style.fontWeight = "bold";
   }
 }
+function playAudio14() {
+  var audio = document.getElementById("audio14");
+  audio.play();
+}
 function fourteen(element) {
   if (element.textContent === "14. Ako ay isang estudyante") {
     element.textContent = "14. I'm a student";
@@ -254,6 +270,10 @@ function fourteen(element) {
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
+}
+function playAudio15() {
+  var audio = document.getElementById("audio15");
+  audio.play();
 }
 function fifteen(element) {
   if (element.textContent === "15. Asul ang paborito kong kulay") {
