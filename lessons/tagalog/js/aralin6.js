@@ -188,3 +188,6 @@ function tenth(element) {
     element.style.fontWeight = "bold";
   }
 }
+function startPractice() {
+  window.location.href = "../../../../filingua/quiz/Tagalog6.php";
+}

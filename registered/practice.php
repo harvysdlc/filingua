@@ -53,6 +53,18 @@ session_start();
             header("Location: /filingua/quiz/Tagalog6.php");
             exit;
         }
+        else if ($language == 'Tagalog' && $lesson == 'Aralin 7') {
+            header("Location: /filingua/quiz/Tagalog7.php");
+            exit;
+        }
+        else if ($language == 'Tagalog' && $lesson == 'Aralin 8') {
+            header("Location: /filingua/quiz/Tagalog8.php");
+            exit;
+        }
+        else if ($language == 'Tagalog' && $lesson == 'Aralin 9') {
+            header("Location: /filingua/quiz/Tagalog9.php");
+            exit;
+        }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 1') {
             header("Location: /filingua/quiz/Bicolano1.php");
             exit;
@@ -75,6 +87,18 @@ session_start();
         }
         else if ($language == 'Bicolano' && $lesson == 'Aralin 6') {
             header("Location: /filingua/quiz/Bicolano6.php");
+            exit;
+        }
+        else if ($language == 'Bicolano' && $lesson == 'Aralin 7') {
+            header("Location: /filingua/quiz/Bicolano7.php");
+            exit;
+        }
+        else if ($language == 'Bicolano' && $lesson == 'Aralin 8') {
+            header("Location: /filingua/quiz/Bicolano8.php");
+            exit;
+        }
+        else if ($language == 'Bicolano' && $lesson == 'Aralin 9') {
+            header("Location: /filingua/quiz/Bicolano9.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 1') {

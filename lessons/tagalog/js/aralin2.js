@@ -291,5 +291,5 @@ function fifteen(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Tagalog1.php";
+  window.location.href = "../../../../filingua/quiz/Tagalog2.php";
 }

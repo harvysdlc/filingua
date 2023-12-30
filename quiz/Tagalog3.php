@@ -11,7 +11,7 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagsasanay - Tagalog 1 </title>
+    <title>Pagsasanay - Tagalog 3 </title>
     <link rel="stylesheet" href="../../../filingua/quiz/css/quiz.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
@@ -19,7 +19,7 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
 <body>
     <div class="stage">
         <div class="label">
-            <h2>Aralin 1: Mga Pagbati</h2>
+            <h2>Aralin 3: Pagbilang</h2>
         </div>
         <div class="larrow">
             <a href="../lessons/tagalog/landing.php">
@@ -37,15 +37,15 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
             <?php
             $questions = array();
             $lang_id = 1;
-            $quiz_id = 1;
+            $quiz_id = 3;
             $max_num_question = 10;
 
             for ($i = 1; $i <= $max_num_question; $i++) {
 
-                $question_num = rand(1, 10);
+                $question_num = rand(1, 15);
 
                 while (in_array($question_num, $questions)) {
-                    $question_num = rand(1, 10);
+                    $question_num = rand(1, 15);
                 }
 
                 if (!in_array($question_num, $questions)) {

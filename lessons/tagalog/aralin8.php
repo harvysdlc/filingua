@@ -96,7 +96,7 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A direct expression of the customer's desire to purchase a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fifth(this)">5. Pwede bang tumawad/</span>
+            <span onclick="fifth(this)">5. Pwede bang tumawad?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pwe-de bang tu-ma-wad? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ate kukuha ako tatlo, pwede bang tumawad?.</span><br>

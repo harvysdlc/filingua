@@ -588,5 +588,5 @@ function onebillion(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Tagalog1.php";
+  window.location.href = "../../../../filingua/quiz/Tagalog3.php";
 }

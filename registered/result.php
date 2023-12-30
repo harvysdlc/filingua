@@ -18,16 +18,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagsasanay - Resulta</title>
+    <link rel="stylesheet" href="../../filingua/css/result.css">
+    <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
 <body>
-
+    <div class="stage">
+        <div class="label">
+            <h2>Resulta</h2>
+        </div>
+        <div class="larrow">
+            <a href="../lessons/tagalog/landing.php">
+                <img src="../images/larrow.png" alt="left arrow">
+            </a>
+        </div>
+        <div class="home">
+            <a href="../../filingua/registered/practice.php">
+                <img src="../images/home.png" alt="home">
+            </a>
+        </div>
+    </div>
+    <div class="result">
 <?php 
-    echo 'Language id: '. $lang_id;
-    echo 'Quiz id: '. $quiz_id;
-
-
-
+    //echo 'Language id: '. $lang_id; 
+    //echo '<br>Quiz id: '. $quiz_id;
+    echo '<h3>Quiz Summary</h3>';
     $score = 0;
     echo '<br>';
     for($i = 0; $i<$max_num_question; $i++){
@@ -54,29 +69,20 @@
         $ques = $data_ans['ques'];
         $q_num = $data_ans['ques_num'];
         $ans = $data_ans['answer'];
-
         $check_ans = strcmp($ans, $user_ans);
+
         if ($check_ans == 0) {
             $check_ans = "Correct";
             $score++;
-
-        } else {
+        }
+        
+        else {
             $check_ans = "Wrong";
         }
-
-        echo $l_id.'-'.$q_id.'-'.$q_num.'-'.$ans.'-('.$ques.')-'.$user_ans.'-'.$check_ans.'<br>';
-
-
-
-
-
+        echo '<br><b>Translate:</b> '.$ques.'<br><b>Outcome:</b> '.$check_ans.'<br>';
     }
-
-        echo $score.' /'. $max_num_question;
-
-    
+    echo '<br><br><b><h3>' . $score . '/' . $max_num_question . '</h3>';
 ?>
-
-
+</div>
 </body>
 </html>

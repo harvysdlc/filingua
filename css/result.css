@@ -1,0 +1,143 @@
+:root {
+    --background: #ffffff;
+    --foreground: #ffa500;
+    --base: #ff914d;
+    --lighter: #ffbd59;
+    --darker: #ffde59;
+    --transparent: rgba(255, 165, 0, 0.5);
+}
+
+body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+    overflow:hidden;
+}
+
+.stage {
+    background-color: #3F3931;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.label {
+    position: relative;
+    top: 1rem; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text horizontally */
+    width: max-content;
+}
+
+.label h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: var(--base);
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.label p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: #3F3931;
+    margin: 0;
+}
+
+.larrow {
+    position: absolute;
+    width: 10%;
+    left: 0%;
+    cursor: pointer;
+}
+
+.larrow img {
+    padding-left: 30px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.home {
+    position: absolute;
+    width: 10%;
+    left: 10%;
+}
+
+.home img {
+    padding-left: 30px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.result {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3F3931;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    justify-content: left;
+    height: max-content; /* Change height to auto for responsiveness */
+    max-height: 60%; /* Set a maximum height if needed */
+    width: max-content;
+    position: absolute;
+    top: 62.4%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    padding: 2px 50px 10px 30px; /* top right bottom left */
+    width: 30%;
+    font-size: normal;
+}
+
+.result h3{
+    color: var(--base);
+    padding: 10px;
+    background: #3F3931;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    position: absolute;
+    right: 4%;
+    top:2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 160px;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--base); /* Set the color of the thumb */
+}
+  
+  ::-webkit-scrollbar-track {
+    background-color: #3F3931; /* Set the color of the track */
+}
