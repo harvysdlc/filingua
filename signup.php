@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
         "<script> alert('Email has already been taken'); </script>";
     }
     else{
-        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', 'default.png', 'user', 'none', 'none', 'none', 'none')";
+        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', '../images/default.png', 'user', null, null, null, null)";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
@@ -60,7 +60,7 @@ if(isset($_POST["submit"])){
 
     <form class="signup" action="" method="post" autocomplete="off">
         <label for="email">Sulatroniko:</label>
-        <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
+        <input type="email" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
         <label for="first_name">Pangalan:</label>
         <input type="text" name="first_name" id="first_name" placeholder="Pangalan" required value=""> <br><br>
         <label for="last_name">Apelyido:</label>

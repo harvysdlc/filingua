@@ -18,6 +18,18 @@ if(!empty($_SESSION["email"])){
     header("Location: login.php");
     exit; // Terminate the script to prevent further execution.
 }
+
+// Retrieve the value from the progress_tbl for the logged-in user
+$user_id = $row['user_id'];
+$query_progress = "SELECT cebuano FROM progress_tbl WHERE user_id = $user_id";
+$result_progress = mysqli_query($conn, $query_progress);
+
+if ($row_progress = mysqli_fetch_assoc($result_progress)) {
+    $cebuano_progress = $row_progress['cebuano'];
+} else {
+    $cebuano_progress = 0; // Default value if no progress found
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +38,7 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Cebuano</title>
-    <link rel="stylesheet" href="../../../filingua/lessons/bicolano/css/landing.css">
+    <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
 <body>
@@ -45,36 +57,40 @@ if(!empty($_SESSION["email"])){
                 <img src="../../images/larrow.png" alt="left-arrow">
             </a>
         </div>
+        <div class="progress-container">
+            <p><?php echo $cebuano_progress."%"?></p>
+            <div class="progress-bar" style="width: <?php echo $cebuano_progress."%"?>;"></div>
+        </div>
     </div>
     <div class="container">
     <div class="languages-wrapper">
         <div class="languages">
-            <a href="../../../filingua/lessons/bicolano/aralin1.php">
-                <img src="../../../filingua/lessons/bicolano/images/A1.png" alt="Aralin 1">
+            <a href="../../../filingua/lessons/cebuano/aralin1.php">
+                <img src="../../../filingua/lessons/cebuano/images/A1.png" alt="Aralin 1">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin2.php">
-                <img src="../../../filingua/lessons/bicolano/images/A2.png" alt="Aralin 2">
+            <a href="../../../filingua/lessons/cebuano/aralin2.php">
+                <img src="../../../filingua/lessons/cebuano/images/A2.png" alt="Aralin 2">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin3.php">
-                <img src="../../../filingua/lessons/bicolano/images/A3.png" alt="Aralin 3">
+            <a href="../../../filingua/lessons/cebuano/aralin3.php">
+                <img src="../../../filingua/lessons/cebuano/images/A3.png" alt="Aralin 3">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin4.php">
-                <img src="../../../filingua/lessons/bicolano/images/A4.png" alt="Aralin 4">
+            <a href="../../../filingua/lessons/cebuano/aralin4.php">
+                <img src="../../../filingua/lessons/cebuano/images/A4.png" alt="Aralin 4">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin5.php">
-                <img src="../../../filingua/lessons/bicolano/images/A5.png" alt="Aralin 5">
+            <a href="../../../filingua/lessons/cebuano/aralin5.php">
+                <img src="../../../filingua/lessons/cebuano/images/A5.png" alt="Aralin 5">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin6.php">
-                <img src="../../../filingua/lessons/bicolano/images/A6.png" alt="Aralin 6">
+            <a href="../../../filingua/lessons/cebuano/aralin6.php">
+                <img src="../../../filingua/lessons/cebuano/images/A6.png" alt="Aralin 6">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin7.php">
-                <img src="../../../filingua/lessons/bicolano/images/A7.png" alt="Aralin 7">
+            <a href="../../../filingua/lessons/cebuano/aralin7.php">
+                <img src="../../../filingua/lessons/cebuano/images/A7.png" alt="Aralin 7">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin8.php">
-                <img src="../../../filingua/lessons/bicolano/images/A8.png" alt="Aralin 8">
+            <a href="../../../filingua/lessons/cebuano/aralin8.php">
+                <img src="../../../filingua/lessons/cebuano/images/A8.png" alt="Aralin 8">
             </a>
-            <a href="../../../filingua/lessons/bicolano/aralin9.php">
-                <img src="../../../filingua/lessons/bicolano/images/A9.png" alt="Aralin 9">
+            <a href="../../../filingua/lessons/cebuano/aralin9.php">
+                <img src="../../../filingua/lessons/cebuano/images/A9.png" alt="Aralin 9">
             </a>
             <!-- Add more language links and images as needed -->
         </div>

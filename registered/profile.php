@@ -15,6 +15,7 @@ if (!empty($_SESSION["email"])) {
         $profile_image_path = $row['profile_image_path'];
         $nationality = $row['nationality'];
         $bio = $row['bio'];
+        $icon_link = $row['profile_image_path'];
     } else {
         header("Location: /filingua/login.php");
         exit;
@@ -115,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <form class="form" id="form" action="" enctype="multipart/form-data" method="post">
         <div class="upload">
-            <img src="img/<?php echo $profile_image_path; ?>" width=400 height=400 id="profileImage">
+            <img src="<?php echo $icon_link; ?>" width=400 height=400 id="profileImage">
             <div class="round">
                 <input type="hidden" name="email" value="<?php echo $email; ?>">
                 <img src="../../filingua/images/add.png" alt="Change Photo">

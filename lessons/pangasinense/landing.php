@@ -18,6 +18,16 @@ if(!empty($_SESSION["email"])){
     header("Location: login.php");
     exit; // Terminate the script to prevent further execution.
 }
+// Retrieve the value from the progress_tbl for the logged-in user
+$user_id = $row['user_id'];
+$query_progress = "SELECT pangasinense FROM progress_tbl WHERE user_id = $user_id";
+$result_progress = mysqli_query($conn, $query_progress);
+
+if ($row_progress = mysqli_fetch_assoc($result_progress)) {
+    $pangasinense_progress = $row_progress['pangasinense'];
+} else {
+    $pangasinense_progress = 0; // Default value if no progress found
+}
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +36,7 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Pangasinense</title>
-    <link rel="stylesheet" href="../../../filingua/lessons/bicolano/css/landing.css">
+    <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
 <body>
@@ -44,6 +54,10 @@ if(!empty($_SESSION["email"])){
             <a href="../../registered/mainpage.php">
                 <img src="../../images/larrow.png" alt="left-arrow">
             </a>
+        </div>
+        <div class="progress-container">
+            <p><?php echo $pangasinense_progress."%"?></p>
+            <div class="progress-bar" style="width: <?php echo $pangasinense_progress."%"?>;"></div>
         </div>
     </div>
     <div class="container">

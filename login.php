@@ -62,7 +62,7 @@ if (isset($_POST["submit"])) {
 
 <form class="login" action="" method="post" autocomplete="off">
     <label for="email">Sulatroniko:</label>
-    <input type="text" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
+    <input type="email" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
     <label for="password">Kontrasenyas:</label>
     <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
     <div class="submitbtn">

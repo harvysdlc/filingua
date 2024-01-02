@@ -26,7 +26,7 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Aralin 3</title>
-    <link rel="stylesheet" href="../../../filingua/lessons/tagalog/css/aralin.css">
+    <link rel="stylesheet" href="../../../filingua/lessons/aralin.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
     <script src="../tagalog/js/aralin3.js" defer></script>
 </head> 

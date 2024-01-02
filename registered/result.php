@@ -82,6 +82,149 @@
         echo '<br><b>Translate:</b> '.$ques.'<br><b>Outcome:</b> '.$check_ans.'<br>';
     }
     echo '<br><br><b><h3>' . $score . '/' . $max_num_question . '</h3>';
+
+    if ($lang_id == 1) {
+        $quizColumn = "t" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+
+        // Calculate the total score from t1 to t9
+        $stmt_total = $conn->prepare("SELECT t1, t2, t3, t4, t5, t6, t7, t8, t9 FROM score_tbl WHERE user_id = ?");
+        $stmt_total->bind_param('i', $user_id);
+        $stmt_total->execute();
+        $result_total = $stmt_total->get_result();
+
+        if ($result_total->num_rows > 0) {
+            $row = $result_total->fetch_assoc();
+            $totalScore = ($row['t1'] + $row['t2'] + $row['t3'] + $row['t4'] + $row['t5'] + $row['t6'] + $row['t7'] + $row['t8'] + $row['t9']) / 90 * 100;
+
+            // Insert or update the total score into the progress_tbl
+            $stmt_progress = $conn->prepare("INSERT INTO progress_tbl (user_id, tagalog) VALUES (?, ?) ON DUPLICATE KEY UPDATE tagalog = ?");
+            $stmt_progress->bind_param('iii', $user_id, $totalScore, $totalScore);
+            $stmt_progress->execute();
+        }
+    }
+    if ($lang_id == 2) {
+        $quizColumn = "b" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+    }
+    if ($lang_id == 3) {
+        $quizColumn = "c" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+    }
+    if ($lang_id == 4) {
+        $quizColumn = "i" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+    }
+    if ($lang_id == 5) {
+        $quizColumn = "k" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+    }
+    if ($lang_id == 6) {
+        $quizColumn = "p" . $quiz_id;
+
+        // Check if the row exists
+        $stmt_check = $conn->prepare("SELECT * FROM score_tbl WHERE user_id = ?");
+        $stmt_check->bind_param('i', $user_id);
+        $stmt_check->execute();
+        $result_check = $stmt_check->get_result();
+
+        if ($result_check->num_rows > 0) {
+            // If the row exists, update it with the new score
+            $stmt_update = $conn->prepare("UPDATE score_tbl SET $quizColumn = ? WHERE user_id = ?");
+            $stmt_update->bind_param('ii', $score, $user_id);
+            $stmt_update->execute();
+        } else {
+            // If the row doesn't exist, insert a new one with the score
+            $stmt_insert = $conn->prepare("INSERT INTO score_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert->bind_param('ii', $user_id, $score);
+            $stmt_insert->execute();
+        }
+    }
 ?>
 </div>
 </body>

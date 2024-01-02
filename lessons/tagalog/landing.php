@@ -18,6 +18,46 @@ if(!empty($_SESSION["email"])){
     header("Location: login.php");
     exit; // Terminate the script to prevent further execution.
 }
+
+// Retrieve the value from the progress_tbl for the logged-in user
+$user_id = $row['user_id'];
+$query_progress = "SELECT tagalog FROM progress_tbl WHERE user_id = $user_id";
+$result_progress = mysqli_query($conn, $query_progress);
+
+if ($row_progress = mysqli_fetch_assoc($result_progress)) {
+    $tagalog_progress = $row_progress['tagalog'];
+} else {
+    $tagalog_progress = 0; // Default value if no progress found
+}
+
+//quiz results
+$user_id = $row['user_id'];
+$query_score = "SELECT t1,t2,t3,t4,t5,t6,t7,t8,t9 FROM score_tbl WHERE user_id = $user_id";
+$result_score = mysqli_query($conn, $query_score);
+
+if ($row_score = mysqli_fetch_assoc($result_score)) {
+    $t1_score = $row_score["t1"];
+    $t2_score = $row_score["t2"];
+    $t3_score = $row_score["t3"];
+    $t4_score = $row_score["t4"];
+    $t5_score = $row_score["t5"];
+    $t6_score = $row_score["t6"];
+    $t7_score = $row_score["t7"];
+    $t8_score = $row_score["t8"];
+    $t9_score = $row_score["t9"];
+} else {
+    $t1_score = 0; // Default value if no progress found
+    $t2_score = 0;
+    $t3_score = 0;
+    $t4_score = 0;
+    $t5_score = 0;
+    $t6_score = 0;
+    $t7_score = 0;
+    $t8_score = 0;
+    $t9_score = 0;
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +66,7 @@ if(!empty($_SESSION["email"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filingua - Tagalog</title>
-    <link rel="stylesheet" href="../../../filingua/lessons/tagalog/css/landing.css">
+    <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
 <body>
@@ -45,12 +85,17 @@ if(!empty($_SESSION["email"])){
                 <img src="../../images/larrow.png" alt="left-arrow">
             </a>
         </div>
+        <div class="progress-container">
+            <p><?php echo $tagalog_progress."%"?></p>
+            <div class="progress-bar" style="width: <?php echo $tagalog_progress."%"?>;"></div>
+        </div>
     </div>
     <div class="container">
     <div class="languages-wrapper">
         <div class="languages">
-            <a href="../../../filingua/lessons/tagalog/aralin1.php">
+            <a href="../../../filingua/lessons/tagalog/aralin1.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
+                <p><?php echo $t1_score?></p>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin2.php">
                 <img src="../../../filingua/lessons/tagalog/images/A2.png" alt="Aralin 2">

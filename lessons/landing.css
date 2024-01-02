@@ -89,6 +89,34 @@ body {
     margin: 0;
 }
 
+.progress-container {
+    position: absolute;
+    width: 150px; /* Set the width of your progress container */
+    height: 20px; /* Set the height of your progress container */
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    left:13%;
+}
+
+.progress-container p {
+    position: absolute;
+    width: 100%; /* Make the <p> element take up the full width of its parent (.progress-container) */
+    text-align: center; /* Center the text horizontally */
+    top: -15%; /* Position the top of the <p> element at the center of its parent */
+    transform: translateY(-50%); /* Adjust vertically to center the text perfectly */
+    color: #3F3931;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--lighter); /* Set the color of your progress bar */
+    transition: width 0.5s; /* Add transition for smooth animation */
+}
+
 .languages {
     overflow-y: hidden;
     overflow-x: scroll;
@@ -103,6 +131,31 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.languages p {
+    width: max-content; 
+    position: absolute;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3F3931;
+    font-weight: bold;
+    margin-bottom: 30px;
+    top: 10%;
+    left: 15%;
+    font-size: 5rem;
+}
+
+.image-container p {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease; /* Add transition effect */
+}
+
+.image-container:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
