@@ -36,27 +36,18 @@ $query_score = "SELECT t1,t2,t3,t4,t5,t6,t7,t8,t9 FROM score_tbl WHERE user_id =
 $result_score = mysqli_query($conn, $query_score);
 
 if ($row_score = mysqli_fetch_assoc($result_score)) {
-    $t1_score = $row_score["t1"];
-    $t2_score = $row_score["t2"];
-    $t3_score = $row_score["t3"];
-    $t4_score = $row_score["t4"];
-    $t5_score = $row_score["t5"];
-    $t6_score = $row_score["t6"];
-    $t7_score = $row_score["t7"];
-    $t8_score = $row_score["t8"];
-    $t9_score = $row_score["t9"];
+    $t1_score = ($row_score["t1"] !== null) ? $row_score["t1"] : 0;
+    $t2_score = ($row_score["t2"] !== null) ? $row_score["t2"] : 0;
+    $t3_score = ($row_score["t3"] !== null) ? $row_score["t3"] : 0;
+    $t4_score = ($row_score["t4"] !== null) ? $row_score["t4"] : 0;
+    $t5_score = ($row_score["t5"] !== null) ? $row_score["t5"] : 0;
+    $t6_score = ($row_score["t6"] !== null) ? $row_score["t6"] : 0;
+    $t7_score = ($row_score["t7"] !== null) ? $row_score["t7"] : 0;
+    $t8_score = ($row_score["t8"] !== null) ? $row_score["t8"] : 0;
+    $t9_score = ($row_score["t9"] !== null) ? $row_score["t9"] : 0;
 } else {
-    $t1_score = 0; // Default value if no progress found
-    $t2_score = 0;
-    $t3_score = 0;
-    $t4_score = 0;
-    $t5_score = 0;
-    $t6_score = 0;
-    $t7_score = 0;
-    $t8_score = 0;
-    $t9_score = 0;
+    $t1_score = 0; $t2_score = 0; $t3_score = 0; $t4_score = 0; $t5_score = 0; $t6_score = 0; $t7_score = 0; $t8_score = 0; $t9_score = 0;
 }
-
 
 ?>
 
@@ -72,7 +63,7 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
 <body>
     <style>
         body {
-            background-color:#ffbd59;
+            background-color:#ffffff;
         }
     </style>
     <div class="stage">
@@ -95,33 +86,59 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
         <div class="languages">
             <a href="../../../filingua/lessons/tagalog/aralin1.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
+                <div class="score">
                 <p><?php echo $t1_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin2.php">
+            <a href="../../../filingua/lessons/tagalog/aralin2.php" class="image-container">
+                <div class="score">
                 <img src="../../../filingua/lessons/tagalog/images/A2.png" alt="Aralin 2">
+                <p><?php echo $t2_score?></p>
+                </div>
+                
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin3.php">
+            <a href="../../../filingua/lessons/tagalog/aralin3.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A3.png" alt="Aralin 3">
+                <div class="score1">
+                <p><?php echo $t3_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin4.php">
+            <a href="../../../filingua/lessons/tagalog/aralin4.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A4.png" alt="Aralin 4">
+                <div class="score2">
+                <p><?php echo $t4_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin5.php">
+            <a href="../../../filingua/lessons/tagalog/aralin5.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A5.png" alt="Aralin 5">
+                <div class="score3">
+                <p><?php echo $t5_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin6.php">
+            <a href="../../../filingua/lessons/tagalog/aralin6.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A6.png" alt="Aralin 6">
+                <div class="score4">
+                <p><?php echo $t6_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin7.php">
+            <a href="../../../filingua/lessons/tagalog/aralin7.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A7.png" alt="Aralin 7">
+                <div class="score5">
+                <p><?php echo $t7_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin8.php">
+            <a href="../../../filingua/lessons/tagalog/aralin8.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A8.png" alt="Aralin 8">
+                <div class="score6">
+                <p><?php echo $t8_score?></p>
+                </div>
             </a>
-            <a href="../../../filingua/lessons/tagalog/aralin9.php">
+            <a href="../../../filingua/lessons/tagalog/aralin9.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A9.png" alt="Aralin 9">
+                <div class="score7">
+                <p><?php echo $t9_score?></p>
+                </div>
             </a>
-            <!-- Add more language links and images as needed -->
         </div>
     </div>
 </div>

@@ -212,7 +212,7 @@ session_start();
 </head>
 <body>
     <style>
-        body { background-color: #ffbd59; };
+        body { background-color: #ffffff; };
     </style>
     <div class="stage">
         <div class="logo">

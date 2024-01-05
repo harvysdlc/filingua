@@ -32,7 +32,7 @@ if(!empty($_SESSION["email"])){
 <body>
     <style>
         body {
-            background-color: #ffbd59;
+            background-color: #ffffff;
         }
     </style>
     <div class="stage">

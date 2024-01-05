@@ -132,7 +132,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.languages p {
+.score p, .score1 p, .score2 p, .score3 p, .score4 p, .score5 p, .score6 p, .score7 p{
     width: max-content; 
     position: absolute;
     text-decoration: none;
@@ -140,9 +140,44 @@ body {
     color: #3F3931;
     font-weight: bold;
     margin-bottom: 30px;
-    top: 10%;
-    left: 15%;
-    font-size: 5rem;
+    top: -2rem;
+    font-size: 2rem;
+}
+
+.score p:nth-child(1) {
+    left: 8.5rem;
+}
+
+.score p:nth-child(2) {
+    left: 27rem;
+}
+
+.score1 p{
+    left: 45.5rem;
+}
+
+.score2 p{
+    left: 64rem;
+}
+
+.score3 p{
+    left: 82.5rem;
+}
+
+.score4 p{
+    left: 101rem;
+}
+
+.score5 p{
+    left: 119.5rem;
+}
+
+.score6 p{
+    left: 138rem;
+}
+
+.score7 p{
+    left: 156.5rem;
 }
 
 .image-container p {

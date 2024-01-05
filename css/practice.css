@@ -90,69 +90,69 @@ body {
     font-size: small;
     font-weight: bold;
     color: #3F3931;
-    width: 330px;
+    width: 400px;
     height: 270px;
     max-width: 100%;
     /* Your gradient background */
-    background: linear-gradient(to right, #ffde59, #ff914d);
     padding: 15px 40px;
     border: solid 3px #3F3931;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     align-content: center;
-  }
+}
+
+
   
-  .update-form {
-      flex: 0 0 20%; /* Adjust the width as needed */
-      padding: 10px;
-  }
+.update-form {
+    flex: 0 0 20%; /* Adjust the width as needed */
+    padding: 10px;
+}
+
+label {
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+width:max-content;
+margin-bottom: 3px;
+color: white;
+}
   
-  label {
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    width:max-content;
-    margin-bottom: 3px;
-    color: #3F3931;
-  }
-  
-  input,
-  select {
-    font-weight: bold;
-    color: #3F3931;
-    background: var(--background);
+input,
+select {
+font-weight: bold;
+color: var(--lighter);
+background: #3F3931;
+width: 100%;
+padding: 8px;
+margin-bottom: 12px;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active{
+    transition: all 0s 5000s;
+}
+
+button {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 12px;
-    box-sizing: border-box;
-    border: 1px solid var(--lighter);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: var(--lighter);
+    color: #3F3931;
+    border: none;
     border-radius: 5px;
-  }
-  
-  input:-webkit-autofill,
-  input:-webkit-autofill:hover,
-  input:-webkit-autofill:active{
-      transition: all 0s 5000s;
-  }
-  
-  button {
-      width: 100%;
-      padding: 10px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      background-color: var(--background);
-      color: #3F3931;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-  }
-  
-  button:hover {
-    color: var(--background);
-    background: #3F3931;
-  }
-  
-  /* Centering the Form */
-  .form {
-      margin-top: 50px; /* Adjust as needed for spacing from the top */
-  }
+    cursor: pointer;
+}
+
+button:hover {
+color: var(--background);
+background: #3F3931;
+}
+
+/* Centering the Form */
+.form {
+    margin-top: 50px; /* Adjust as needed for spacing from the top */
+}
