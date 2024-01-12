@@ -76,7 +76,7 @@ body {
 .label h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: var(--base);
+    color: var(--lighter);
     margin: 0;
     margin-bottom: 2%;
 }

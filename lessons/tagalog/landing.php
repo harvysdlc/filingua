@@ -32,19 +32,19 @@ if ($row_progress = mysqli_fetch_assoc($result_progress)) {
 
 //quiz results
 $user_id = $row['user_id'];
-$query_score = "SELECT t1,t2,t3,t4,t5,t6,t7,t8,t9 FROM score_tbl WHERE user_id = $user_id";
+$query_score = "SELECT L1,L2,L3,L4,L5,L6,L7,L8,L9 FROM tagalog_tbl WHERE user_id = $user_id";
 $result_score = mysqli_query($conn, $query_score);
 
 if ($row_score = mysqli_fetch_assoc($result_score)) {
-    $t1_score = ($row_score["t1"] !== null) ? $row_score["t1"] : 0;
-    $t2_score = ($row_score["t2"] !== null) ? $row_score["t2"] : 0;
-    $t3_score = ($row_score["t3"] !== null) ? $row_score["t3"] : 0;
-    $t4_score = ($row_score["t4"] !== null) ? $row_score["t4"] : 0;
-    $t5_score = ($row_score["t5"] !== null) ? $row_score["t5"] : 0;
-    $t6_score = ($row_score["t6"] !== null) ? $row_score["t6"] : 0;
-    $t7_score = ($row_score["t7"] !== null) ? $row_score["t7"] : 0;
-    $t8_score = ($row_score["t8"] !== null) ? $row_score["t8"] : 0;
-    $t9_score = ($row_score["t9"] !== null) ? $row_score["t9"] : 0;
+    $t1_score = ($row_score["L1"] !== null) ? $row_score["L1"] : 0;
+    $t2_score = ($row_score["L2"] !== null) ? $row_score["L2"] : 0;
+    $t3_score = ($row_score["L3"] !== null) ? $row_score["L3"] : 0;
+    $t4_score = ($row_score["L4"] !== null) ? $row_score["L4"] : 0;
+    $t5_score = ($row_score["L5"] !== null) ? $row_score["L5"] : 0;
+    $t6_score = ($row_score["L6"] !== null) ? $row_score["L6"] : 0;
+    $t7_score = ($row_score["L7"] !== null) ? $row_score["L7"] : 0;
+    $t8_score = ($row_score["L8"] !== null) ? $row_score["L8"] : 0;
+    $t9_score = ($row_score["L9"] !== null) ? $row_score["L9"] : 0;
 } else {
     $t1_score = 0; $t2_score = 0; $t3_score = 0; $t4_score = 0; $t5_score = 0; $t6_score = 0; $t7_score = 0; $t8_score = 0; $t9_score = 0;
 }

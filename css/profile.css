@@ -4,7 +4,7 @@
   --base: #ff914d;
   --lighter: #ffbd59;
   --darker: #ffde59;
-  --transparent: rgba(255, 166, 0, 0.200);
+  --transparent: rgba(255, 166, 0, 0.151);
 }
 
 body {
@@ -12,12 +12,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--background);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100vh;
+  background: var(--background);
+  overflow: hidden;
 }
 
 .stage {
@@ -84,46 +80,32 @@ body {
   -ms-user-select: none;
 }
 
-.languages {
-  width: 55%;
-  margin: 50px auto 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-  grid-gap: 60px;
+.overall{
   position: absolute;
-  top: 48%;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: center;
-}
-
-.languages img {
   width: 100%;
-  cursor: pointer;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-.languages img:hover {
-  transform: scale(1.1) rotate(0deg);
-  border-radius: 25px;
-  box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  transform: translate(-50%, -50%);
+  max-width: 70%; /* Adjust the maximum width as needed */
+  max-height: 65%; /* Adjust the maximum height as needed */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: medium;
+  overflow: auto;
 }
 
 .upload {
-  width: max-content;
   position: absolute;
-  left: 10%;
-  top: 160px;
+  left: 0%;
+  top: 6.3%;
   margin: auto;
+  background: var(--lighter);
 }
 
 .upload img {
   border-radius: 0%;
-  border: 8px solid var(--lighter);
+  border: 5px solid #3F3931;
+  border-top: 30px solid #3F3931;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -135,30 +117,15 @@ body {
 .upload .round {
   width: max-content;
   position: absolute;
-  bottom: -13px;
-  left: 180px;
-  background: var(--lighter);
-  width: 32px;
-  height: 32px;
-  line-height: 33px;
+  top: 1.4%;
+  right: 2.5%;
+  width: 30px;
+  height: 23px;
+  line-height: 24px;
   text-align: center;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 5px solid var(--lighter);
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-.upload .round img {
-  position: absolute;
-  bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  align-items: center;
+  color: #3F3931;
+  background-color: var(--lighter);
+  cursor: pointer;
   overflow: hidden;
   -webkit-user-drag: none;
   user-select: none;
@@ -170,7 +137,7 @@ body {
 .upload .round input[type="file"] {
   width: max-content;
   position: absolute;
-  bottom: 5.5px;
+  bottom: 4px;
   left: 8.2px;
   background: var(--lighter);
   width: 18px;
@@ -188,19 +155,33 @@ body {
   margin: 20px 0; 
 }
 
-.upload .details {
+.details {
   position: absolute;
-  top: 20px;
-  left: 38.5rem;
+  top: 100%;
+  left: 0%;
 }
 
-.user-details {
-  display: flex;
-  align-items: center;
+.details h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  color: #3F3931;
+  width:max-content;
 }
 
-.user-details h1 {
-  margin-right: 10px;
+.details p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: normal;
+  color: #3F3931;
+  position: absolute;
+  font-size: small;
+  top: 30px;
+  width: max-content;
+}
+
+.details img {
+  top: 50px;
 }
 
 .verified-badge {
@@ -214,46 +195,34 @@ body {
   -ms-user-select: none;
 }
 
-.upload .details .user-details {
+.user-details {
   display: flex;
   align-items: center;
-  gap: 1px; /* Adjust the space between the h1 and img */
+  left: 55%;
 }
 
-.upload .details h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: bold;
-  color: var(--base);
-  width:max-content;
+.user-details h1 {
+  margin-right: 10px;
 }
 
-.upload .details p {
+
+.updates{
+  position: absolute;
+  top: 8.5rem;
+  left: 0;
+  z-index: 100;
+}
+
+.updates a{
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
   font-weight: normal;
-  color: var(--base);
-  position: absolute;
-  font-size: medium;
-  top: 45px;
+  font-size: small;
+  padding: 5px 82px 5px 82px; /* top right bottom left */
+  color: white;
   width: max-content;
-}
-
-.upload .updates{
-  position: absolute;
-  top: 2rem;
-  left: 25rem;
-}
-
-.upload .updates a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: bolder;
-  padding: 15px;
-  color: var(--background);
-  background-color: var(--transparent);
+  background-color: #3F3931;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 5px;
   border-style: none;
   text-decoration: none;
   -webkit-user-drag: none;
@@ -263,29 +232,77 @@ body {
   -ms-user-select: none;
 }
 
-.upload .updates a:hover {
+.updates a:hover {
   background-color: var(--base);
+  color: white;
   transition: color 0.3s;
 }
 
-.upload .credentials {
+.credentials {
   position: absolute;
-  top: 160px;
-  left: 38.5rem;
+  top: -17.65rem;
+  left: 16rem;
 }
 
-.upload .credentials p {
+.credentials p {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: #3F3931;
   font-weight: normal;
-  color: var(--base);
   position: absolute;
   font-size: small;
   width: max-content;
+  padding: 10px 20px 10px 20px; /* top right bottom left */
+  border-left: 5px solid #3F3931;
 }
 
-.upload .details img {
+.progress {
+  position: absolute;
+  top: -2.3rem;
+  left: 16rem;
+}
+
+.progress p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3F3931;
+  font-weight: normal;
+  position: absolute;
+  font-size: small;
+  width: max-content;
+  padding: 10px 20px 10px 20px; /* top right bottom left */
+  border-left: 5px solid #3F3931;
+}
+
+.achievements {
+  position: absolute;
+  top: -17.65rem;
+  left: 38rem;
+}
+
+.achievements p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3F3931;
+  font-weight: normal;
+  position: absolute;
+  font-size: small;
+  width: max-content;
+  padding: 10px 20px 10px 20px; /* top right bottom left */
+  border-left: 5px solid #3F3931;
+  background: var(--transparent);
+}
+
+.details img {
   border: none;
   border-radius: 0%;
 }
 
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--base); /* Set the color of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #3F3931; /* Set the color of the track */
+}

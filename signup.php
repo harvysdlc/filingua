@@ -17,7 +17,8 @@ if(isset($_POST["submit"])){
         "<script> alert('Email has already been taken'); </script>";
     }
     else{
-        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$password', '', '../images/default.png', 'user', null, null, null, null)";
+        $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$hashed_password', '', 'default.png', 'user', null, 'bio goes here..', null, null)";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
@@ -85,6 +86,7 @@ if(isset($_POST["submit"])){
             <button type="submit" name="submit">Sumali</button>
         </div>
     </form>
+
     <div class="text-below-form">
         <p>Sa pag gawa ng account, ikaw ay sumasang-ayon</p>
         <p>sa <b>Terms</b> at <b>Privacy Policy</b> ng Filingua 2024</p>

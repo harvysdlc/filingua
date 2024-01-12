@@ -12,7 +12,6 @@ if (!empty($_SESSION["email"])) {
         $email = $row['email'];
         $age = $row['age'];
         $sex = $row['sex'];
-        $password = $row['password'];
         $profile_image_path = $row['profile_image_path'];
         $nationality = $row['nationality'];
         $bio = $row['bio'];
@@ -32,12 +31,11 @@ if (!empty($_SESSION["email"])) {
         $last_name = mysqli_real_escape_string($conn, $_POST["last_name"]);
         $age = mysqli_real_escape_string($conn, $_POST["age"]);
         $sex = mysqli_real_escape_string($conn, $_POST["sex"]);
-        $password = mysqli_real_escape_string($conn, $_POST["password"]);
         $nationality = mysqli_real_escape_string($conn, $_POST["nationality"]);
         $bio = mysqli_real_escape_string($conn, $_POST["bio"]);
 
         // Update user information in the database
-        $updateQuery = "UPDATE tb_user SET first_name = '$first_name', last_name = '$last_name', age = '$age', sex = '$sex', password = '$password',   nationality = '$nationality', bio = '$bio' WHERE email = '$email'";
+        $updateQuery = "UPDATE tb_user SET first_name = '$first_name', last_name = '$last_name', age = '$age', sex = '$sex', nationality = '$nationality', bio = '$bio' WHERE email = '$email'";
         mysqli_query($conn, $updateQuery);
 
         // Redirect or display a success message as needed
@@ -54,61 +52,56 @@ if (!empty($_SESSION["email"])) {
     <title>Filingua - Update Profile</title>
     <link rel="stylesheet" href="../../filingua/css/update.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../filingua/images/static.jpg);
-            background-size: 100% 100%; 
-            background-repeat: no-repeat; 
-        }
-    </style>
 </head>
 <body>   
-    <!-- Add the update form -->
-    <form class="form" id="updateForm" action="" method="post">
-        <div class="update-section">
-            <h2>Baguhin ang mga Detalye</h2>
+    <div class="overall">
+        <!-- Add the update form -->
+        <a href="../registered/profile.php" class="back">
+            <img src="../images/back.png" alt="Icon" style="width: 50px; height: 50px;">
+        </a>
+        <form class="form" id="updateForm" action="" method="post">
+            <div class="update-section">
+                <h2>Update Personal Information</h2>
 
-            <label for="first_name">Pangalan:</label>
-            <input type="text" id="first_name" name="first_name" maxlength="50" value="<?php echo $first_name; ?>">
+                <label for="first_name">Name:</label>
+                <input type="text" id="first_name" name="first_name" maxlength="50" value="<?php echo $first_name; ?>">
 
-            <label for="last_name">Apelyido:</label>
-            <input type="text" id="last_name" name="last_name" maxlength="50" value="<?php echo $last_name; ?>">
+                <label for="last_name">Surname:</label>
+                <input type="text" id="last_name" name="last_name" maxlength="50" value="<?php echo $last_name; ?>">
 
-            <label for="last_name">Edad:</label>
-            <input type="number" id="age" name="age" min="1" max="150" value="<?php echo $age; ?>">
+                <label for="last_name">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="150" value="<?php echo $age; ?>">
 
-            <label for="sex">Kasarian:</label>
-            <select id="sex" name="sex">
-                <?php
-                $sexes = array("Lalaki", "Babae", "LGBTQIA+", "Huwag Sabihin");
-                
-                foreach ($sexes as $sexoption) {
-                    $selected = ($sexoption == $sex) ? 'selected' : '';
-                    echo "<option value=\"$sexoption\" $selected>$sexoption</option>";
-                }
-                ?>
-            </select>
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex">
+                    <?php
+                    $sexes = array("Lalaki", "Babae", "LGBTQIA+", "Huwag Sabihin");
+                    
+                    foreach ($sexes as $sexoption) {
+                        $selected = ($sexoption == $sex) ? 'selected' : '';
+                        echo "<option value=\"$sexoption\" $selected>$sexoption</option>";
+                    }
+                    ?>
+                </select>
 
-            <label for="first_name">Kontrasenyas:</label>
-            <input type="password" id="password" name="password" maxlength="50" value="<?php echo $password; ?>">
+                <label for="nationality">Nationality:</label>
+                <select id="nationality" name="nationality">
+                    <?php
+                    $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");
+                    
+                    foreach ($nationalities as $option) {
+                        $selected = ($option == $nationality) ? 'selected' : '';
+                        echo "<option value=\"$option\" $selected>$option</option>";
+                    }
+                    ?>
+                </select>
 
-            <label for="nationality">Nasyonalidad:</label>
-            <select id="nationality" name="nationality">
-                <?php
-                $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");
-                
-                foreach ($nationalities as $option) {
-                    $selected = ($option == $nationality) ? 'selected' : '';
-                    echo "<option value=\"$option\" $selected>$option</option>";
-                }
-                ?>
-            </select>
+                <label for="bio">Bio:</label>
+                <input type="text" id="bio" name="bio" maxlength="34" value="<?php echo $bio; ?>">
 
-            <label for="bio">Bio:</label>
-            <input type="text" id="bio" name="bio" maxlength="50" value="<?php echo $bio; ?>">
-
-            <button type="submit" name="update_profile">Update Profile</button>
-        </div>
-    </form> 
+                <button type="submit" name="update_profile">Update Profile</button>
+            </div>
+        </form> 
+    </div>
 </body>
 </html>

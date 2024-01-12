@@ -31,12 +31,15 @@
     // Check if the query was successful
     if ($sqlresult) {
         // Add a search form at the top
-        echo '<form action="" method="get">
-                <label for="search">Search by Name:</label>
-                <input type="text" name="search" id="search" value="' . htmlspecialchars($search_name) . '">
-                <button type="submit">Search</button>
-              </form>';
-              
+
+        echo '<div class ="search">
+                <form action="" method="get">
+                    <label for="search">Search:</label>
+                    <input type="text" name="search" id="search" value="' . htmlspecialchars($search_name) . '">
+                    <button type="submit">Search</button>
+                </form>
+              <div>';
+
         // Fetch associative array for each row in the result set
         while ($row = mysqli_fetch_assoc($sqlresult)) {
             // Display data for each row
@@ -95,6 +98,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    <link rel="stylesheet" href="../../filingua/css/admin.css">
+    <link rel="icon" type="image/png" href="../filingua/images/logo.png">
 </head>
 <body>
     <!-- Page content goes here -->
