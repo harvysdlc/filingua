@@ -44,30 +44,29 @@ if (isset($_POST["submit"])) {
     <title>Filingua - login</title>
     <link rel="stylesheet" href="../filingua/css/login.css">
     <link rel="icon" type="image/png" href="../filingua/images/logo.png">
+    <style>
+        body {
+            background-image: url(../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+    </style>
 </head>
 <body>
-
-<style>
-    body {
-        background-image: url(../filingua/images/bgaccount.gif);
-        background-size: 100% 100%;
-        background-repeat: inherit;
-        background-position: center;
-    }
-</style>
-
-<div class="text-above-form">
-    <h2>Buksan ang Account</h2>
-</div>
-
-<form class="login" action="" method="post" autocomplete="off">
-    <label for="email">Sulatroniko:</label>
-    <input type="email" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
-    <label for="password">Kontrasenyas:</label>
-    <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
-    <div class="submitbtn">
-        <button type="submit" name="submit"> Magsimula </button>
+    <div class="overall">
+        <form class="login" action="" method="post" autocomplete="off">
+            <a href="../filingua/index.php" class="back">
+                <img src="../filingua/images/back.png" alt="Icon" style="width: 50px; height: 50px;">
+            </a>
+            <h2>Login Account</h2>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email" required value=""> <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>
+            <div class="submitbtn">
+                <button type="submit" name="submit"> Login </button>
+            </div>
+        </form>
     </div>
-</form>
 </body>
 </html>

@@ -89,11 +89,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     font-weight: bold;
-    color: white;
+    color: var(--lighter);
     width: 400px;
     height: 270px;
     max-width: 100%;
-    background: var(--lighter);
+    background: white;
     padding: 15px 40px;
     border: solid 3px #3F3931;
     border-radius: 10px;
@@ -112,14 +112,14 @@ font-family: Arial, Helvetica, sans-serif;
 display: block;
 width:max-content;
 margin-bottom: 3px;
-color: white;
+color: var(--lighter);
 }
   
 input,
 select {
 font-weight: bold;
 color: #3F3931;
-background: white;
+background: var(--lighter);
 width: 100%;
 padding: 8px;
 margin-bottom: 12px;

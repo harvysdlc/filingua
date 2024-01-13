@@ -151,7 +151,11 @@ if ($result->num_rows > 0) {
     <link rel="stylesheet" href="../../filingua/css/profile.css">
     <link rel="icon" type="image/png" href="/filingua/images/logo.png">
     <style>
-        body { background-color: #ffffff; }
+        body {
+            background-image: url(../../../../filingua/images/design1.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
     </style>
 </head>
 <body>
@@ -166,7 +170,7 @@ if ($result->num_rows > 0) {
             <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
-    </div>    
+    </div> 
     <div class="overall">
         <form class="form" id="form" action="" enctype="multipart/form-data" method="post">
             <div class="upload">
@@ -225,7 +229,7 @@ if ($result->num_rows > 0) {
                         <?php
                         echo '<b>Mga Progreso</b><br>Progress<br><br>';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Tagalog: <b>'.$tagalog_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';
+                        echo '<b>Tagalog: <b>'.$tagalog_progress.'%&nbsp &nbsp &nbsp &nbsp';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp '; 
                         echo '<b>Ilocano: <b>'.$ilocano_progress.'%<br><br>';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
@@ -243,7 +247,6 @@ if ($result->num_rows > 0) {
                 <div class="achievements">
                     <p>
                     <?php
-                    $overall_sum = 100;
                     echo '<b>Mga Gawad</b> | Awards<br><br>';
                     if ($overall_sum >= 5){
                         echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
@@ -332,6 +335,7 @@ if ($result->num_rows > 0) {
             </div>
         </form>
     </div>
+    <div class="additional-div"></div>
     <script type="text/javascript">
       document.getElementById("image").onchange = function(){
           document.getElementById("form").submit();

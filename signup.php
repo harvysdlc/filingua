@@ -35,61 +35,45 @@ if(isset($_POST["submit"])){
     <title>Filingua - signup</title>
     <link rel="stylesheet" href="../filingua/css/signup.css">
     <link rel="icon" type="image/png" href="../filingua/images/logo.png">
-
-    <div class="exit">
-        <a href="../filingua/index.php"><<<</a>
-    </div>
-
-    <div class="enter">
-        <a href="../filingua/login.php">>>></a>
-    </div>
-
-</head>
-<body>
     <style>
         body {
-            background-image: url(../filingua/images/bgaccount.gif);
-            background-size: 100% 100%;
-            background-repeat:inherit;
-            background-position: center;
+            background-image: url(../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
         }
     </style>
+</head>
+<body>
+    <div class="overall">
+        <a href="../filingua/index.php" class="back">
+            <img src="../filingua/images/back.png" alt="Icon" style="width: 50px; height: 50px;">
+        </a>
+        <form class="signup" action="" method="post" autocomplete="off">
+            <h2>Create an Account</h2>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email" required value=""> <br>
+            <label for="first_name">Name:</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Name" required value=""> <br>
+            <label for="last_name">Surname:</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Surname" required value=""> <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Age" required value="" min="0" max="200"> <br>
 
-    <div class="text-above-form">
-        <h2>Gumawa ng Account</h2>
-    </div>
-
-    <form class="signup" action="" method="post" autocomplete="off">
-        <label for="email">Sulatroniko:</label>
-        <input type="email" name="email" id="email" placeholder="Sulatroniko" required value=""> <br><br>
-        <label for="first_name">Pangalan:</label>
-        <input type="text" name="first_name" id="first_name" placeholder="Pangalan" required value=""> <br><br>
-        <label for="last_name">Apelyido:</label>
-        <input type="text" name="last_name" id="last_name" placeholder="Apelyido" required value=""> <br><br>
-        <label for="age">Edad:</label>
-        <input type="number" name="age" id="age" placeholder="Edad" required value="" min="0" max="200"> <br><br>
-
-       <!-- Dropdown for sex -->
-        <label for="sex">Kasarian:</label>
-        <select id="sex" name="sex" required>
-            <option value="" disabled selected>--Kasarian--</option>
-            <option value="Lalaki">Lalaki</option>
-            <option value="Babae">Babae</option>
-            <option value="LGBTQIA+++">LGBTQIA+</option>
-            <option value="Huwag Ipaalam">Huwag Ipaalam</option>
-        </select>
-        <br><br>
-        <label for="password">Kontrasenyas:</label>
-        <input type="password" name="password" id="password" placeholder="Kontrasenyas" required value=""> <br><br>
-        
-        <div class="submitbtn">
-            <button type="submit" name="submit">Sumali</button>
-        </div>
-    </form>
-
-    <div class="text-below-form">
-        <p>Sa pag gawa ng account, ikaw ay sumasang-ayon</p>
-        <p>sa <b>Terms</b> at <b>Privacy Policy</b> ng Filingua 2024</p>
+        <!-- Dropdown for sex -->
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="" disabled selected>--Sex--</option>
+                <option value="Lalaki">Male</option>
+                <option value="Babae">Female</option>
+                <option value="LGBTQIA+++">LGBTQIA+</option>
+                <option value="Huwag Ipaalam">Rather Not Say</option>
+            </select> <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>
+            <div class="submitbtn">
+                <button type="submit" name="submit">Submit</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

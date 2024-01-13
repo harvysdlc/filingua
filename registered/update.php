@@ -52,6 +52,13 @@ if (!empty($_SESSION["email"])) {
     <title>Filingua - Update Profile</title>
     <link rel="stylesheet" href="../../filingua/css/update.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
+    <style>
+        body {
+            background-image: url(../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
+    </style>
 </head>
 <body>   
     <div class="overall">
@@ -76,29 +83,24 @@ if (!empty($_SESSION["email"])) {
                 <select id="sex" name="sex">
                     <?php
                     $sexes = array("Lalaki", "Babae", "LGBTQIA+", "Huwag Sabihin");
-                    
                     foreach ($sexes as $sexoption) {
                         $selected = ($sexoption == $sex) ? 'selected' : '';
                         echo "<option value=\"$sexoption\" $selected>$sexoption</option>";
                     }
                     ?>
                 </select>
-
                 <label for="nationality">Nationality:</label>
                 <select id="nationality" name="nationality">
                     <?php
-                    $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");
-                    
+                    $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");  
                     foreach ($nationalities as $option) {
                         $selected = ($option == $nationality) ? 'selected' : '';
                         echo "<option value=\"$option\" $selected>$option</option>";
                     }
                     ?>
                 </select>
-
                 <label for="bio">Bio:</label>
                 <input type="text" id="bio" name="bio" maxlength="34" value="<?php echo $bio; ?>">
-
                 <button type="submit" name="update_profile">Update Profile</button>
             </div>
         </form> 

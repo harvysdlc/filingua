@@ -28,13 +28,15 @@ if(!empty($_SESSION["email"])){
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../../filingua/css/mainpage.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-</head>
-<body>
     <style>
         body {
-            background-color: #ffffff;
+            background-image: url(../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
         }
     </style>
+</head>
+<body>
     <div class="stage">
         <div class="logo">
             <img src="../../filingua/images/textimage.png" alt="">
@@ -47,26 +49,27 @@ if(!empty($_SESSION["email"])){
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
     </div>
-    <div class="languages">
-        <a href="../../filingua/lessons/tagalog/landing.php">
-            <img src="../../filingua/images/tagalog.png" alt="Tagalog">
-        </a>
-        <a href="../../filingua/lessons/bicolano/landing.php">
-            <img src="../../filingua/images/bicolano.png" alt="Bicolano">
-        </a>
-        <a href="../../filingua/lessons/cebuano/landing.php">
-            <img src="../../filingua/images/cebuano.png" alt="Cebuano">
-        </a>
-        <a href="../../filingua/lessons/ilocano/landing.php">
-            <img src="../../filingua/images/ilocano.png" alt="Ilocano">
-        </a>
-        <a href="../../filingua/lessons/kapampangan/landing.php">
-            <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
-        </a>
-        <a href="../../filingua/lessons/pangasinense/landing.php">
-            <img src="../../filingua/images/pangasinense.png" alt="Pangasinense">
-        </a>
-	</div>
+        
+        <div class="languages">
+            <a href="../../filingua/lessons/tagalog/landing.php">
+                <img src="../../filingua/images/tagalog.png" alt="Tagalog">
+            </a>
+            <a href="../../filingua/lessons/bicolano/landing.php">
+                <img src="../../filingua/images/bicolano.png" alt="Bicolano">
+            </a>
+            <a href="../../filingua/lessons/cebuano/landing.php">
+                <img src="../../filingua/images/cebuano.png" alt="Cebuano">
+            </a>
+            <a href="../../filingua/lessons/ilocano/landing.php">
+                <img src="../../filingua/images/ilocano.png" alt="Ilocano">
+            </a>
+            <a href="../../filingua/lessons/kapampangan/landing.php">
+                <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
+            </a>
+            <a href="../../filingua/lessons/pangasinense/landing.php">
+                <img src="../../filingua/images/pangasinense.png" alt="Pangasinense">
+            </a>
+        </div>
     
 </body>
 </html>

@@ -212,7 +212,11 @@ session_start();
 </head>
 <body>
     <style>
-        body { background-color: #ffffff; };
+        body {
+            background-image: url(../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        }
     </style>
     <div class="stage">
         <div class="logo">
@@ -229,9 +233,9 @@ session_start();
 
     <form class="form" id="selectform" action="" method="post">
         <div class="update-form">
-            <h2>Pagsasanay - Tagasala</h2>
+            <h2>Quiz Selector</h2>
 
-            <label for="language">Wika (Language)</label>
+            <label for="language">Language</label>
             <select id="language" name="language">
                 <?php
                 $languages = array("Bicolano", "Cebuano", "Ilocano", "Kapampangan", "Pangasinense", "Tagalog");
@@ -243,7 +247,7 @@ session_start();
                 ?>
             </select>
 
-            <label for="lesson">Aralin (Lesson)</label>
+            <label for="lesson">Lesson</label>
             <select id="lesson" name="lesson">
                 <?php
                 $quiz = array("Aralin 1", "Aralin 2", "Aralin 3", "Aralin 4", "Aralin 5", "Aralin 6", "Aralin 7", "Aralin 8", "Aralin 9");
@@ -254,7 +258,7 @@ session_start();
                 }
                 ?>
             </select>
-            <button type="submit" name="update_profile">Magsimula</button>
+            <button type="submit" name="update_profile">Take Quiz</button>
         </div>
     </form> 
 </body>

@@ -1,80 +1,69 @@
 :root {
     --background: #ffffff;
     --foreground: #ffa500;
-    --transparent: rgba(255, 166, 0, 0.65);
+    --base: #ff914d;
+    --lighter: #ffbd59;
+    --darker: #ffde59;
+    --transparent: rgba(255, 165, 0, 0.5);
 }
-
-.exit {
-    position: absolute;
-    left: 14vw;
-    top: 5.5vh;
-}
-
-.exit a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: x-large;
-    color: var(--background);
-    cursor: pointer;
-}
-
-.enter {
-    position: absolute;
-    right: 14vw;
-    top: 5.5vh;
-}
-
-.enter a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: x-large;
-    color: var(--background);
-    cursor: pointer;
-}
-
+  
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
-.text-above-form {
-    text-align: center;
-    margin-top: 2.5vh;
-    margin-bottom: 5px; /* Adjust as needed */
-}
+.back {
+    position: absolute;
+    top: 5px; /* Adjust top position as needed */
+    right: 14px; /* Adjust right position as needed */
+    cursor: pointer;
+    z-index: 100;
+  }
 
-.text-above-form h2{
-    color: var(--background);
-    font-weight: bold;
+.overall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    overflow: auto; /* Allow scrolling if content exceeds max height */
+    padding: 0px 10px 0px 10px; /* top right bottom left */
 }
 
 .signup {
-    background-color: var(--background);
-    padding: 20px 30px;
+    position: relative; /* Change to relative */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: var(--lighter);
+    width: 330px;
+    max-width: 100%; /* Adjust the maximum width as needed */
+    background-color: white;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 300px;
-    width: 100%;
-    margin-top: 0.3vh; /* Adjust as needed */
+    margin-left: 5% auto; /* Center horizontally and adjust as needed */
+    margin-right: 5% auto;
+    border: solid 3px #3F3931;
 }
 
 .signup input,
 .signup select,
 .signup button {
-    width: calc(100% - 20px);
-    padding: 5px;
+    color: #3F3931;
+    background: var(--lighter);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
     box-sizing: border-box;
-    border-style: none;
-    background-color: var(--transparent);
-    color: var(--background);
+    border: 1px solid var(--lighter);
+    border-radius: 5px;
 }
 
 input:-webkit-autofill,
@@ -84,20 +73,19 @@ input:-webkit-autofill:active{
 }
 
 .signup ::placeholder {
-    color: var(--background);
+    color: #3F3931;
 }
 
 .signup label {
     display: block;
     text-align: left;
-    margin-left: 10px;
-    margin-bottom: 5px;
     font-weight: bold;
-    color: var(--foreground);
+    color: var(--lighter);
+    margin-bottom: 3px;
 }
 
 .submitbtn button {
-    background-color: #ffbd59;
+    background-color: #3F3931;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -107,22 +95,24 @@ input:-webkit-autofill:active{
 }
 
 .submitbtn button:hover {
-    background-color: #ff914d;
+    background-color: var(--base);
 }
 
-.text-below-form {
-    text-align: center;
-    margin-top: 0.5vh;
-}
-
-.text-below-form p{
-    color: var(--background);
-    font-size: smaller;
-}
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--base); /* Set the color of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #3F3931; /* Set the color of the track */
+  }
 
 
 /* Media Queries for responsiveness */
-@media (max-width: 250px) {
+@media (max-width: 1920px) {
     .signup {
         max-width: 100%;
     }

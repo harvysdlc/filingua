@@ -138,9 +138,11 @@ body {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #3F3931;
+    background: white;
+    padding: 1px;
     font-weight: bold;
     margin-bottom: 30px;
-    top: -2rem;
+    top: -2.1rem;
     font-size: 2rem;
 }
 
@@ -195,15 +197,18 @@ body {
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--base); /* Set the color of the thumb */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color:#3F3931; /* Set the color of the track */
-  }
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3F3931; /* Set the color of the thumb */
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--lighter); /* Set the color of the track */
+    border: 5px solid white; /* Add a solid white border to the track */
+}
+
   
 
 .languages img {
