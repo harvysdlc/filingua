@@ -63,7 +63,9 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
 <body>
     <style>
         body {
-            background-color:#ffffff;
+            background-image: url(../../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
         }
     </style>
     <div class="stage">

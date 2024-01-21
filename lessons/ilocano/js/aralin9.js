@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Saan ang terminal ng bus?") {
+  if (element.textContent === "1. Sadino ti terminal ti bus?") {
     element.textContent = "1. Where is the bus terminal?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Saan ang terminal ng bus?";
+    element.textContent = "1. Sadino ti terminal ti bus?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Magkano ang pamasahe papuntang Maynila?") {
+  if (element.textContent === "2. Tagpila ti plete idiay Manila?") {
     element.textContent = "2. How much is the fare to [Destination]?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Magkano ang pamasahe papuntang Maynila?";
+    element.textContent = "2. Tagpila ti plete idiay Manila?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3. Anong oras ang biyahe?") {
+  if (element.textContent === "3.  Insno oras ti biyahe?") {
     element.textContent = "3. What time is the trip?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3. Anong oras ang biyahe?";
+    element.textContent = "3.  Insno oras ti biyahe?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Ano ang sasakyan papuntang Indang?") {
+  if (element.textContent === "4. Ania ti sasakyan idiay paingon Indang?") {
     element.textContent = "4. What vehicle goes to [Place]?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Ano ang sasakyan papuntang Indang?";
+    element.textContent = "4. Ania ti sasakyan idiay paingon Indang?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -79,14 +79,14 @@ function playAudio5() {
   audio.play();
 }
 function fifth(element) {
-  if (element.textContent === "5. Mayroon bang taxi rito?") {
+  if (element.textContent === "5. Adda taxi ditoy?") {
     element.textContent = "5. Is there a taxi here?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "5. Mayroon bang taxi rito?";
+    element.textContent = "5. Adda taxi ditoy?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Nasaan ang paliparan?") {
+  if (element.textContent === "6. Sadino ti paluparan?") {
     element.textContent = "6. Where is the airport?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Nasaan ang paliparan?!";
+    element.textContent = "6. Sadino ti paluparan?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -118,7 +118,7 @@ function playAudio7() {
 }
 function seventh(element) {
   if (
-    element.textContent === "7. Saan ang pinakamalapit na estasyon ng tren?"
+    element.textContent === "7. Sadino ti nalpud a istasyon ti tren?"
   ) {
     element.textContent = "7. Where is the nearest train station?";
     element.style.color = "#3F3931";
@@ -126,7 +126,7 @@ function seventh(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "7. Saan ang pinakamalapit na estasyon ng tren?";
+    element.textContent = "7. Sadino ti nalpud a istasyon ti tren?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -138,14 +138,14 @@ function playAudio8() {
   audio.play();
 }
 function eight(element) {
-  if (element.textContent === "8. Paki-abot ang bayad") {
+  if (element.textContent === "8. Pakiabot daytoy.") {
     element.textContent = "8. Please pass the fare";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "8. Paki-abot ang bayad";
+    element.textContent = "8. Pakiabot daytoy.";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -157,14 +157,14 @@ function playAudio9() {
   audio.play();
 }
 function ninth(element) {
-  if (element.textContent === "9. Anong oras darating ang eroplano?") {
+  if (element.textContent === "9. Ania ti oras nga agdaydayaw ti eroplano?") {
     element.textContent = "9. What time will the plane arrive?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "9. Anong oras darating ang eroplano?";
+    element.textContent = "9. Ania ti oras nga agdaydayaw ti eroplano?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -176,20 +176,17 @@ function playAudio10() {
   audio.play();
 }
 function tenth(element) {
-  if (element.textContent === "10. Paano pumunta sa bangko?") {
+  if (element.textContent === "10. Ania ti agtitinnag ken banuar?") {
     element.textContent = "10. How do I get to the bank?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Paano pumunta sa bangko?";
+    element.textContent = "10. Ania ti agtitinnag ken banuar?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
-}
-function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Tagalog9.php";
 }

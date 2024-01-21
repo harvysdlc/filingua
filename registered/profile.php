@@ -247,6 +247,7 @@ if ($result->num_rows > 0) {
                 <div class="achievements">
                     <p>
                     <?php
+                    $overall_sum = 100;
                     echo '<b>Mga Gawad</b> | Awards<br><br>';
                     if ($overall_sum >= 5){
                         echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';

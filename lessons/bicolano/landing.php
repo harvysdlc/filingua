@@ -59,13 +59,15 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
     <title>Filingua - Bicolano</title>
     <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
-</head>
-<body>
     <style>
         body {
-            background-color:#ffffff;
+            background-image: url(../../../../filingua/images/design.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
         }
     </style>
+</head>
+<body>
     <div class="stage">
         <div class="label">
                 <h2>Magtukao ki Bicolano</h2>

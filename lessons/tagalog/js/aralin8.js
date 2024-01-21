@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3.  Mayroon ba kayong katamtamang laki nito?") {
+  if (element.textContent === "3. Mayroon ba kayong katamtamang laki nito?") {
     element.textContent = "3. Do you have a medium size?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3.  Mayroon ba kayong katamtamang laki nito?";
+    element.textContent = "3. Mayroon ba kayong katamtamang laki nito?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
