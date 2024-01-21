@@ -63,10 +63,10 @@ if(!empty($_SESSION["email"])){
             <a href="../../filingua/lessons/ilocano/landing.php">
                 <img src="../../filingua/images/ilocano.png" alt="Ilocano">
             </a>
-            <a href="../../filingua/lessons/kapampangan/landing.php">
+            <a href="">
                 <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
             </a>
-            <a href="../../filingua/lessons/pangasinense/landing.php">
+            <a href="">
                 <img src="../../filingua/images/pangasinense.png" alt="Pangasinense">
             </a>
         </div>

@@ -22,7 +22,7 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
             <h2>Aralin 4: Mga Parirala</h2>
         </div>
         <div class="larrow">
-            <a href="../lessons/tagalog/landing.php">
+            <a href="../lessons/tagalog/aralin4.php">
                 <img src="../images/larrow.png" alt="left arrow">
             </a>
         </div>
