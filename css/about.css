@@ -50,7 +50,7 @@
     transition: color 0.3s; /* Add transition for smooth color change */
   }
   
-  .stage .buttons button:nth-child(4) {
+  .stage .buttons button:nth-child(5) {
     background-color: white; /* Set background color of the second button to white */
     color: #ffbd59; /* Set font color of the second button to #ffbd59 */
   }
@@ -60,6 +60,10 @@
   }
   
   .stage .buttons button:hover:not(:nth-child(4)) {
+    background-color: var(--background); /* Change background color on hover for buttons other than the second child */
+  }
+
+  .stage .buttons button:hover:not(:nth-child(5)) {
     background-color: var(--background); /* Change background color on hover for buttons other than the second child */
   }
   

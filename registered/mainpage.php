@@ -9,6 +9,7 @@ if(!empty($_SESSION["email"])){
     if ($row = mysqli_fetch_assoc($result)) {
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
+        $AccType = $row['AccType'];
     } else {
         // Handle the case where no user with the provided email was found.
         header("Location: login.php");
@@ -42,9 +43,14 @@ if(!empty($_SESSION["email"])){
             <img src="../../filingua/images/textimage.png" alt="">
         </div>
         <div class="buttons">
-            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Mag-Aral</button>
-            <button onclick="window.location.href='../../filingua/registered/practice.php'">Magsanay</button>
+            <button onclick="window.location.href='../../filingua/registered/mainpage.php'">Learn</button>
+            <button onclick="window.location.href='../../filingua/registered/practice.php'">Practice</button>
             <button onclick="window.location.href='../../filingua/registered/profile.php'">Profile</button>
+            <?php
+            if ($AccType == "developer") {
+                echo '<button onclick="window.location.href=\'../../filingua/registered/admin.php\'">Manage</button>';
+            }
+            ?>
             <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>

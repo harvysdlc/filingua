@@ -91,6 +91,7 @@ if (!empty($_SESSION["email"])) {
                 </select>
                 <label for="nationality">Nationality:</label>
                 <select id="nationality" name="nationality">
+                    <option value="" disabled selected style="color: #ffffff;">--Select Nationality--</option>
                     <?php
                     $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");  
                     foreach ($nationalities as $option) {
@@ -99,6 +100,7 @@ if (!empty($_SESSION["email"])) {
                     }
                     ?>
                 </select>
+
                 <label for="bio">Bio:</label>
                 <input type="text" id="bio" name="bio" maxlength="34" value="<?php echo $bio; ?>">
                 <button type="submit" name="update_profile">Update Profile</button>

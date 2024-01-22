@@ -26,6 +26,11 @@ if (isset($_POST["submit"])) {
                 exit();
             }
 
+            if($_SESSION["progress"] == 2) {
+                header("Location: /filingua/registered/systemupdate.php");
+                exit();
+            }
+
             header("Location: /filingua/registered/mainpage.php");
             exit();
         } else {

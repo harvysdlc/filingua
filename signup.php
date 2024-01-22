@@ -18,7 +18,7 @@ if(isset($_POST["submit"])){
     }
     else{
         $hashed_password = password_hash($password, PASSWORD_BCRYPT);
-        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$hashed_password', '', 'default.png', 'user', null, 'bio goes here..', null, null)";
+        $query = "INSERT INTO tb_user VALUES ('','$email', '$first_name', '$last_name', '$age', '$sex', '$hashed_password', '', 'default.png', 'learner', null, 'bio goes here..', null, null)";
         mysqli_query($conn, $query);
         echo
         "<script> alert('Account Sign up Complete!'); </script>";
