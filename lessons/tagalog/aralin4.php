@@ -64,6 +64,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/tagalog/recordings/4/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/tagalog/recordings/4/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/tagalog/recordings/4/10.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
@@ -71,74 +72,84 @@ if(!empty($_SESSION["email"])){
             <span onclick="first(this)">1. Pasensya na</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-sen-sya na /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Pasensya na, hindi ko napansin ang iyong tawag.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of apology or asking for forgiveness.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Pasensya na, hindi ko napansin ang iyong tawag.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I'm sorry, I didn't notice your call.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: An expression of apology or asking for forgiveness.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="second(this)">2. Paumanhin</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-u-man-hin /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Paumanhin, hindi ko sinasadyang mabasag ang iyong plorera.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Another way of saying sorry or apologizing, commonly used to express regret.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Paumanhin, hindi ko sinasadyang mabasag ang iyong plorera.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I apologize, I didn't mean to break your vase.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Another way of saying sorry or apologizing, commonly used to express regret.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="third(this)">3. Hindi ko alam</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hin-di ko a-lam /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Hindi ko alam kung saan matatagpuan ang opisina niya.</span><br>   
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express uncertainty.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Hindi ko alam kung saan matatagpuan ang opisina niya.</span><br>   
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I don't know where her office is.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to express uncertainty.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fourth(this)">4. Anong oras na?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong o-ras na? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Anong oras na? kailangan ko ng umuwi ng maaga.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the current time.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Anong oras na? kailangan ko ng umuwi ng maaga.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What time is it? I need to go home early.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to inquire about the current time.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fifth(this)">5. Nasaan ang banyo?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-sa-an ang ban-yo? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Nasaan ang banyo? ihing-ihi na ako.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the location of the restroom.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Nasaan ang banyo? ihing-ihi na ako.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Where is the bathroom? I need to pee.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to ask for the location of the restroom.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="sixth(this)">6. Gusto ko ng kape</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to ko ng ka-pe /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko ng kape, habang maaga pa.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">It expresses the speaker's desire for coffee.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Gusto ko ng kape, habang maaga pa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I want coffee, while it's still early.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: It expresses the speaker's desire for coffee.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="seventh(this)">7. Anong pangalan ng kalsadang ito?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong pa-nga-lan ng kal-sa-dang i-to? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Ano'ng pangalan ng kalsadang ito? naghahanap ako ng daan papuntang ospital.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the name of the street when the speaker is looking for directions.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Ano'ng pangalan ng kalsadang ito? naghahanap ako ng daan papuntang ospital.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What's the name of this street? I'm looking for the way to the hospital.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to ask for the name of the street when the speaker is looking for directions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eight(this)">8. Mayroon ka bang wifi?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ May-ro-on ka bang wi-fi? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Mayroon ka bang wifi? gusto kong mag-connect.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire if there is an available wifi connection, indicating the speaker's interest in connecting to the internet.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Mayroon ka bang wifi? gusto kong mag-connect.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Do you have wifi? I want to connect.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to inquire if there is an available wifi connection, indicating the speaker's interest in connecting to the internet.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="ninth(this)">9. Magkano ito?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-no i-to? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Magkano ito? gusto ko sanang bilhin.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the price of an item the speaker is interested in purchasing.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Magkano ito? gusto ko sanang bilhin.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: How much is this? I would like to buy it.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to inquire about the price of an item the speaker is interested in purchasing.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="tenth(this)">10. Gusto ko ito!</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to ko i-to! /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko ito!, kahit medyo mahal.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express the speaker's desire to buy or have a particular item.</span><br><br>
+            <span style="font-size: small; font-weight: bold">Example: Gusto ko ito!, kahit medyo mahal.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I like this! Even if it's a bit expensive.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to express the speaker's desire to buy or have a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

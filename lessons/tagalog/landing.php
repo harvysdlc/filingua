@@ -59,13 +59,6 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
     <title>Filingua - Tagalog</title>
     <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../../filingua/images/design.png);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
-    </style>
 </head>
 <body>
     <div class="stage">
@@ -89,56 +82,56 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
             <a href="../../../filingua/lessons/tagalog/aralin1.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A1.png" alt="Aralin 1">
                 <div class="score">
-                <p><?php echo $t1_score?></p>
+                <p>Current Score: <?php echo $t1_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin2.php" class="image-container">
                 <div class="score">
                 <img src="../../../filingua/lessons/tagalog/images/A2.png" alt="Aralin 2">
-                <p><?php echo $t2_score?></p>
+                <p>Current Score: <?php echo $t2_score?>/10</p>
                 </div>
                 
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin3.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A3.png" alt="Aralin 3">
                 <div class="score1">
-                <p><?php echo $t3_score?></p>
+                <p>Current Score: <?php echo $t3_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin4.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A4.png" alt="Aralin 4">
                 <div class="score2">
-                <p><?php echo $t4_score?></p>
+                <p>Current Score: <?php echo $t4_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin5.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A5.png" alt="Aralin 5">
                 <div class="score3">
-                <p><?php echo $t5_score?></p>
+                <p>Current Score: <?php echo $t5_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin6.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A6.png" alt="Aralin 6">
                 <div class="score4">
-                <p><?php echo $t6_score?></p>
+                <p>Current Score: <?php echo $t6_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin7.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A7.png" alt="Aralin 7">
                 <div class="score5">
-                <p><?php echo $t7_score?></p>
+                <p>Current Score: <?php echo $t7_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin8.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A8.png" alt="Aralin 8">
                 <div class="score6">
-                <p><?php echo $t8_score?></p>
+                <p>Current Score: <?php echo $t8_score?>/10</p>
                 </div>
             </a>
             <a href="../../../filingua/lessons/tagalog/aralin9.php" class="image-container">
                 <img src="../../../filingua/lessons/tagalog/images/A9.png" alt="Aralin 9">
                 <div class="score7">
-                <p><?php echo $t9_score?></p>
+                <p>Current Score: <?php echo $t9_score?>/10</p>
                 </div>
             </a>
         </div>

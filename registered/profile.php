@@ -119,7 +119,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
 
     // Calculate the overall sum
-    $overall_sum = ($row['tagalog'] + $row['bicolano'] + $row['cebuano'] + $row['ilocano'] + $row['kapampangan'] + $row['pangasinense'])/6;
+    $overall_sum = ($row['tagalog'] + $row['bicolano'] + $row['cebuano'] + $row['ilocano'])/4;
 
     // Update the overall column for the user
     $update_sql = "UPDATE progress_tbl SET overall = $overall_sum WHERE user_id = $user_id";
@@ -151,13 +151,6 @@ if ($result->num_rows > 0) {
     <title>Filingua - Profile</title>
     <link rel="stylesheet" href="../../filingua/css/profile.css">
     <link rel="icon" type="image/png" href="/filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../../filingua/images/design1.png);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
-    </style>
 </head>
 <body>
     <div class="stage">
@@ -240,13 +233,8 @@ if ($result->num_rows > 0) {
                         echo '<b>Ilocano: <b>'.$ilocano_progress.'%<br><br>';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
                         echo '<b>Bicolano: <b>'.$bicolano_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';   
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp '; 
-                        echo '<b>Kapampangan: <b>'.$kapampangan_progress.'%<br><br>';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Cebuano: <b>'.$cebuano_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';   
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Pangasinense: <b>'.$pangasinense_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp'; 
-                             
+                        echo '<b>Cebuano: <b>'.$cebuano_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';           
                         ?>
                     </p>
                 </div>

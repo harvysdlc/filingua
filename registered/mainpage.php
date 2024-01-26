@@ -29,13 +29,6 @@ if(!empty($_SESSION["email"])){
     <title>Filingua - Learn</title>
     <link rel="stylesheet" href="../../filingua/css/mainpage.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../filingua/images/design.png);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
-    </style>
 </head>
 <body>
     <div class="stage">
@@ -55,27 +48,34 @@ if(!empty($_SESSION["email"])){
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
     </div>
-        
-        <div class="languages">
-            <a href="../../filingua/lessons/tagalog/landing.php">
-                <img src="../../filingua/images/tagalog.png" alt="Tagalog">
-            </a>
-            <a href="../../filingua/lessons/bicolano/landing.php">
-                <img src="../../filingua/images/bicolano.png" alt="Bicolano">
-            </a>
-            <a href="../../filingua/lessons/cebuano/landing.php">
-                <img src="../../filingua/images/cebuano.png" alt="Cebuano">
-            </a>
-            <a href="../../filingua/lessons/ilocano/landing.php">
-                <img src="../../filingua/images/ilocano.png" alt="Ilocano">
-            </a>
-            <a href="">
-                <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
-            </a>
-            <a href="">
-                <img src="../../filingua/images/pangasinense.png" alt="Pangasinense">
-            </a>
-        </div>
-    
+
+    <?php
+    $user_id = $row['user_id'];
+    $query_score = "SELECT tagalog, bicolano, cebuano, ilocano FROM progress_tbl WHERE user_id = $user_id";
+    $result_score = mysqli_query($conn, $query_score);
+
+    if ($row_score = mysqli_fetch_assoc($result_score)) {
+        $tagalog_score = ($row_score["tagalog"] !== null) ? $row_score["tagalog"] : 0;
+        $bicolano_score = ($row_score["bicolano"] !== null) ? $row_score["bicolano"] : 0;
+        $cebuano_score = ($row_score["cebuano"] !== null) ? $row_score["cebuano"] : 0;
+        $ilocano_score = ($row_score["ilocano"] !== null) ? $row_score["ilocano"] : 0;
+    } else {
+        $tagalog_score = 0; $bicolano_score = 0; $cebuano_score = 0; $ilocano_score = 0;
+    }
+    ?>
+    <div class="languages">
+        <a href="../../filingua/lessons/tagalog/landing.php">
+            <img src="../../filingua/images/tagalog.png" alt="Tagalog">
+        </a>
+        <a href="../../filingua/lessons/bicolano/landing.php">
+            <img src="../../filingua/images/bicolano.png" alt="Bicolano">
+        </a>
+        <a href="../../filingua/lessons/cebuano/landing.php">
+            <img src="../../filingua/images/cebuano.png" alt="Cebuano">
+        </a>
+        <a href="../../filingua/lessons/ilocano/landing.php">
+            <img src="../../filingua/images/ilocano.png" alt="Ilocano">
+        </a>
+    </div>  
 </body>
 </html>

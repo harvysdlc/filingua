@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: #efefef;
+    background: var(--transparent);
     overflow:hidden;
 }
 
@@ -120,14 +120,14 @@ body {
 .languages {
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 50px 30px 50px 30px; /* top right bottom left */
+    padding: 50px 30px 70px 30px; /* top right bottom left */
     height: max-content;
     width: 61.5%; 
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
     grid-gap: 0px 50px;
     position: absolute;
-    top: 58.4%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -138,48 +138,47 @@ body {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #3F3931;
-    background: white;
     padding: 1px;
     font-weight: bold;
     margin-bottom: 30px;
-    top: -2.1rem;
-    font-size: 2rem;
+    top: 19.5rem;
+    font-size: 0.8rem;
 }
 
 .score p:nth-child(1) {
-    left: 8.5rem;
+    left: 5.5rem;
 }
 
 .score p:nth-child(2) {
-    left: 27rem;
+    left: 24rem;
 }
 
 .score1 p{
-    left: 45.5rem;
+    left: 42.5rem;
 }
 
 .score2 p{
-    left: 64rem;
+    left: 61rem;
 }
 
 .score3 p{
-    left: 82.5rem;
+    left: 79.5rem;
 }
 
 .score4 p{
-    left: 101rem;
+    left: 98.2rem;
 }
 
 .score5 p{
-    left: 119.5rem;
+    left: 116.5rem;
 }
 
 .score6 p{
-    left: 138rem;
+    left: 135rem;
 }
 
 .score7 p{
-    left: 156.5rem;
+    left: 153.8rem;
 }
 
 .image-container p {
@@ -197,6 +196,7 @@ body {
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
+    height: 13px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -205,8 +205,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--lighter); /* Set the color of the track */
-    border: 5px solid white; /* Add a solid white border to the track */
+    background-color: white; /* Set the color of the track */
 }
 
   

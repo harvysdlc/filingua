@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["system_update"])) {
     $newProgress = ($_POST["system_update"] == 1) ? 2 : 0;
 
     // Update progress for users whose AccType is not 'developer'
-    $updateQuery = "UPDATE tb_user SET progress = $newProgress WHERE AccType != 'developer'";
+    $updateQuery = "UPDATE tb_user SET progress = $newProgress WHERE AccType != 'developer' AND progress != 1";
     $updateResult = mysqli_query($conn, $updateQuery);
 
     if (!$updateResult) {

@@ -588,5 +588,20 @@ function onebillion(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Tagalog3.php";
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Tagalog3.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

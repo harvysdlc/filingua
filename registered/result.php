@@ -83,6 +83,15 @@
     }
     echo '<br><br><b><h3>' . $score . '/' . $max_num_question . '</h3>';
 
+    // Embedding JavaScript to play sound based on $score
+    echo '<script>';
+    echo 'var failedAudio = new Audio("../../../filingua/audio/failed.mp3");';
+    echo 'var successAudio = new Audio("../../../filingua/audio/success.mp3");';
+
+    echo 'var score = ' . $score . ';';
+    echo 'if (score <= 5) { failedAudio.play(); } else { successAudio.play(); }';
+    echo '</script>';
+
     if ($lang_id == 1) {
         $quizColumn = "L" . $quiz_id;
 
