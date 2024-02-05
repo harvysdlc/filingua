@@ -216,8 +216,7 @@ function playAudio12() {
 }
 function twelve(element) {
   if (
-    element.textContent ===
-    "12. Ti trabahok ket agurnos iti naperdi nga kompyuter"
+    element.textContent === "12. Ti trabahok ket agurnos iti naperdi nga kompyuter"
   ) {
     element.textContent = "12. My job is to repair a broken computer";
     element.style.color = "#3F3931";
@@ -225,8 +224,7 @@ function twelve(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent =
-      "12. Ti trabahok ket agurnos iti naperdi nga kompyuter";
+    element.textContent = "12. Ti trabahok ket agurnos iti naperdi nga kompyuter";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
