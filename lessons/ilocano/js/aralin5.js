@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Linggo") {
+  if (element.textContent === "1. Dominggo") {
     element.textContent = "1. Sunday";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Linggo";
+    element.textContent = "1. Dominggo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -105,7 +105,7 @@ function sixth(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Biyernes!";
+    element.textContent = "6. Biyernes";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -288,14 +288,14 @@ function playAudio16() {
   audio.play();
 }
 function sixteen(element) {
-  if (element.textContent === "16. Septyembre") {
+  if (element.textContent === "16. Setyembre") {
     element.textContent = "16. September";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "16. Septyembre";
+    element.textContent = "16. Setyembre";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -377,4 +377,22 @@ function twenty(element) {
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
+}
+function startPractice() {
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Ilocano5.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

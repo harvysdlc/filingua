@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Dispensaren kayo") {
+  if (element.textContent === "1. Pasensya") {
     element.textContent = "1. I am sorry";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Dispensaren kayo";
+    element.textContent = "1. Pasensya";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Dispensaren yo") {
+  if (element.textContent === "2. Pagpasensyahin yo") {
     element.textContent = "2. I apologize";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Dispensaren yo";
+    element.textContent = "2. Pagpasensyahin yo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Ania oras kuma?") {
+  if (element.textContent === "4. Ania orasen?") {
     element.textContent = "4. What time is it?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Ania oras kuma?";
+    element.textContent = "4. Ania orasen?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -79,14 +79,14 @@ function playAudio5() {
   audio.play();
 }
 function fifth(element) {
-  if (element.textContent === "5. Sadino ti lababo?") {
+  if (element.textContent === "5. Sadino ti banio?") {
     element.textContent = "5. Where is the bathroom?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "5. Sadino ti lababo?";
+    element.textContent = "5. Sadino ti banio?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Agustok ti kapé.") {
+  if (element.textContent === "6. Kayat ko ti kapé") {
     element.textContent = "6. I want coffee";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Agustok ti kapé.";
+    element.textContent = "6. Kayat ko ti kapé";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -117,14 +117,14 @@ function playAudio7() {
   audio.play();
 }
 function seventh(element) {
-  if (element.textContent === "7. Ania nagan dagiti kalsada ditoy?") {
+  if (element.textContent === "7. Ania nagan ti  daytoy nga kalsada?") {
     element.textContent = "7. What is the name of this street?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "7. Ania nagan dagiti kalsada ditoy?";
+    element.textContent = "7. Ania nagan ti  daytoy nga kalsada?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -136,14 +136,14 @@ function playAudio8() {
   audio.play();
 }
 function eight(element) {
-  if (element.textContent === "8. Adda wifi?") {
+  if (element.textContent === "8. Adda wifi yo?") {
     element.textContent = "8. Do you have wifi?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "8. Adda wifi?";
+    element.textContent = "8. Adda wifi yo?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -155,14 +155,14 @@ function playAudio9() {
   audio.play();
 }
 function ninth(element) {
-  if (element.textContent === "9. Saan ngamin?") {
+  if (element.textContent === "9. Mano daytoy?") {
     element.textContent = "9. How much is this?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "9. Saan ngamin?";
+    element.textContent = "9. Mano daytoy?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -174,17 +174,35 @@ function playAudio10() {
   audio.play();
 }
 function tenth(element) {
-  if (element.textContent === "10. Gusto ko dayta.") {
+  if (element.textContent === "10. Kayat ko daytoy!") {
     element.textContent = "10. I like this!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Gusto ko dayta.";
+    element.textContent = "10. Kayat ko daytoy!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
+}
+function startPractice() {
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Ilocano4.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

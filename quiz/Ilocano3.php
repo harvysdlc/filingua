@@ -11,7 +11,7 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagsasanay - Bicolano 3 </title>
+    <title>Pagsasanay - Ilocano 3 </title>
     <link rel="stylesheet" href="../../../filingua/quiz/css/quiz.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>
@@ -19,10 +19,10 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
 <body>
     <div class="stage">
         <div class="label">
-            <h2>Aralin 3: Pagbilang</h2>
+            <h2>Aralin 3: Agbilang</h2>
         </div>
         <div class="larrow">
-            <a href="../lessons/bicolano/landing.php">
+            <a href="../lessons/ilocano/landing.php">
                 <img src="../images/larrow.png" alt="left arrow">
             </a>
         </div>
@@ -31,12 +31,12 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
         <form method="post">
             <div class="intro">
                 <br>
-                <p><b>Practice Bicolano</b></p>
-                <p>Translate the following from Bicolano to English and vice versa.</p>
+                <p><b>Practice Ilocano</b></p>
+                <p>Translate the following from Ilocano to English and vice versa.</p>
             </div>
             <?php
             $questions = array();
-            $lang_id = 2;
+            $lang_id = 4;
             $quiz_id = 3;
             $max_num_question = 10;
 

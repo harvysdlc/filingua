@@ -109,7 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["system_update"])) {
 
                     // Make Developer/Make Learner button
                     echo "<button type='button' onclick='updateStatus(\"" . $row['user_id'] . "\", \"toggle_developer\")'>
-                            " . ($row['AccType'] === 'developer' ? 'Make Learner' : 'Make Developer') . "
+                            " . ($row['AccType'] === 'developer' ? 'Demote as Learner' : 'Promote as Developer') . "
                         </button>";
 
                     // Remove button

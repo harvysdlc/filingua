@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: var(--transparent);
+    background: white;
     overflow:hidden;
 }
 
@@ -205,7 +205,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: white; /* Set the color of the track */
+    background-color: var(--lighter); /* Set the color of the track */
 }
 
   

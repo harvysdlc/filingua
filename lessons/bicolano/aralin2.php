@@ -69,6 +69,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio13" src="../../../filingua/lessons/bicolano/recordings/2/13.wav"></audio>
         <audio id="audio14" src="../../../filingua/lessons/bicolano/recordings/2/14.wav"></audio>
         <audio id="audio15" src="../../../filingua/lessons/bicolano/recordings/2/15.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
 
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
@@ -76,6 +77,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko si <b>[Your Name]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ako si Juan, ang tugang ni Maria.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I am John, the brother of Mary.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to introduce oneself.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -83,6 +85,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-no ang pa-nga-lan mo? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Manong tsuper, Ano ang pangaran mo?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mr. Driver, what is your name?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Act of inquiring about the specific identifier by which an individual is known, typically for the purpose of identification, establishing a connection, or facilitating communication.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -90,6 +93,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-an ka na-ka-ti-ra? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sa Maynila ako nag-eerok Pedro. Ikaw, diin ka nag-eerok?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I live in Manila, Pedro. How about you, where do you live?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An inquiry aimed at obtaining information about their current place of residence or address.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -97,6 +101,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-an ka nag-ta-tra-ba-ho? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Saen ka nagtatrabaho sa Cavite?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Where do you work in Cavite?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A common way to ask about someone's place of employment.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -104,6 +109,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ta-ga-sa-an ka? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Binibining Lopez, Taga-diin ka?.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Ms. Lopez, where are you from?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An inquiry seeking information about the place or location of a person's origin or hometown, often inquiring about their cultural or geographic background.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -111,6 +117,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-lang ta-on ka na? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Diego, Pira na an edad mo ngonian?.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Diego, how old are you again?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Act of inquiring about the number of years a person has lived since their birth, often done to learn more about their life stage or to establish a basic understanding of their chronological age.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -118,6 +125,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay <b>[Age]</b> ta-ong gu--lang /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Maria, ako daiwara-on na taon na, ikaw?.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Maria, I am eighteen years old, how about you?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's age.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -125,6 +133,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-pa-tid ko si <b>[Sibling's Name]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Juan, Ugaring ko si Pedro at Daniel.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Juan, Pedro and Daniel are my siblings.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Act of verbally identifying and mentioning the given name of your brother or sister.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -132,6 +141,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-i-bi-gan ki-ta! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Daniel, kaibahan kita.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Daniel, you are my friend.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It involves verbally expressing or acknowledging that you have a personal connection with an individual characterized by mutual affection, camaraderie, and a positive relationship.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -139,6 +149,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-sa-ya a-kong na-ki-la-la ki-ta! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko sana sabihon na namomoot ko ikaw, Marie.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I just want to say that I'm happy to have met you, Marie.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of a positive sentiment about meeting and getting to know the person. It conveys a sense of joy or satisfaction in having had the opportunity to make the acquaintance of the individual.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -146,6 +157,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay nag-a-a-ral sa <b>[School Name]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Tama tita, ako nag-aadal sa Unibersidad kan Pilipinas bilang Nurse.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: That's right, Aunt. I am studying at the University of the Philippines as a Nurse.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A statement that tells that the speaker is a student of a specific school or university.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -153,6 +165,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ang tra-ba-ho ko ay <b>[Occupation]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sadit ako dati na guwardya, ngonian, ako nagkakayod sa pag-ayos kan sirang kompyuter.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I used to be a security guard. Now, my job is to repair broken computers.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's occupation.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -160,6 +173,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/Nag-mu-la a-ko sa si-yu-dad ng <b>[Place]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ako si David asin taga-Trece Martires.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I am David, and I come from the city of Trece Martires.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A statement that expressess someone's hometown or the place the person originated.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -167,6 +181,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-ko ay i-sang es-tu-dyan-te /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Estudyante ako sa aga asin trabahador sa banggi.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I am a student in the morning and a worker at night.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It indicates that the speaker is currenly, still a learner.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -174,10 +189,11 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ <b>[Color]</b> ang pa-bo-ri-to kong ku-lay /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Asul an paborito kong kulay para sa sakyanan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Blue is my favorite color for a car.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's favorite color.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

@@ -187,11 +187,11 @@ if ($result->num_rows > 0) {
                     $Acctype = $sqldisplay['AccType'];
 
                     echo '<div class="user-details">';
-                    echo '<img src="../images/user.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
+                    echo '<img src="../images/user.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
                     echo '<h3>' . $first_name . '</h3>';
 
                     if ($Acctype == "developer") {
-                        echo '&nbsp<img src="../../filingua/images/developer.png" alt="System Developer" class="verified-badge">';
+                        echo '&nbsp<img src="../../filingua/images/developer.png" alt="System Developer" class="verified-badge"  style="width: 20px; height: 20px;">';
                     } else {
                         // You can add an alternative image or content here if the user is not a developer.
                     }
@@ -200,128 +200,121 @@ if ($result->num_rows > 0) {
                 ?>
                 <p>
                     <?php
-                    echo '<img src="../images/email.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
+                    echo '<img src="../images/email.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
                     echo '<b>' .$email . '</b><br><br>';
                     echo $bio;
                     ?>
                 <p>
                 <div class="updates"> 
-                    <a href="../../filingua/registered/update.php">baguhin</a>
-                </div>
-                <div class="credentials">
-                    <p>
-                        <?php
-                        echo '<b>Mga Impormasyon</b><br>User Information<br><br>';
-                        echo '<img src="../images/user.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo $first_name . ' ' .$last_name . '<br><br>';
-                        echo '<img src="../images/age.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp '; 
-                        echo $age .' years old' . '<br><br>'; 
-                        echo '<img src="../images/gender.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo $sex . '<br><br>';
-                        echo '<img src="../images/nationality.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo $nationality . '<br>';            
-                        ?>
-                    </p>
+                    <a href="../../filingua/registered/update.php">Update</a>
                 </div>
                 <div class="progress">
                     <p>
                         <?php
-                        echo '<b>Mga Progreso</b><br>Progress<br><br>';
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Tagalog: <b>'.$tagalog_progress.'%&nbsp &nbsp &nbsp &nbsp';
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp '; 
-                        echo '<b>Ilocano: <b>'.$ilocano_progress.'%<br><br>';
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Bicolano: <b>'.$bicolano_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';   
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Cebuano: <b>'.$cebuano_progress.'%&nbsp &nbsp &nbsp &nbsp &nbsp';           
+                        echo '<b>Progress</b><br><br>';
+                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo '<b>Tagalog: <b>'.$tagalog_progress.'%&nbsp&nbsp&nbsp';
+                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo '<b>Bicolano: <b>'.$bicolano_progress.'%&nbsp&nbsp&nbsp';   
+                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo '<b>Cebuano: <b>'.$cebuano_progress.'%&nbsp&nbsp&nbsp';        
+                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp '; 
+                        echo '<b>Ilocano: <b>'.$ilocano_progress.'%&nbsp&nbsp&nbsp';   
                         ?>
                     </p>
+                </div>
+                <div class="status">
+                    <?php
+                    if($overall_sum >= 0 && $overall_sum < 10){
+                        echo '<img src="../images/0.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 20 && $overall_sum >= 10){
+                        echo '<img src="../images/10.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 30 && $overall_sum >= 20){
+                        echo '<img src="../images/20.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 40 && $overall_sum >= 30){
+                        echo '<img src="../images/30.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 50 && $overall_sum >= 40){
+                        echo '<img src="../images/40.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 60 && $overall_sum >= 50){
+                        echo '<img src="../images/50.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 70 && $overall_sum >= 60){
+                        echo '<img src="../images/60.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 80 && $overall_sum >= 70){
+                        echo '<img src="../images/70.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 90 && $overall_sum >= 80){
+                        echo '<img src="../images/80.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum < 100 && $overall_sum >= 90){
+                        echo '<img src="../images/90.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    else if($overall_sum == 100){
+                        echo '<img src="../images/100.jpg" alt="Icon" style="width: 200px; height: 200px;">';
+                    }
+                    ?>
                 </div>
                 <div class="achievements">
                     <p>
                     <?php
-                    $overall_sum = 100;
-                    echo '<b>Mga Gawad</b> | Awards<br><br>';
-                    if ($overall_sum >= 5){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Letter Learner</b> (05%)<br>';
+                    echo '<b>User Information</b><br><br><br>';
+                    echo '<img src="../images/user.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                    echo $first_name . ' ' .$last_name . '<br><br>';
+                    echo '<img src="../images/age.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp '; 
+                    echo $age .' years old' . '<br><br>'; 
+                    echo '<img src="../images/gender.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                    echo $sex . '<br><br>';
+                    echo '<img src="../images/nationality.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                    echo $nationality . '<br><br>';  
+                    if($overall_sum >= 0 && $overall_sum < 10){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Newbie Learner ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 10){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Word Wanderer</b> (10%)<br>';
+                    if($overall_sum >= 10 && $overall_sum < 20){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Word Wanderer ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 15){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Phonetic Fledgling</b> (15%)<br>';
+                    if($overall_sum >= 20 && $overall_sum < 30){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Alphabet Explorer ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 20){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Alphabet Explorer</b> (20%)<br>';
+                    if($overall_sum >= 30 && $overall_sum < 40){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Linguistic Novice ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 25){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Basic Linguist</b> (25%)<br>';
+                    if($overall_sum >= 40 && $overall_sum < 50){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Vocabulary Voyager ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 30){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Linguistic Novice</b> (30%)<br>';
+                    if($overall_sum >= 50 && $overall_sum < 60){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Grammar Guardian ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 35){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Alphabet Apprentice</b> (35%)<br>';
+                    if($overall_sum >= 60 && $overall_sum < 70){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Conversation Cadet ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 40){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Greetings Master</b> (40%)<br>';
+                    if($overall_sum >= 70 && $overall_sum < 80){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Fluency Fledgling ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 45){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Vocabulary Voyager</b> (45%)<br>';
+                    if($overall_sum >= 80 && $overall_sum < 90){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Polyglot Prodigy ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 50){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Grammar Guardian</b> (50%)<br>';
+                    if($overall_sum >= 90 && $overall_sum < 100){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'National Ambassador ('.$overall_sum.'%)';
                     }
-                    if ($overall_sum >= 55){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Conversation Cadet</b> (55%)<br>';
-                    }
-                    if ($overall_sum >= 60){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Cultural Explorer</b> (60%)<br>';
-                    }
-                    if ($overall_sum >= 65){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Fluency Fledgling</b> (65%)<br>';
-                    }
-                    if ($overall_sum >= 70){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Syntax Sorcerer</b> (70%)<br>';
-                    }
-                    if ($overall_sum >= 75){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Linguistic Luminary</b> (75%)<br>';
-                    }
-                    if ($overall_sum >= 80){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Polyglot Prodigy</b> (80%)<br>';
-                    }
-                    if ($overall_sum >= 85){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Global Ambassador</b> (85%)<br>';
-                    }
-                    if ($overall_sum >= 90){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Word Warrior</b> (90%)<br>';
-                    }
-                    if ($overall_sum >= 95){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Discourse Diplomat</b> (95%)<br>';
-                    }
-                    if ($overall_sum >= 100){
-                        echo '<img src="../images/medal.png" alt="Icon" style="width: 16px; height: 16px;">&nbsp ';
-                        echo '<b>Language Olympian</b> (100%)<br>';
+                    if($overall_sum == 100){
+                        echo '<img src="../images/rank.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo 'Language Olympian ('.$overall_sum.'%)';
                     }
                     ?>
                     </p>

@@ -288,14 +288,14 @@ function playAudio16() {
   audio.play();
 }
 function sixteen(element) {
-  if (element.textContent === "16. Septyembre") {
+  if (element.textContent === "16. Setyembre") {
     element.textContent = "16. September";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "16. Septyembre";
+    element.textContent = "16. Setyembre";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Onom") {
+  if (element.textContent === "6. Unom") {
     element.textContent = "6. Six";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Onom";
+    element.textContent = "6. Unom";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -155,14 +155,14 @@ function playAudio9() {
   audio.play();
 }
 function ninth(element) {
-  if (element.textContent === "9. Nwebe") {
+  if (element.textContent === "9. Siyam") {
     element.textContent = "9. Nine";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "9. Nwebe";
+    element.textContent = "9. Siyam";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -193,14 +193,14 @@ function playAudio11() {
   audio.play();
 }
 function eleven(element) {
-  if (element.textContent === "11. Napulog-usa") {
+  if (element.textContent === "11. Napulo'g-usa") {
     element.textContent = "10. Eleven";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Napulog-usa";
+    element.textContent = "10. Napulo'g-usa";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -212,14 +212,14 @@ function playAudio12() {
   audio.play();
 }
 function twelve(element) {
-  if (element.textContent === "12. Napulog-duha") {
+  if (element.textContent === "12. Napulo'g-duha") {
     element.textContent = "12. Twelve";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "12. Napulog-duha";
+    element.textContent = "12. Napulo'g-duha";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -231,14 +231,14 @@ function playAudio13() {
   audio.play();
 }
 function thirteen(element) {
-  if (element.textContent === "13. Napulog-tulo") {
+  if (element.textContent === "13. Napulo'g-tulo") {
     element.textContent = "13. Thirteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "13. Napulog-tulo";
+    element.textContent = "13. Napulo'g-tulo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -250,14 +250,14 @@ function playAudio14() {
   audio.play();
 }
 function fourteen(element) {
-  if (element.textContent === "14. Napulog-upat") {
+  if (element.textContent === "14. Napulo'g-upat") {
     element.textContent = "14. Fourteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "14. Napulog-upat";
+    element.textContent = "14. Napulo'g-upat";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -269,14 +269,14 @@ function playAudio15() {
   audio.play();
 }
 function fifteen(element) {
-  if (element.textContent === "15. Napulog-lima") {
+  if (element.textContent === "15. Napulo'g-lima") {
     element.textContent = "15. Fifteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "15. Napulog-lima";
+    element.textContent = "15. Napulo'g-lima";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -288,14 +288,14 @@ function playAudio16() {
   audio.play();
 }
 function sixteen(element) {
-  if (element.textContent === "16. Napulog unom") {
+  if (element.textContent === "16. Napulo'g-unom") {
     element.textContent = "16. Sixteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "16. Napulog unom";
+    element.textContent = "16. Napulo'g-unom";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -307,14 +307,14 @@ function playAudio17() {
   audio.play();
 }
 function seventeen(element) {
-  if (element.textContent === "17. Napulog pito") {
+  if (element.textContent === "17. Napulo'g-pito") {
     element.textContent = "17. Seventeen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "17. Napulog pito";
+    element.textContent = "17. Napulo'g-pito";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -326,14 +326,14 @@ function playAudio18() {
   audio.play();
 }
 function eighteen(element) {
-  if (element.textContent === "18. Napulog walo") {
+  if (element.textContent === "18. Napulo'g-walo") {
     element.textContent = "18. Eighteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "18. Napulog walo";
+    element.textContent = "18. Napulo'g-walo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -345,14 +345,14 @@ function playAudio19() {
   audio.play();
 }
 function nineteen(element) {
-  if (element.textContent === "19. Napulog siyam") {
+  if (element.textContent === "19. Napulo'g-siyam") {
     element.textContent = "19. Nineteen";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "19. Napulog siyam";
+    element.textContent = "19. Napulo'g-siyam";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -364,14 +364,14 @@ function playAudio20() {
   audio.play();
 }
 function twenty(element) {
-  if (element.textContent === "20. Kaduhaan") {
+  if (element.textContent === "20. Kawhaan") {
     element.textContent = "20. Twenty";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "20. Kaduhaan";
+    element.textContent = "20. Kawhaan";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -535,14 +535,14 @@ function playAudio1000() {
   audio.play();
 }
 function onethousand(element) {
-  if (element.textContent === "1,000. Uso ka libo o libo") {
+  if (element.textContent === "1,000. Usa ka libo") {
     element.textContent = "1,000. One Thousand";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1,000. Uso ka libo o libo";
+    element.textContent = "1,000. Usa ka libo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -554,14 +554,14 @@ function playAudio1000000() {
   audio.play();
 }
 function onemillion(element) {
-  if (element.textContent === "1,000,000. Usa ka yukot") {
+  if (element.textContent === "1,000,000. Usa ka milyon") {
     element.textContent = "1,000,000. One Million";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1,000,000. Usa ka yukot";
+    element.textContent = "1,000,000. Usa ka milyon";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -573,14 +573,14 @@ function playAudio1000000000() {
   audio.play();
 }
 function onebillion(element) {
-  if (element.textContent === "1,000,000,000. Usa ka wakat") {
+  if (element.textContent === "1,000,000,000. Usa ka bilyon") {
     element.textContent = "1,000,000,000. One Billion";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1,000,000,000. Usa ka wakat";
+    element.textContent = "1,000,000,000. Usa ka bilyon";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -588,5 +588,20 @@ function onebillion(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Cebuano3.php";
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Cebuano3.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

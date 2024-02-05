@@ -71,7 +71,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="first(this)">1. Magandang Araw!</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-gan-dang A-raw /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Magandang Araw!, Ginoong Jose.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Magandang Araw!, Ginoong Jose.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931"> Example: Good day!, Mr. Jose.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Expressing good wishes on meeting or parting during the day.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -79,7 +79,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="second(this)">2. Kumusta ka?</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ku-mus-ta Ka /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Andrei, Kumusta ka?.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Andrei, Kumusta ka?.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Andrei, How are you?.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to ask someone if they are well and happy.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -87,7 +87,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="third(this)">3. Salamat</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-la-mat /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Salamat sa pagdalo, Maria.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Salamat sa pagdalo, Maria.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Thank you for attending, Maria.</span><br><br>   
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: A polite expression used when acknowledging a gift, service, or compliment, or accepting or refusing an offer.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -95,7 +95,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fourth(this)">4. Walang anuman</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa-lang A-nu-man /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Walang anuman, Pedro!</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Walang anuman, Pedro!</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: You're Welcome, Pedro!</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used as a response after being thanked by someone.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -103,7 +103,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fifth(this)">5. Paalam</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-a-lam /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Salamat sa lahat Dante, paalam.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Salamat sa lahat Dante, paalam.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Thank you for everything Dante, goodbye.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to express good wishes when parting or at the end of a conversation.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -111,7 +111,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="sixth(this)">6. Oo</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ O-o /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Oo, sinasagot na kita Juan.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Oo, sinasagot na kita Juan.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Yes, I'm accepting your proposal Juan.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to give an affirmative response.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -119,7 +119,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="seventh(this)">7. Hindi</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hin-di /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Hindi tama ang sagot ko sa pagsusulit.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Hindi tama ang sagot ko sa pagsusulit.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: My answers on the exam are not correct.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Used to give a negative response.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -127,7 +127,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="eight(this)">8. Magandang Umaga!</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-gan-dang U-ma-ga /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Magandang Umaga! Binibining Reyes.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Magandang Umaga! Binibining Reyes.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Good Morning! Ms. Reyes.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Expressing good wishes on meeting or parting during the morning.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -135,7 +135,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="ninth(this)">9. Magandang Gabi!</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-gan-dang Ga-bi /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Magandang Gabi! Mahal ko.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Magandang Gabi! Mahal ko.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Good Evening, My love.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: Expressing good wishes on meeting or parting during the evening.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -143,7 +143,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="tenth(this)">10. Ingat ka</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-ngat Ka /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Example: Ingat ka sa pag-uwi!.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ingat ka sa pag-uwi!.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Take care when you get home.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: It can mean to be careful or watchful, to give particular attention, or to express good wishes.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>

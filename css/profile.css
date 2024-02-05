@@ -12,7 +12,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: var(--transparent);
+  background: white;
   overflow: hidden;
 }
 
@@ -88,7 +88,7 @@ body {
   height: 100%;
   transform: translate(-50%, -50%);
   max-width: 64%; /* Adjust the maximum width as needed */
-  max-height: 65%; /* Adjust the maximum height as needed */
+  max-height: 70%; /* Adjust the maximum height as needed */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: medium;
   overflow: auto;
@@ -99,13 +99,12 @@ body {
   left: 0%;
   top: 6.3%;
   margin: auto;
-  background: var(--lighter);
 }
 
 .upload img {
   border-radius: 0%;
-  border: 5px solid #3F3931;
-  border-top: 30px solid #3F3931;
+  border: 10px solid #3F3931;
+  border-top: 40px solid #3F3931;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -117,14 +116,14 @@ body {
 .upload .round {
   width: max-content;
   position: absolute;
-  top: 1.4%;
-  right: 2.5%;
+  top: 3.5%;
+  right: 5%;
   width: 30px;
   height: 23px;
   line-height: 24px;
   text-align: center;
   color: #3F3931;
-  background-color: var(--lighter);
+  background-color: var(--base);
   cursor: pointer;
   overflow: hidden;
   -webkit-user-drag: none;
@@ -208,7 +207,7 @@ body {
 
 .updates{
   position: absolute;
-  top: 8.5rem;
+  top: 8rem;
   left: 0;
   z-index: 100;
 }
@@ -238,26 +237,9 @@ body {
   transition: color 0.3s;
 }
 
-.credentials {
-  position: absolute;
-  top: -17.65rem;
-  left: 16rem;
-}
-
-.credentials p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #3F3931;
-  font-weight: normal;
-  position: absolute;
-  font-size: small;
-  width: max-content;
-  padding: 10px 20px 10px 20px; /* top right bottom left */
-  border-left: 5px solid #3F3931;
-}
-
 .progress {
   position: absolute;
-  top: -2.3rem;
+  top: 1rem;
   left: 16rem;
 }
 
@@ -268,14 +250,14 @@ body {
   position: absolute;
   font-size: small;
   width: max-content;
-  padding: 10px 20px 10px 20px; /* top right bottom left */
-  border-left: 5px solid #3F3931;
+  padding: 0px 20px 20px 20px; /* top right bottom left */
+  border-bottom: solid 5px #3F3931;
 }
 
 .achievements {
   position: absolute;
-  top: -17.65rem;
-  left: 38rem;
+  top: -18.55rem;
+  left: 16rem;
 }
 
 .achievements p {
@@ -284,10 +266,20 @@ body {
   font-weight: normal;
   position: absolute;
   font-size: small;
-  width: max-content;
-  padding: 10px 20px 10px 20px; /* top right bottom left */
-  border-left: 5px solid #3F3931;
-  background: var(--transparent);
+  width: 30.6rem;
+  padding: 20px 20px 0px 20px; /* top right bottom left */
+  border-top: solid 5px #3F3931;
+}
+
+.status{
+  position: absolute;
+  left: 36rem;
+  top: -12.5rem;
+  border: solid 5px #3F3931;
+}
+
+.achievements h1{
+  top: 0%;
 }
 
 .details img {

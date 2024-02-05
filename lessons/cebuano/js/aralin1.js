@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Kumusta ka?") {
+  if (element.textContent === "2. Kumusta man ka?") {
     element.textContent = "2. How are you?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Kumusta ka?";
+    element.textContent = "2. Kumusta man ka?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Wala'y Sapayan") {
+  if (element.textContent === "4. Wala'y Anuman") {
     element.textContent = "4. You're Welcome";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Wala'y Sapayan";
+    element.textContent = "4. Wala'y Anuman";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -188,6 +188,22 @@ function tenth(element) {
     element.style.fontWeight = "bold";
   }
 }
+
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Cebuano1.php";
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Cebuano1.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

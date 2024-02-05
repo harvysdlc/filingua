@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Pasayloa ko") {
+  if (element.textContent === "1. Pasaylo") {
     element.textContent = "1. I am sorry";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Pasayloa ko";
+    element.textContent = "1. Pasaylo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Pasaylo") {
+  if (element.textContent === "2. Patawad") {
     element.textContent = "2. I apologize";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Pasaylo";
+    element.textContent = "2. Patawad";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3. Wala ko kahibaw") {
+  if (element.textContent === "3. Wa ko kabaw") {
     element.textContent = "3. I don't know";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3. Wala ko kahibaw";
+    element.textContent = "3. Wa ko kabaw";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Unsa oras karon?") {
+  if (element.textContent === "4. Unsa na orasa?") {
     element.textContent = "4. What time is it?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Unsa oras karon?";
+    element.textContent = "4. Unsa na orasa?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Gusto ko'g kape.") {
+  if (element.textContent === "6. Gusto nako og kape") {
     element.textContent = "6. I want coffee";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Gusto ko'g kape.";
+    element.textContent = "6. Gusto nako og kape";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -117,14 +117,14 @@ function playAudio7() {
   audio.play();
 }
 function seventh(element) {
-  if (element.textContent === "7. Unsa ngalan ani nga karsada?") {
+  if (element.textContent === "7. Unsa pangan ani na kalsadaha?") {
     element.textContent = "7. What is the name of this street?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "7. Unsa ngalan ani nga karsada?";
+    element.textContent = "7. Unsa pangan ani na kalsadaha?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -136,14 +136,14 @@ function playAudio8() {
   audio.play();
 }
 function eight(element) {
-  if (element.textContent === "8. Aduna ka bay wifi?") {
+  if (element.textContent === "8. Naa moy wifi?") {
     element.textContent = "8. Do you have wifi?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "8. Aduna ka bay wifi?";
+    element.textContent = "8. Naa moy wifi?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -174,14 +174,14 @@ function playAudio10() {
   audio.play();
 }
 function tenth(element) {
-  if (element.textContent === "10. Gusto nako kini") {
+  if (element.textContent === "10. Gusto nako ni!") {
     element.textContent = "10. I like this!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Gusto nako kini";
+    element.textContent = "10. Gusto nako ni!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -189,6 +189,20 @@ function tenth(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Cebuano4.php";
-}
+  // Play the audio
+  var audio = document.getElementById("click");
 
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Cebuano4.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
+}

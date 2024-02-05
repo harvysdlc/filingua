@@ -52,13 +52,6 @@ if (!empty($_SESSION["email"])) {
     <title>Filingua - Update Profile</title>
     <link rel="stylesheet" href="../../filingua/css/update.css">
     <link rel="icon" type="image/png" href="../../filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../filingua/images/design.png);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
-    </style>
 </head>
 <body>   
     <div class="overall">

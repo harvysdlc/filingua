@@ -64,81 +64,92 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/9/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/9/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/9/10.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
             <span onclick="first(this)">1. Asa ang terminal sa bus?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-an ang ter-mi-nal ng bus? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kagawad Mike, asa ang terminal sa bus padulong sa Maynila?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sa ang ter-mi-nal sa bus? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kagawad Mike, asa ang terminal sa bus padong Maynila?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Councilor Mike, where is the bus terminal to Manila?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the location of the bus terminal, which is the designated place where buses depart and arrive.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="second(this)">2. Pila ang plete paingon sa Manila?</span>
+            <span onclick="second(this)">2. Tagpila ang plite padong Maynila?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-no ang pa-ma-sa-he pa-pun-tang <b>[Place]</b> /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Manong tsuper, tagpila ang plete padulong sa Maynila?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tag-pi-la ang pli-te padong <b>[Place]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Manong tsuper, tagpila ang plite padong Maynila?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Manong driver, how much is the fare to Manila?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Seeks information on the cost of traveling by bus to a specific destination.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="third(this)">3. Unsa oras ang biyahe?</span>
+            <span onclick="third(this)">3. Unsa orasa ang byahe?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong o-ras ang bi-ya-he? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa nga oras ang biyahe nimo Julian? Pwede mi makisakay ni Ella?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa o-ra-sa ang bya-he? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa orasa imong byahe Julian, dungan mi ni Ella.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What time is your trip, Julian? Can Ella and I join you?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Asked to find out the departure or arrival time of a particular bus trip.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fourth(this)">4. Unsa ang sakyan paingon sa Indang?</span>
+            <span onclick="fourth(this)">4. Unsa sakyan padong Indang?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-no ang sa-sak-yan pa-pun-tang <b>[Place]?</b> /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Lolo Juan, unsa ang sakyanan padulong sa Indang? Jeepney ba o Van?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa sak-yan pa-dong <b>[Place]?</b> /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Lolo Juan, unsa sakyan padong Indang? Jeep o van?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Grandpa Juan, what vehicle goes to Indang? Is it a jeepney or a van?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the type of transportation that can take someone to a specific destination.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fifth(this)">5. Naay taxi dinhi?</span>
+            <span onclick="fifth(this)">5. Naay bay taxi ari?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ May-ro-on bang ta-xi ri-to? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Nena, aduna bay taxi dinhi padulong sa San Juan?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-ay bay ta-xi a-ri? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Nena, naa bay taxi ari padong San Juan?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Nena, is there a taxi here going to San Juan?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A straightforward inquiry about the availability of taxis in the current location.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="sixth(this)">6. Asa ang paluparan?</span>
+            <span onclick="sixth(this)">6. Asa ang paliparan?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-sa-an ang pa-li-pa-ran? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Diin dapit ang airport? Kay karon ang akong biyahe padulong sa Cebu.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sa ang pa-li-pa-ran? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Asa ang paliparan? Karon man gud akong lakaw padong sa Cebu.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Where is the airport? I'm leaving for Cebu today.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for directions to the location of the airport, which is the facility where airplanes take off and land, facilitating air travel.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="seventh(this)">7. Asa ang pinakaduol nga istasyon sa tren?</span>
+            <span onclick="seventh(this)">7. Asa ang pinakaduol nga estasyon sa tren?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-an ang pi-na-ka-ma-la-pit na es-tas-yon ng tren? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Mang Jose, asa ang pinakamalapit nga estasyon sa tren padulong sa Lucban?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sa ang pi-na-ka-du-ol nga es-ta-syon sa tren? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Mang Jose, asa ang pinakaduol nga estasyon sa tren padong Lucban?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mang Jose, where is the nearest train station to Lucban?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Seeks information about the location of the closest train station, which is a facility where trains arrive and depart. </span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="eight(this)">8. Palihug bayad</span>
+            <span onclick="eight(this)">8. Palihug kog abot sa bayad</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-ki-a-bot ang ba-yad /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Ate, palihug abot ang bayad nako padulong sa Bacoor.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-li-hug kog a-bot sa ba-yad /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ate, palihug kog abot sa akong bayad padong Bacoor.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Miss, please pass the fare to go to Bacoor.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A request for someone to provide the necessary money for transportation.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="ninth(this)">9. Unsa oras mouli ang eroplano?</span>
+            <span onclick="ninth(this)">9. Unsa orasa muabot ang eroplano?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong o-ras da-ra-ting ang e-ro-pla-no?  /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Binibini, unsa ka oras mosulod ang eroplano? Huli na kay kini sa tatlumpu ka minutos.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa o-ra-sa mu-a-bot ang e-ro-pla-no? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Miss, unsa orasa muabot ang eroplano? Huli na kini og tatlumpung minutos.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Miss, what time will the plane arrive? It's already thirty minutes late.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the expected arrival time of a flight.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="tenth(this)">10. Unsaon pag-adto sa bangko?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-a-no pu-mun-ta sa bang-ko? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Inay, unsaon pag-abot sa bangko nga gi-trabahoan ni kuya?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa-on pag-ad-to sa bang-ko? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ma, unsaon pag-adto sa bangko nga getrabahuan ni kuya?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mom, how do I get to the bank where my brother works?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A request for directions or guidance on reaching the bank, indicating a need for information on the route or means of transportation to reach the specified destination.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

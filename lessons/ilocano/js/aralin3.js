@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Duwa") {
+  if (element.textContent === "2. Dua") {
     element.textContent = "2. Two";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Duwa";
+    element.textContent = "2. Dua";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3. Tallu") {
+  if (element.textContent === "3. Tallo") {
     element.textContent = "3. Three";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3. Tallu";
+    element.textContent = "3. Tallo";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Upat") {
+  if (element.textContent === "4. Uppat") {
     element.textContent = "4. Four";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Upat";
+    element.textContent = "4. Uppat";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Inem") {
+  if (element.textContent === "6. Innem") {
     element.textContent = "6. Six";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Inem";
+    element.textContent = "6. Innem";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -573,14 +573,14 @@ function playAudio1000000000() {
   audio.play();
 }
 function onebillion(element) {
-  if (element.textContent === "1,000,000,000. Sangabilion") {
+  if (element.textContent === "1,000,000,000. Maysa a bilyon") {
     element.textContent = "1,000,000,000. One Billion";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1,000,000,000. Sangabilion";
+    element.textContent = "1,000,000,000. Maysa a bilyon";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -588,5 +588,20 @@ function onebillion(element) {
   }
 }
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Tagalog1.php";
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Ilocano3.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

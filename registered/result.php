@@ -149,6 +149,22 @@
             $stmt_insert->bind_param('ii', $user_id, $score);
             $stmt_insert->execute();
         }
+
+        // Calculate the total score from t1 to t9
+        $stmt_total = $conn->prepare("SELECT L1, L2, L3, L4, L5, L6, L7, L8, L9 FROM bicolano_tbl WHERE user_id = ?");
+        $stmt_total->bind_param('i', $user_id);
+        $stmt_total->execute();
+        $result_total = $stmt_total->get_result();
+
+        if ($result_total->num_rows > 0) {
+            $row = $result_total->fetch_assoc();
+            $totalScore = ($row['L1'] + $row['L2'] + $row['L3'] + $row['L4'] + $row['L5'] + $row['L6'] + $row['L7'] + $row['L8'] + $row['L9']) / 90 * 100;
+
+            // Insert or update the total score into the progress_tbl
+            $stmt_progress = $conn->prepare("INSERT INTO progress_tbl (user_id, bicolano) VALUES (?, ?) ON DUPLICATE KEY UPDATE bicolano = ?");
+            $stmt_progress->bind_param('iii', $user_id, $totalScore, $totalScore);
+            $stmt_progress->execute();
+        }
     }
     if ($lang_id == 3) {
         $quizColumn = "L" . $quiz_id;
@@ -170,6 +186,23 @@
             $stmt_insert->bind_param('ii', $user_id, $score);
             $stmt_insert->execute();
         }
+
+        // Calculate the total score from t1 to t9
+        $stmt_total = $conn->prepare("SELECT L1, L2, L3, L4, L5, L6, L7, L8, L9 FROM cebuano_tbl WHERE user_id = ?");
+        $stmt_total->bind_param('i', $user_id);
+        $stmt_total->execute();
+        $result_total = $stmt_total->get_result();
+
+        if ($result_total->num_rows > 0) {
+            $row = $result_total->fetch_assoc();
+            $totalScore = ($row['L1'] + $row['L2'] + $row['L3'] + $row['L4'] + $row['L5'] + $row['L6'] + $row['L7'] + $row['L8'] + $row['L9']) / 90 * 100;
+
+            // Insert or update the total score into the progress_tbl
+            $stmt_progress = $conn->prepare("INSERT INTO progress_tbl (user_id, cebuano) VALUES (?, ?) ON DUPLICATE KEY UPDATE cebuano = ?");
+            $stmt_progress->bind_param('iii', $user_id, $totalScore, $totalScore);
+            $stmt_progress->execute();
+        }
+
     }
     if ($lang_id == 4) {
         $quizColumn = "L" . $quiz_id;
@@ -191,47 +224,21 @@
             $stmt_insert->bind_param('ii', $user_id, $score);
             $stmt_insert->execute();
         }
-    }
-    if ($lang_id == 5) {
-        $quizColumn = "k" . $quiz_id;
 
-        // Check if the row exists
-        $stmt_check = $conn->prepare("SELECT * FROM bicolano_tbl WHERE user_id = ?");
-        $stmt_check->bind_param('i', $user_id);
-        $stmt_check->execute();
-        $result_check = $stmt_check->get_result();
+        // Calculate the total score from t1 to t9
+        $stmt_total = $conn->prepare("SELECT L1, L2, L3, L4, L5, L6, L7, L8, L9 FROM ilocano_tbl WHERE user_id = ?");
+        $stmt_total->bind_param('i', $user_id);
+        $stmt_total->execute();
+        $result_total = $stmt_total->get_result();
 
-        if ($result_check->num_rows > 0) {
-            // If the row exists, update it with the new score
-            $stmt_update = $conn->prepare("UPDATE bicolano_tbl SET $quizColumn = ? WHERE user_id = ?");
-            $stmt_update->bind_param('ii', $score, $user_id);
-            $stmt_update->execute();
-        } else {
-            // If the row doesn't exist, insert a new one with the score
-            $stmt_insert = $conn->prepare("INSERT INTO bicolano_tbl (user_id, $quizColumn) VALUES (?, ?)");
-            $stmt_insert->bind_param('ii', $user_id, $score);
-            $stmt_insert->execute();
-        }
-    }
-    if ($lang_id == 6) {
-        $quizColumn = "p" . $quiz_id;
+        if ($result_total->num_rows > 0) {
+            $row = $result_total->fetch_assoc();
+            $totalScore = ($row['L1'] + $row['L2'] + $row['L3'] + $row['L4'] + $row['L5'] + $row['L6'] + $row['L7'] + $row['L8'] + $row['L9']) / 90 * 100;
 
-        // Check if the row exists
-        $stmt_check = $conn->prepare("SELECT * FROM bicolano_tbl WHERE user_id = ?");
-        $stmt_check->bind_param('i', $user_id);
-        $stmt_check->execute();
-        $result_check = $stmt_check->get_result();
-
-        if ($result_check->num_rows > 0) {
-            // If the row exists, update it with the new score
-            $stmt_update = $conn->prepare("UPDATE bicolano_tbl SET $quizColumn = ? WHERE user_id = ?");
-            $stmt_update->bind_param('ii', $score, $user_id);
-            $stmt_update->execute();
-        } else {
-            // If the row doesn't exist, insert a new one with the score
-            $stmt_insert = $conn->prepare("INSERT INTO bicolano_tbl (user_id, $quizColumn) VALUES (?, ?)");
-            $stmt_insert->bind_param('ii', $user_id, $score);
-            $stmt_insert->execute();
+            // Insert or update the total score into the progress_tbl
+            $stmt_progress = $conn->prepare("INSERT INTO progress_tbl (user_id, ilocano) VALUES (?, ?) ON DUPLICATE KEY UPDATE ilocano = ?");
+            $stmt_progress->bind_param('iii', $user_id, $totalScore, $totalScore);
+            $stmt_progress->execute();
         }
     }
 ?>

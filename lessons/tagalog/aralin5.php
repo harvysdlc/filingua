@@ -82,7 +82,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="first(this)">1. Linggo</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ling-go /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Ang simbahan ay napupuno tuwing linggo.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Ang simbahan ay napupuno tuwing linggo.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The church is full every Sunday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The first day of the week, traditionally considered a day of rest and religious observance in many cultures.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -90,7 +90,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="second(this)">2. Lunes</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Lu-nes /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Sa Lunes ang pasahan ng aming proyekto.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Sa Lunes ang pasahan ng aming proyekto.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Our project deadline is on Monday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The second day of the week, often associated with the beginning of the workweek in many calendars.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -98,7 +98,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="third(this)">3. Martes</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mar-tes /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Si Dona ay aalis sa susunod na martes.</span><br>   
+            <span style="font-size: small; font-weight: bold">Halimbawa: Si Dona ay aalis sa susunod na martes.</span><br>   
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Dona will leave next Tuesday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The third day of the week.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -106,7 +106,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fourth(this)">4. Miyerkules</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Myer-ku-les /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Naiwan ni Jojo ang kaniyang payong noong nakaraang miyerkules sa silid aklatan.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Naiwan ni Jojo ang kaniyang payong noong nakaraang miyerkules sa silid aklatan.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Jojo left his umbrella last Wednesday in the library.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The fourth day of the week.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -114,7 +114,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fifth(this)">5. Huwebes</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ We-bes /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Huwebes noon nung naghiwalay kami ni Juan.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Huwebes noon nung naghiwalay kami ni Juan.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: It was Thursday when Juan and I parted ways.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The fifth day of the week.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -122,15 +122,15 @@ if(!empty($_SESSION["email"])){
             <span onclick="sixth(this)">6. Biyernes</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Byer-nes /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Paborito ko talaga tuwing biyernes!, maaga kasi ang uwian namin. </span><br><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I really like Fridays! We go home early.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Paborito ko talaga tuwing biyernes!, maaga kasi ang uwian namin.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I really like Fridays! We go home early.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The sixth day of the week, considered the end of the workweek in many cultures.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="seventh(this)">7. Sabado</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-ba-do /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Sa Batangas ang aming gala sa darating na sabado.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Sa Batangas ang aming gala sa darating na sabado.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Our outing in Batangas is on the coming Saturday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The seventh day of the week, often a day off work and associated with relaxation and leisure.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -138,7 +138,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="eight(this)">8. Enero</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ E-ne-ro /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Ang huling pag-uusap namin ay noong ika-pito Enero, taong dalawang libo't labing-pito.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Ang huling pag-uusap namin ay noong ika-pito Enero, taong dalawang libo't labing-pito.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Our last conversation was on the seventh of January, two thousand and seventeen.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The first month of the year, named after Janus, the Roman god of beginnings and transitions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -146,7 +146,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="ninth(this)">9. Pebrero</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Peb-re-ro /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Mabenta ang tsokolate at rosas tuwing Pebrero.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Mabenta ang tsokolate at rosas tuwing Pebrero.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Chocolate and roses sell well every February.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The second month, known for having 28 or 29 days in common years and 30 days in leap years.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -154,7 +154,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="tenth(this)">10. Marso</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mar-so /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Noong nakaraang Marso kami nagsipagtapos ng Kolehiyo.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Noong nakaraang Marso kami nagsipagtapos ng Kolehiyo.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: We graduated last March.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The third month, named after Mars, the Roman god of war.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -162,7 +162,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="eleven(this)">11. Abril</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ab-ril /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Makulay ang mga bulaklak sa pagsapit ng buwan ng Abril.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Makulay ang mga bulaklak sa pagsapit ng buwan ng Abril.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Colorful flowers bloom in April.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The fourth month, usually associated with flowers during spring.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -170,7 +170,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="twelve(this)">12. Mayo</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ma-yo /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Binagyo sila Roland sa Mindoro noong Mayo a tres.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Binagyo sila Roland sa Mindoro noong Mayo a tres.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Roland experienced a typhoon in Mindoro on May 3.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The fifth month, a good month for workers especially during labor day!.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -178,7 +178,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="thirteen(this)">13. Hunyo</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hun-yo /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Matinding init ang nararanasan ng mga Pilipino sa tuwing patapos na ang buwan ng Hunyo.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Matinding init ang nararanasan ng mga Pilipino sa tuwing patapos na ang buwan ng Hunyo.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Filipinos feel intense heat as June ends.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The sixth month, the first month to welcome the heat of summer.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -186,7 +186,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fourteen(this)">14. Hulyo</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hul-yo /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Ibinebenta ni Aling Senya ang mga prutas tuwing sasapit ang Hulyo.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Ibinebenta ni Aling Senya ang mga prutas tuwing sasapit ang Hulyo.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Aling Senia sells fruits every July.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The seventh month, named after Julius Caesar.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -194,7 +194,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="fifteen(this)">15. Agosto</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-gos-to /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Agosto ang may pinaka-maraming pistahan sa Lungsod ng Quezon.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Agosto ang may pinaka-maraming pistahan sa Lungsod ng Quezon.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: August has the most festivals in Quezon City.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The eighth month, named after Augustus Caesar.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -202,7 +202,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="sixteen(this)">16. Setyembre</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio16()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Set-yem-bre /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Noong Setyembre ko naiwan ang aking telepono sa pampasaherong bus.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Noong Setyembre ko naiwan ang aking telepono sa pampasaherong bus.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I left my phone on a public bus in September..</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The ninth month, fall or autumn usually kicks in during this month.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -210,7 +210,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="seventeen(this)">17. Oktubre</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio17()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ok-tub-re /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Kaarawan ni Tita Jena sa Oktubre tres.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Kaarawan ni Tita Jena sa Oktubre tres.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Tita Jena's birthday is on October 3.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The tenth month, a notable event during this month is world's teachers day.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -218,7 +218,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="eighteen(this)">18. Nobyembre</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio18()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Nob-yem-bre /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Madalas silang multuhin tuwing sasapit ang buwan ng Nobyembre.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Madalas silang multuhin tuwing sasapit ang buwan ng Nobyembre.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: They are often haunted every November.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The eleventh month, known for the it's spookiness thanks to Halloween!</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -226,7 +226,7 @@ if(!empty($_SESSION["email"])){
             <span onclick="nineteen(this)">19. Disyembre</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio19()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Dis-yem-bre /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Sa Disyembre bente-uno ko makukuha ang aking sahod.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Sa Disyembre bente-uno ko makukuha ang aking sahod.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I will receive my salary on the twenty-first of December.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The twelfth month, start of winter and holiday season.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -234,12 +234,12 @@ if(!empty($_SESSION["email"])){
             <span onclick="twenty(this)">20. Araw</span>
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio20()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-raw /</span><br><br>
-            <span style="font-size: small; font-weight: bold">Example: Araw-araw ko siyang nakikita sa aming bakuran.</span><br>
+            <span style="font-size: small; font-weight: bold">Halimbawa: Araw-araw ko siyang nakikita sa aming bakuran.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I see him/her every day in our backyard.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: A unit of time consisting of 24 hours, representing the time it takes for the Earth to complete one full rotation on its axis.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

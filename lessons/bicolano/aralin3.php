@@ -85,6 +85,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio1000" src="../../../filingua/lessons/bicolano/recordings/3/1000.wav"></audio>
         <audio id="audio1000000" src="../../../filingua/lessons/bicolano/recordings/3/1000000.wav"></audio>
         <audio id="audio1000000000" src="../../../filingua/lessons/bicolano/recordings/3/1000000000.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
@@ -92,6 +93,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-sa /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An Pilipinas igdi sa mga nasyon sa Timog-Sidlakan na Asya.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The Philippines is one of the countries in Southeast Asia.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The fundamental unit, singular and indivisible.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -99,6 +101,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Da-la-wa /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Mayduwang tugang ako, si Toto asin si Nene.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have two siblings, they are Toto and Nene.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The first and simplest even number, denoting duality.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -106,6 +109,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tat-lo /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Tolo an karnero sa bukid ni Mang Juan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mr. John has three sheep in his farm.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The smallest prime number, often symbolizing balance.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -113,6 +117,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-pat /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Apat na baso an ibinaton na regalo.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have received four mugs as a gift.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A square number, representing stability and order.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -120,6 +125,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Li-ma /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Lima an kandidato para sa konsehal sa banwaan kan Indang.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: There are five candidates for councilor in the town of Indang.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The third prime number, associated with change and dynamism.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -127,6 +133,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nim /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An haba kan tela tolong dipa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The length of the fabric is six meters.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The first perfect number, symbolizing harmony.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -134,6 +141,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pi-to /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Pito an paborito na numero ni Andrei.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Seven is Andrei's favorite number.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A prime number, often considered mystical or lucky.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -141,6 +149,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa-lo /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ikawalo sa pila si Nena.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Nena is eighth in line.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A cube number, representing balance and strength.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -148,6 +157,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Si-yam /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Siyam na pato an naglalangoy sa salog kan Pasig.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Nine ducks are swimming in the Pasig River.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A square number, symbolizing completeness and wholeness.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -155,6 +165,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sam-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Nabukas ko na an sangko sa labinduwa na regalo ni Julian.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have already opened ten out of Julian's twelve gifts.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A decade, often used as a basis for counting.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -162,6 +173,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing i-sa  /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An bilang kan nagbagasak sa pagsusulit labing-isa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Eleven students failed the exam.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A prime number, often considered special or unique.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -169,6 +181,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bin-da-la-wa /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Labinduwa an hiwa kan pizza.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: A pizza has twelve slices.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A dozen, used in calendars and measurements.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -176,6 +189,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bin-tat-lo /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Labintres an bilang kan Martir sa Kabite.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: There are thirteen Martyrs in Cavite.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A prime number, sometimes associated with superstitions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -183,6 +197,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing a-pat /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An aldaw kan mga kasingkasing igwa sa ika-katorse kan Pebrero.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Valentine's Day is celebrated on the fourteenth of February.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The natural number following thirteen and preceding fifteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -190,6 +205,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing li-ma /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Pang-kalima sa lista kan mga pasyente si Nena.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Nena is fifteenth on the list of patients.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A positive integer and is the natural number that comes after fourteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -197,6 +213,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio16()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing a-nim /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ang kanyang kaaldawan ay sa ika-Kag-anom ng Pebrero.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Her birthday is on the sixteenth of February.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant number in the hexadecimal (base-16) numbering system. In this system, the digits include 0-9 and the letters A-F.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -204,12 +221,14 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio17()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing pi-to /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An saindang kasal isasagibo sa ika-kagpito kan Oktubre.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Their wedding will take place on the seventeenth of October.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A positive integer, coming after sixteen and before eighteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eighteen(this)">18. Kagwalo</span>
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio18()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing wa-lo /</span><br><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Eighteen percent of the income is allocated for the environmental project.</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An kagwalo na porsyento kan kita itinutukdo para sa proyektong pangkalikasan.</span><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant milestone in many cultures, as it marks the age of legal adulthood in several countries, granting individuals certain rights and responsibilities.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -218,6 +237,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio19()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-bing si-yam /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa:An kahoy sa aming harong may kagsiyam na taon na..</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The tree in our backyard is nineteen years old.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">In basic arithmetic, nineteen is a positive integer, coming after eighteen and before twenty.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -225,6 +245,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio20()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Da-la-wam-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: May duwangpung barya ako sa akong bulsa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have twenty coins in my wallet.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to denote the twentieth item in a series or sequence.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -232,6 +253,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio30()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tat-lum-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: May mga bulan na igwang tigtolo na aldaw sana.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: There are months with only thirty days.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A composite number, associated with decades and cycles.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -239,6 +261,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio40()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-pat-na-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Hali Maria, hatag ko ikaw apat na pulo na mansanas!</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Come here, Maria, I'll give you forty apples!.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A symbolic or significant number associated with milestones such as age, anniversaries, and biblical events.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -246,6 +269,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio50()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Li-mam-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Magarbo an Ika-Limang pulo na kaadlawan ni Aling Bebet.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Aling Bebet's fiftieth birthday is extravagant.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">In percentage terms, fifty represents half of a whole.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -253,6 +277,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio60()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nim-na-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Anom na pulo porsyento an kabuuang kayamanan ni Don Guevarra sa kwarta kan paggibo nin alak. </span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Sixty percent is the total share of Don Guevarra in the distillery's money.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">In timekeeping, sixty (seconds) make up a minute, and sixty (minutes) make up one hour..</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -260,6 +285,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio70()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pi-tum-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Si Mang Juan igwa nin pitong pulo puting karnero.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mr. John has seventy white sheep.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant milestone, often celebrated as one enters the septuagenarian years.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -267,6 +293,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio80()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa-lum-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sa dulo kan eskinita an ika-waluyo na harong.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The eightieth house is at the end of the alley.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Number eighty is often associated with the well-known Hypertext Transfer Protocol (HTTP) port 80, which is commonly used for web traffic.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -274,6 +301,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio90()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Si-yam-na-pu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Si Lolo Daniel igwa na sinampulo na taon.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Grandpa Daniel is ninety years old.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A semiperfect number because the sum of some of its proper divisors (excluding itself) equals the number itself.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -281,6 +309,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio100()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-sang-da-an /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sanggatos na lang an akong kwarta.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I only have a hundred pesos left.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Often used as a symbol of completeness, perfection, or a full cycle.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -288,6 +317,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-sang li-bo /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Si Joven igwa nin Sang ribo na kaaway sa internet.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Joven has a thousand enemies on the internet.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A large numeric value, used in counting and measurements.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -295,6 +325,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-sang mil-yon /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An harong ni Juanita nagkakahalagang sobra sa sarong milyon.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Juanita's house is worth approximately a million.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant numeric quantity, often used in population and finance.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -302,10 +333,11 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000000000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ I-sang bil-yon /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: An kabuuang populasyon sa Timog-Sidlakan na Asya sobra sa sarong bilyon.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The total population in Southeast Asia is over a billion.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A very large numeric value, commonly used in economic and population contexts.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

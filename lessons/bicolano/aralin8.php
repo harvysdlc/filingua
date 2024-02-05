@@ -64,6 +64,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/bicolano/recordings/8/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/bicolano/recordings/8/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/bicolano/recordings/8/10.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
@@ -72,6 +73,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tin-da-han /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Namili si Anjo nin mga paninda para sa saiyang tindahan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Anjo shopped for goods for their store.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A commercial establishment where goods or services are offered for sale to consumers.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -79,6 +81,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-no i-to? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Manong, magkano ini na taho?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mister, how much is this taho?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the price of a specific item or product.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -86,6 +89,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ May-ro-on bang ka-tam-ta-mang la-ki ni-to? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Magayon ini na pula na bado, ate. Mayroon bang sa tamang kadakol ini?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Sis, this red dress is beautiful, do you have a medium size that fits me?</span><br><br> 
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Posed when looking for clothing or other items with size variations.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -93,6 +97,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to ko i-to! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko ini na hamonado na regalo ni Aling Bebang.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I like this ham given by Aling Bebang.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A direct expression of the customer's desire to purchase a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -100,6 +105,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pwe-de bang tu-ma-wad? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ate, tatlo kukunon ko, pwede bang magtawad?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Miss, I'll get three, can I bargain?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire whether it is possible to negotiate or haggle over the price of a product.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -107,6 +113,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sa-an ang su-ka-tan? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Inay, saan an sukatan dyan sa mall? Gusto ko makita kung bagay sa sakuyang gibo ini na bestida. </span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mom, where's the fitting room here in the mall? I want to see if this dress suits me.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Asked to seek directions to the area within a store where customers can try on clothes before making a purchase.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -114,6 +121,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa-la a-kong da-lang pe-ra /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Juan, okay lang ba manghiram nin singkwenta? Wara akong dala na kwarta.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Juan, is it okay if I borrow fifty? I don't have money with me.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Indicates that the customer does not possess physical currency and may be inquiring about alternative payment methods such as credit cards, debit cards, or electronic forms of payment.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -121,6 +129,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ May-ro-on bang dis-kwen-to? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: May ada bang diskwento ini na mahal na bag kay ate Sally?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Is there a discount for this expensive bag, Ms. Sally?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the availability of reduced prices or special offers on the products or services being considered for purchase.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -128,6 +137,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong o-ras ka-yo mag-bu-bu-kas at mag-sa-sa-ra? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: BAling Reyes, anong oras kamo magbukas asin magsara buwas?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mrs. Reyes, what time will you open and close tomorrow?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Seeks information about the operating hours of the store, asking when it opens for business and when it closes. </span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -135,10 +145,11 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/bicolano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pwe-de bang gu-ma-mit ng cre-dit card? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Puwede bang gamiton an credit card? Wara kasi akong kwarta.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Miss, can I use a credit card? I don't have cash with me.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Asked to ascertain whether the store accepts credit cards as a form of payment. It indicates the customer's interest in using a credit card for the transaction.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

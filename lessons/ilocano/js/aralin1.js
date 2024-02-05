@@ -10,7 +10,7 @@ function first(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Naimbag a Bigat!";
+    element.textContent = "1. Naimbag nga Adlaw!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -162,7 +162,7 @@ function ninth(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "9. Naimbag a Rabii";
+    element.textContent = "9. Naimbag a Rabii!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -174,20 +174,36 @@ function playAudio10() {
   audio.play();
 }
 function tenth(element) {
-  if (element.textContent === "10. Agpayso ka") {
+  if (element.textContent === "10. Aganannad") {
     element.textContent = "10. Take care";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Agpayso ka";
+    element.textContent = "10. Aganannad";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
 }
+
 function startPractice() {
-  window.location.href = "../../../../filingua/quiz/Ilocano1.php";
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Ilocano1.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }

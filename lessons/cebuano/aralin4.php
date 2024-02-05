@@ -64,81 +64,92 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/4/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/4/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/4/10.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
-            <span onclick="first(this)">1. Pasayloa ko</span>
+            <span onclick="first(this)">1. Pasaylo</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-say-lo-wa ko /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Pasayloa ko, wala nako nabantay ang imong tawag.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-say-lo /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Pasayloa ko, wa nako nabantayan ang imong tawag..</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I'm sorry, I didn't notice your call.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of apology or asking for forgiveness.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="second(this)">2. Pasaylo</span>
+            <span onclick="second(this)">2. Patawad</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-say-lo /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Pasaylo, dili gyud nako gusto nga nabangga nako imong plorera.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-ta-wad /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Patawad, wa nako gituyo mabuak ang imong plorera.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I apologize, I didn't mean to break your vase.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Another way of saying sorry or apologizing, commonly used to express regret.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="third(this)">3. Wala ko kahibaw</span>
+            <span onclick="third(this)">3. Wa ko kabaw</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hin-di ko a-lam /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Wala ko kahibaw asa nahimutang ang iyang opisina.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa ko ka-baw /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Wa ko kabaw asa dapit ang iyang opisina.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I don't know where her office is.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express uncertainty.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fourth(this)">4. Unsa oras karon?</span>
+            <span onclick="fourth(this)">4. Unsa na orasa?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong o-ras na? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsay orasa karon? Kinahanglan nako muuli og sayo.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa na o-ra-sa? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa na orasa? Kinahanglan na nako muoli og sayo.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What time is it? I need to go home early.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the current time.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fifth(this)">5. Asa ang kasilyas?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-sa-an ang ban-yo? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Asa ang kasilyas? Gikinahanglan na nako mag-ihap.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-sa ang ka-sil-yas? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Asa ang kasilyas? Kahion na kaayo ko.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Where is the bathroom? I need to pee.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the location of the restroom.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="sixth(this)">6. Gusto ko'g kape.</span>
+            <span onclick="sixth(this)">6. Gusto nako og kape</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to ko ng ka-pe /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto ko og kape, samtang sayo pa.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to na-ko og ka-pe /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto nako og kape, hamtang sayo pa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I want coffee, while it's still early.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It expresses the speaker's desire for coffee.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="seventh(this)">7. Unsa ngalan ani nga karsada?</span>
+            <span onclick="seventh(this)">7. Unsa pangan ani na kalsadaha?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nong pa-nga-lan ng kal-sa-dang i-to? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa'y ngalan ani nga karsada? Nagpangita ko og dalan padulong sa ospital.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa pan-gan a-ni na kal-sa-da-ha? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa pangan ani na kalsadaha? Nangita kog agianan padong sa ospital.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What's the name of this street? I'm looking for the way to the hospital.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the name of the street when the speaker is looking for directions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="eight(this)">8. Aduna ka bay wifi?</span>
+            <span onclick="eight(this)">8. Naa moy wifi?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ May-ro-on ka bang wi-fi? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Aduna ka bay wifi? Gusto nako mokuha og koneksyon.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-a moy wi-fi? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Naa moy wifi? Mogusto ko og konekta.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Do you have wifi? I want to connect.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire if there is an available wifi connection, indicating the speaker's interest in connecting to the internet.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="ninth(this)">9. Tagpila ni?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-no i-to? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Tagpila ni? Gusto ko sanang mopalit.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tag-pi-la ni? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Tagpila ni? Gusto unta nako paliton..</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: How much is this? I would like to buy it.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the price of an item the speaker is interested in purchasing.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="tenth(this)">10. Gusto nako kini</span>
+            <span onclick="tenth(this)">10. Gusto nako ni!</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to ko i-to! /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Gusto nako kini, bisan pa og gamayg mahal.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gus-to na-ko ni! /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa:  Gusto nako ni! Bisag medyo mahalon.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I like this! Even if it's a bit expensive.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express the speaker's desire to buy or have a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>
-            <button onclick="startPractice()">Magsanay | Practice </button>
+            <button onclick="startPractice()">Practice </button>
         </p>
     </div>
 </body>

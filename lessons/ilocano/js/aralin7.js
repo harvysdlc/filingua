@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Naimas") {
+  if (element.textContent === "1. Makan") {
     element.textContent = "1. Food";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Naimas";
+    element.textContent = "1. Makan";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3. Kaon tayo") {
+  if (element.textContent === "3. Mangan tayo!") {
     element.textContent = "3. Let's eat!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3. Kaon tayo";
+    element.textContent = "3. Mangan tayo!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Naimbag iti") {
+  if (element.textContent === "4. Naimas daytoy") {
     element.textContent = "4. This is delicious!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Naimbag iti";
+    element.textContent = "4. Naimas daytoy";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -79,14 +79,14 @@ function playAudio5() {
   audio.play();
 }
 function fifth(element) {
-  if (element.textContent === "5. Agaramid ka iti resibo?") {
+  if (element.textContent === "5. Mayat ko kadi maala diay resibo?") {
     element.textContent = "5. Can I have the receipt?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "5. Agaramid ka iti resibo?";
+    element.textContent = "5. Mayat ko kadi maala diay resibo?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Gusto ko ti prutas.") {
+  if (element.textContent === "6. Kayat ko ti prutas") {
     element.textContent = "6. I want fruits";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Gusto ko ti prutas.";
+    element.textContent = "6. Kayat ko ti prutas";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -117,14 +117,14 @@ function playAudio7() {
   audio.play();
 }
 function seventh(element) {
-  if (element.textContent === "7. Agsardeng kayo iti kanin.") {
+  if (element.textContent === "7. Gumatang ti inapoy") {
     element.textContent = "7. I wanna buy rice";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "7. Agsardeng kayo iti kanin.";
+    element.textContent = "7. Gumatang ti inapoy";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -136,14 +136,14 @@ function playAudio8() {
   audio.play();
 }
 function eight(element) {
-  if (element.textContent === "8. Tagpila iti ulam?") {
+  if (element.textContent === "8. Sagmamano daytoy sidaen?") {
     element.textContent = "8. How much is this dish? ";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "8. Tagpila iti ulam?";
+    element.textContent = "8. Sagmamano daytoy sidaen?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -155,14 +155,14 @@ function playAudio9() {
   audio.play();
 }
 function ninth(element) {
-  if (element.textContent === "9. Ania ti espesial ditoy?") {
+  if (element.textContent === "9. Ania ti espesyal ditoy?") {
     element.textContent = "9. What is the specialty here?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "9. Ania ti espesial ditoy?";
+    element.textContent = "9. Ania ti espesyal ditoy?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -174,17 +174,35 @@ function playAudio10() {
   audio.play();
 }
 function tenth(element) {
-  if (element.textContent === "10. Ania ti inapoy mo?") {
+  if (element.textContent === "10. Ania ti sidaem?") {
     element.textContent = "10. What is your viand?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "10. Ania ti inapoy mo?";
+    element.textContent = "10. Ania ti sidaem?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
     element.style.fontWeight = "bold";
   }
+}
+function startPractice() {
+  // Play the audio
+  var audio = document.getElementById("click");
+
+  // Check if the audio is already playing, stop and reset it
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+  // Play the audio
+  audio.play();
+
+  // Delay the redirection to allow the audio to play
+  setTimeout(function () {
+    window.location.href = "../../../../filingua/quiz/Ilocano7.php";
+  }, audio.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
 }
