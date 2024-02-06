@@ -93,10 +93,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Posed when looking for clothing or other items with size variations.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fourth(this)">4. Kayat ko dayta!</span>
+            <span onclick="fourth(this)">4. Kayat ko daytoy!</span>
             <img src="../../../filingua/lessons/ilocano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-yat ko day-ta! /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kayatko daytoy  hamonado nga inted ni Aling Bebang.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-yat ko day-toy! /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kayat ko daytoy  hamonado nga inted ni Aling Bebang.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I like this ham given by Aling Bebang.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A direct expression of the customer's desire to purchase a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>

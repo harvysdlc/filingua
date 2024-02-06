@@ -250,14 +250,14 @@ function playAudio14() {
   audio.play();
 }
 function fourteen(element) {
-  if (element.textContent === "14. Hulyo") {
+  if (element.textContent === "14. Hulio") {
     element.textContent = "14. July";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "14. Hulyo";
+    element.textContent = "14. Hulio";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -288,14 +288,14 @@ function playAudio16() {
   audio.play();
 }
 function sixteen(element) {
-  if (element.textContent === "16. Setyembre") {
+  if (element.textContent === "16. Septiembre") {
     element.textContent = "16. September";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "16. Setyembre";
+    element.textContent = "16. Septiembre";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -345,14 +345,14 @@ function playAudio19() {
   audio.play();
 }
 function nineteen(element) {
-  if (element.textContent === "19. Disyembre") {
+  if (element.textContent === "19. Disiembre") {
     element.textContent = "19. December";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "19. Disyembre";
+    element.textContent = "19. Disiembre";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

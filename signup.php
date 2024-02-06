@@ -35,13 +35,6 @@ if(isset($_POST["submit"])){
     <title>Filingua - signup</title>
     <link rel="stylesheet" href="../filingua/css/signup.css">
     <link rel="icon" type="image/png" href="../filingua/images/logo.png">
-    <style>
-        body {
-            background-image: url(../../../filingua/images/design.png);
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-        }
-    </style>
 </head>
 <body>
     <div class="overall">
@@ -63,10 +56,10 @@ if(isset($_POST["submit"])){
             <label for="sex">Sex:</label>
             <select id="sex" name="sex" required>
                 <option value="" disabled selected>--Sex--</option>
-                <option value="Lalaki">Male</option>
-                <option value="Babae">Female</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
                 <option value="LGBTQIA+++">LGBTQIA+</option>
-                <option value="Huwag Ipaalam">Rather Not Say</option>
+                <option value="Rather Not Say">Rather Not Say</option>
             </select> <br>
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" placeholder="Password" required value=""> <br><br>

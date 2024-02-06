@@ -3,14 +3,14 @@ function playAudio1() {
   audio.play();
 }
 function first(element) {
-  if (element.textContent === "1. Naimbag nga Adlaw!") {
+  if (element.textContent === "1. Naimbag nga Aldaw!") {
     element.textContent = "1. Good Day!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "1. Naimbag nga Adlaw!";
+    element.textContent = "1. Naimbag nga Aldaw!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

@@ -1,5 +1,10 @@
 :root {
     --background: #ffffff;
+    --foreground: #ffa500;
+    --base: #ff914d;
+    --lighter: #ffbd59;
+    --darker: #ffde59;
+    --button: #3F3931;
     --transparent: rgba(255, 165, 0, 0.5);
 }
 
@@ -25,7 +30,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.15rem;
-    background-color: var(--transparent);
+    background-color: var(--button);
     color: var(--background);
     border-style: none;
     margin: 0 10px 15px 20px; /* Adjusted margin to align buttons to the left and bottom */
@@ -35,7 +40,8 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #ff914d;
+    background-color: var(--background);
+    color: var(--button);
 }
 
 /* Responsive styles for screens with a minimum width of 1024px and a maximum width of 1920px,

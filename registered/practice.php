@@ -66,40 +66,40 @@ session_start();
             header("Location: /filingua/quiz/Tagalog9.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 1') {
-            header("Location: /filingua/quiz/Bicolano1.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 1') {
+            header("Location: /filingua/quiz/Kapampangan1.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 2') {
-            header("Location: /filingua/quiz/Bicolano2.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 2') {
+            header("Location: /filingua/quiz/Kapampangan2.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 3') {
-            header("Location: /filingua/quiz/Bicolano3.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 3') {
+            header("Location: /filingua/quiz/Kapampangan3.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 4') {
-            header("Location: /filingua/quiz/Bicolano4.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 4') {
+            header("Location: /filingua/quiz/Kapampangan4.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 5') {
-            header("Location: /filingua/quiz/Bicolano5.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 5') {
+            header("Location: /filingua/quiz/Kapampangan5.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 6') {
-            header("Location: /filingua/quiz/Bicolano6.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 6') {
+            header("Location: /filingua/quiz/Kapampangan6.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 7') {
-            header("Location: /filingua/quiz/Bicolano7.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 7') {
+            header("Location: /filingua/quiz/Kapampangan7.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 8') {
-            header("Location: /filingua/quiz/Bicolano8.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 8') {
+            header("Location: /filingua/quiz/Kapampangan8.php");
             exit;
         }
-        else if ($language == 'Bicolano' && $lesson == 'Aralin 9') {
-            header("Location: /filingua/quiz/Bicolano9.php");
+        else if ($language == 'Kapampangan' && $lesson == 'Aralin 9') {
+            header("Location: /filingua/quiz/Kapampangan9.php");
             exit;
         }
         else if ($language == 'Cebuano' && $lesson == 'Aralin 1') {
@@ -213,7 +213,7 @@ session_start();
             <label for="language">Language</label>
             <select id="language" name="language">
                 <?php
-                $languages = array("Bicolano", "Cebuano", "Ilocano", "Tagalog");
+                $languages = array("Tagalog", "Cebuano", "Ilocano", "Kapampangan");
                 
                 foreach ($languages as $languageoption) {
                     $selected = ($languageoption == $language) ? 'selected' : '';

@@ -183,10 +183,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The sixth month, the first month to welcome the heat of summer.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="fourteen(this)">14. Hulyo</span>
+            <span onclick="fourteen(this)">14. Hulio</span>
             <img src="../../../filingua/lessons/ilocano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Hul-yo /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Algako ni Senia ti prutas kada Hulyo.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Algako ni Senia ti prutas kada Hulio.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Aling Senia sells fruits every July.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The seventh month, named after Julius Caesar.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -199,10 +199,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The eighth month, named after Augustus Caesar.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="sixteen(this)">16. Setyembre</span>
+            <span onclick="sixteen(this)">16. Septiembre</span>
             <img src="../../../filingua/lessons/ilocano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio16()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Set-yem-bre /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Naibatik ti selpon ko idiay bus idi Setyembre.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Naibatik ti selpon ko idiay bus idi Septiembre.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I left my phone on a public bus in September.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The ninth month, fall or autumn usually kicks in during this month.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -223,10 +223,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The eleventh month, known for the it's spookiness thanks to Halloween!</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="nineteen(this)">19. Disyembre</span>
+            <span onclick="nineteen(this)">19. Disiembre</span>
             <img src="../../../filingua/lessons/ilocano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio19()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Dis-yem-bre /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Maawat ko ti sahod ko ton mayka duapulo ken maysa nga aldaw ti Disyembre.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Maawat ko ti sahod ko ton mayka duapulo ken maysa nga aldaw ti Disiembre.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I will receive my salary on the twenty-first of December.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The twelfth month, start of winter and holiday season.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>

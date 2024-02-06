@@ -75,7 +75,7 @@ if (!empty($_SESSION["email"])) {
                 <label for="sex">Sex:</label>
                 <select id="sex" name="sex">
                     <?php
-                    $sexes = array("Lalaki", "Babae", "LGBTQIA+", "Huwag Sabihin");
+                    $sexes = array("Male", "Female", "LGBTQIA+", "Rather Not Say");
                     foreach ($sexes as $sexoption) {
                         $selected = ($sexoption == $sex) ? 'selected' : '';
                         echo "<option value=\"$sexoption\" $selected>$sexoption</option>";
@@ -86,7 +86,7 @@ if (!empty($_SESSION["email"])) {
                 <select id="nationality" name="nationality">
                     <option value="" disabled selected style="color: #ffffff;">--Select Nationality--</option>
                     <?php
-                    $nationalities = array("Filipino", "Amerikano", "Australyano", "Espanyol", "Hapon", "Koryano", "Thai", "Tsino");  
+                    $nationalities = array("Filipino", "American", "Australian", "Chinese", "Japanese", "Korean", "Spanish", "Thai", "Others");  
                     foreach ($nationalities as $option) {
                         $selected = ($option == $nationality) ? 'selected' : '';
                         echo "<option value=\"$option\" $selected>$option</option>";

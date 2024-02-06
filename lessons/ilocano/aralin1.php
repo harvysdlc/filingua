@@ -68,9 +68,9 @@ if(!empty($_SESSION["email"])){
   
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>
-            <span onclick="first(this)">1. Naimbag nga Adlaw!</span>
+            <span onclick="first(this)">1. Naimbag nga Aldaw!</span>
             <img src="../../../filingua/lessons/ilocano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-im-bag nga Ad-law! /</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-im-bag nga Al-daw! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Naimbag nga aldaw, Manong Jose.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931"> Example: Good day!, Mr. Jose.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Expressing good wishes on meeting or parting during the day.</span><br><br>

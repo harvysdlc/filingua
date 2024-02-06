@@ -60,14 +60,14 @@ function playAudio4() {
   audio.play();
 }
 function fourth(element) {
-  if (element.textContent === "4. Kayat ko dayta!") {
-    element.textContent = "4. Gusto ko dayta.";
+  if (element.textContent === "4. Kayat ko daytoy!") {
+    element.textContent = "4. I want this!";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "4. Kayat ko dayta!";
+    element.textContent = "4. Kayat ko daytoy!";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

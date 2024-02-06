@@ -50,6 +50,18 @@ if(!empty($_SESSION["email"])){
             <button onclick="window.location.href='../../filingua/registered/about.php'">About</button>
             <button onclick="window.location.href='../../filingua/registered/logout.php'">Logout</button>
         </div>
+        <div class="about">
+            <h1>ABOUT US</h1><br>
+            <p><b>Filingua</b> is a language-learning web application designed for teaching various
+            <p>Philippine Languages. <br>
+            <p>As of the moment, we offer <b>Tagalog, Cebuano, Ilocano, and Kapampangan</b>,
+            <p>as our main courses.<br><br>
+            <p>There will be more to come as we progress onwards.<br><br>
+            <hr><br><br>
+            <p>This project is spearheaded by <b>HARVY DELA CRUZ</b>,
+            <p>joined by <b>JOSH ELLAND SOMBRANO</b> of <b>BSCS 3-2</b><br><br><br>
+            <hr>
+        </div>
     </div>    
 </body>
 </html>

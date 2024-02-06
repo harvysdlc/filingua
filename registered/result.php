@@ -220,7 +220,7 @@
             $stmt_update->execute();
         } else {
             // If the row doesn't exist, insert a new one with the score
-            $stmt_insert = $conn->prepare("INSERT INTO iolocano_tbl (user_id, $quizColumn) VALUES (?, ?)");
+            $stmt_insert = $conn->prepare("INSERT INTO ilocano_tbl (user_id, $quizColumn) VALUES (?, ?)");
             $stmt_insert->bind_param('ii', $user_id, $score);
             $stmt_insert->execute();
         }

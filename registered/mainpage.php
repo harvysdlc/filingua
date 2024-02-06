@@ -67,14 +67,14 @@ if(!empty($_SESSION["email"])){
         <a href="../../filingua/lessons/tagalog/landing.php">
             <img src="../../filingua/images/tagalog.png" alt="Tagalog">
         </a>
-        <a href="../../filingua/lessons/bicolano/landing.php">
-            <img src="../../filingua/images/bicolano.png" alt="Bicolano">
-        </a>
         <a href="../../filingua/lessons/cebuano/landing.php">
             <img src="../../filingua/images/cebuano.png" alt="Cebuano">
         </a>
         <a href="../../filingua/lessons/ilocano/landing.php">
             <img src="../../filingua/images/ilocano.png" alt="Ilocano">
+        </a>
+        <a href="../../filingua/lessons/kapampangan/landing.php">
+            <img src="../../filingua/images/kapampangan.png" alt="Kapampangan">
         </a>
     </div>  
 </body>
