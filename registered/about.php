@@ -59,8 +59,9 @@ if(!empty($_SESSION["email"])){
             <p>There will be more to come as we progress onwards.<br><br>
             <hr><br><br>
             <p>This project is spearheaded by <b>HARVY DELA CRUZ</b>,
-            <p>joined by <b>JOSH ELLAND SOMBRANO</b> of <b>BSCS 3-2</b><br><br><br>
+            <p>joined by <b>JOSH ELLAND SOMBRANO</b> of <b>BSCS 3-2</b><br><br><br><br>
             <hr>
+            <img src="../images/logopic.png" style="width: 500px; height: 500px;">
         </div>
     </div>    
 </body>

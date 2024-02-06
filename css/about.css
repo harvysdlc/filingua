@@ -114,11 +114,31 @@
 
 .about{
   position: absolute;
-  top: 7rem;
-  left: 5%;
   font-family:Arial, Helvetica, sans-serif;
+  top: 22.5rem; /* Center vertically */
+  left: 27%; /* Center horizontally */
+  transform: translate(-50%, -50%);
 }
 
 .about h1{
   color: var(--base);
+}
+
+.about p{
+  font-size: 0.9rem;
+  color: #3F3931;
+}
+
+.about img{
+  position: absolute;
+  top: 0rem;
+  left: 40rem;
+}
+
+.about img{
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
