@@ -215,11 +215,11 @@ if ($result->num_rows > 0) {
                         echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
                         echo '<b>Tagalog: <b>'.$tagalog_progress.'%&nbsp&nbsp&nbsp';
                         echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
-                        echo '<b>Bicolano: <b>'.$bicolano_progress.'%&nbsp&nbsp&nbsp';   
-                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
                         echo '<b>Cebuano: <b>'.$cebuano_progress.'%&nbsp&nbsp&nbsp';        
                         echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp '; 
-                        echo '<b>Ilocano: <b>'.$ilocano_progress.'%&nbsp&nbsp&nbsp';   
+                        echo '<b>Ilocano: <b>'.$ilocano_progress.'%&nbsp&nbsp&nbsp';  
+                        echo '<img src="../images/language.png" alt="Icon" style="width: 25px; height: 25px;">&nbsp ';
+                        echo '<b>Kapampangan: <b>'.$kapampangan_progress.'%&nbsp&nbsp&nbsp';    
                         ?>
                     </p>
                 </div>

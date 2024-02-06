@@ -117,14 +117,14 @@ function playAudio7() {
   audio.play();
 }
 function seventh(element) {
-  if (element.textContent === "7. Aku pu mipabalu ku kasanting-walung taung gulang.") {
+  if (element.textContent === "7. Aku pu mipabalu ku kasanting-walung taung gulang") {
     element.textContent = "7. Iam eighteen years old";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "7. Aku pu mipabalu ku kasanting-walung taung gulang.";
+    element.textContent = "7. Aku pu mipabalu ku kasanting-walung taung gulang";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -238,14 +238,14 @@ function playAudio13() {
   audio.play();
 }
 function thirteen(element) {
-  if (element.textContent === "13. Taga-Trece Martires ku ing metung a lugar king ka-pampangan") {
+  if (element.textContent === "13. Taga-Trece Martires ku ing metung a lugar") {
     element.textContent = "13. I'm from the city of Trece Martires";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "13. Taga-Trece Martires ku ing metung a lugar king ka-pampangan";
+    element.textContent = "13. Taga-Trece Martires ku ing metung a lugar";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

@@ -64,7 +64,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/kapampangan/recordings/4/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/kapampangan/recordings/4/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/kapampangan/recordings/4/10.wav"></audio>
-    
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Click the word or phrase to see translation</span><br><br><br>

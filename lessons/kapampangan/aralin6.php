@@ -64,6 +64,7 @@ if(!empty($_SESSION["email"])){
         <audio id="audio8" src="../../../filingua/lessons/kapampangan/recordings/6/8.wav"></audio>
         <audio id="audio9" src="../../../filingua/lessons/kapampangan/recordings/6/9.wav"></audio>
         <audio id="audio10" src="../../../filingua/lessons/kapampangan/recordings/6/10.wav"></audio>
+        <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
