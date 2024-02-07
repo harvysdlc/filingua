@@ -56,7 +56,7 @@ if ($row_score = mysqli_fetch_assoc($result_score)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filingua - kapampangan</title>
+    <title>Filingua - Kapampangan</title>
     <link rel="stylesheet" href="../../../filingua/lessons/landing.css">
     <link rel="icon" type="image/png" href="../../../filingua/images/logo.png">
 </head>

@@ -85,10 +85,11 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A transparent, odorless, and tasteless liquid essential for the survival of all known forms of life.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="third(this)">3. Capampangan tayo!</span>
+            <span onclick="third(this)">3. Man na ta!</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ca-pam-pa-ngan ta-yo! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Capampangan tayo, Juan! Mitatang inyu ing atyu keni.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Let's eat! Juan, we prepared a lot today.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An informal and inviting expression used to suggest or announce the commencement of a meal.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -96,6 +97,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Man-ya-man ya i-ni /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Aling Nelia, manyaman ya ini luto mong adobo keni</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Aling Nelia, the adobo that you cooked today is delicious!</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It indicates that the item is enjoyable, flavorful, and satisfying to the palate.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -103,13 +105,15 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pu-we-de ba i-ta ku king re-si-bu? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ginoo, puwede ba ita ku king resubu para pabayaran na ku?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Sir, can I have the receipt so I can make the payment?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A polite request for a document that itemizes the goods or services purchased and their corresponding costs.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="sixth(this)">6. Buri kung prutas</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Bu-ri kung pru-tas /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Inay, buri kung prutas at gulay para king makanyan</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Inay, buri kung prutas at gulay para king makanyan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Mom, I want fruits and vegetables for lunch tomorrow.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It expresses a desire or intention to acquire fruits.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -117,6 +121,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sal-wan mu ku ning ka-kanun /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Ate, salwan mu ku ning kanin at mumuna king sabaw.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Sis, i wanna buy some rice and a bit of broth.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It communicates the intent to purchase rice.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -124,6 +129,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-nu ya ing u-lam? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Magkanu ya ing ulam Juan? mamu mu ing ambag ku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: How much is this dish, Juan? I'll contribute.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the price or cost of a particular food item or meal.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -131,6 +137,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-nu ing es-pe-cial ke-ni? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Nanu ing espesyal keni king restaurant, Miguel?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Miguel, what's special here in the restaurant?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Posed to inquire about the unique or distinctive dishes or offerings that a particular place, such as a restaurant or cafe, is known for.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -138,6 +145,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-nu ing u-lam mu? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Gemma, nanu ing ulam mu? Malyari bang magtikim?</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: Gemma, what's your viand? Can I have a taste?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An inquiry about the primary protein or main component of the meal being offered or consumed.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>

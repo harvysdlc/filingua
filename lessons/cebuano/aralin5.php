@@ -33,7 +33,7 @@ if(!empty($_SESSION["email"])){
 <body>
     <div class="stage">
         <div class="label">
-                <h2>Aralin 5: Mga Araw at Buwan</h2>
+                <h2>Aralin 5: Mga Adlaw ug Bulan</h2>
                 <p>Lesson 5: Days, Weeks, Months</p>
         </div>
         <div class="larrow">

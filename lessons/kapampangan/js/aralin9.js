@@ -41,14 +41,14 @@ function playAudio3() {
   audio.play();
 }
 function third(element) {
-  if (element.textContent === "3.  Nanu ing oras ning byahe?") {
+  if (element.textContent === "3. Nanu ing oras ning byahe?") {
     element.textContent = "3. What time is the trip?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "3.  Nanu ing oras ning byahe?";
+    element.textContent = "3. Nanu ing oras ning byahe?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -138,14 +138,14 @@ function playAudio8() {
   audio.play();
 }
 function eight(element) {
-  if (element.textContent === "8. Pabie bayad mu.") {
+  if (element.textContent === "8. Pabie bayad mu") {
     element.textContent = "8. Please pass the fare";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "8. Pabie bayad mu.";
+    element.textContent = "8. Pabie bayad mu";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
