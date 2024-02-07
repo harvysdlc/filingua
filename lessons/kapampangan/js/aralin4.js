@@ -118,7 +118,7 @@ function playAudio7() {
 }
 function seventh(element) {
   if (element.textContent === "7. Nanu ing kewanan da kung lalawigan?") {
-    element.textContent = "7. What is the name of this street?";
+    element.textContent = "7. What is the name of this province?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";

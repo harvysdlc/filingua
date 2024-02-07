@@ -73,6 +73,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-ma-ngan /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Malagu ya king pamangan ing atyu king kaarawan nang Josephine.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: There's a lot of food prepared for Josephine's birthday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Refers to any substance consumed by living organisms to provide the necessary nutrients for sustenance, growth, and energy.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -80,6 +81,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Tu-bu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Mikimut king kalsada ning matua nang pulubing alang tubu.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;"> Example: The old beggar is asking for water on the street.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A transparent, odorless, and tasteless liquid essential for the survival of all known forms of life.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>

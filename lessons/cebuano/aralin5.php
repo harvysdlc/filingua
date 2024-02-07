@@ -54,26 +54,26 @@ if(!empty($_SESSION["email"])){
     </div>
     <div class="greetings"> 
         <!-- Audio element -->
-        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/5/1.wav"></audio>
-        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/5/2.wav"></audio>
-        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/5/3.wav"></audio>
-        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/5/4.wav"></audio>
-        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/5/5.wav"></audio>
-        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/5/6.wav"></audio>
-        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/5/7.wav"></audio>
-        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/5/8.wav"></audio>
-        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/5/9.wav"></audio>
-        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/5/10.wav"></audio>
-        <audio id="audio11" src="../../../filingua/lessons/cebuano/recordings/5/11.wav"></audio>
-        <audio id="audio12" src="../../../filingua/lessons/cebuano/recordings/5/12.wav"></audio>
-        <audio id="audio13" src="../../../filingua/lessons/cebuano/recordings/5/13.wav"></audio>
-        <audio id="audio14" src="../../../filingua/lessons/cebuano/recordings/5/14.wav"></audio>
-        <audio id="audio15" src="../../../filingua/lessons/cebuano/recordings/5/15.wav"></audio>
-        <audio id="audio16" src="../../../filingua/lessons/cebuano/recordings/5/16.wav"></audio>
-        <audio id="audio17" src="../../../filingua/lessons/cebuano/recordings/5/17.wav"></audio>
-        <audio id="audio18" src="../../../filingua/lessons/cebuano/recordings/5/18.wav"></audio>
-        <audio id="audio19" src="../../../filingua/lessons/cebuano/recordings/5/19.wav"></audio>
-        <audio id="audio20" src="../../../filingua/lessons/cebuano/recordings/5/20.wav"></audio>
+        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/5/1.mp3"></audio>
+        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/5/2.mp3"></audio>
+        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/5/3.mp3"></audio>
+        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/5/4.mp3"></audio>
+        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/5/5.mp3"></audio>
+        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/5/6.mp3"></audio>
+        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/5/7.mp3"></audio>
+        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/5/8.mp3"></audio>
+        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/5/9.mp3"></audio>
+        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/5/10.mp3"></audio>
+        <audio id="audio11" src="../../../filingua/lessons/cebuano/recordings/5/11.mp3"></audio>
+        <audio id="audio12" src="../../../filingua/lessons/cebuano/recordings/5/12.mp3"></audio>
+        <audio id="audio13" src="../../../filingua/lessons/cebuano/recordings/5/13.mp3"></audio>
+        <audio id="audio14" src="../../../filingua/lessons/cebuano/recordings/5/14.mp3"></audio>
+        <audio id="audio15" src="../../../filingua/lessons/cebuano/recordings/5/15.mp3"></audio>
+        <audio id="audio16" src="../../../filingua/lessons/cebuano/recordings/5/16.mp3"></audio>
+        <audio id="audio17" src="../../../filingua/lessons/cebuano/recordings/5/17.mp3"></audio>
+        <audio id="audio18" src="../../../filingua/lessons/cebuano/recordings/5/18.mp3"></audio>
+        <audio id="audio19" src="../../../filingua/lessons/cebuano/recordings/5/19.mp3"></audio>
+        <audio id="audio20" src="../../../filingua/lessons/cebuano/recordings/5/20.mp3"></audio>
         <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->

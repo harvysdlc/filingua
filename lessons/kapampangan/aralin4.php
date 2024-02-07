@@ -72,6 +72,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-sen-sya na /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Pasensya na, Harvy.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I'm sorry, Harvy.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of apology or asking for forgiveness.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -79,6 +80,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pa-u-man-hin /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Paumanhin, aliwa ko malay ing lahat.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Sorry, I don't know everything.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Another way of saying sorry or apologizing, commonly used to express regret.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -86,20 +88,23 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio3()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ E ku ba-lu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: E ku balu ang kapampangan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I don't understand Kapampangan.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express uncertainty.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fourth(this)">4. Nanu ing oras na?</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio4()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-nu ing o-ras na? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Nanu ing oras ini?</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Nanu ing oras ini? Malagu yaku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What time is it? I'm late.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the current time.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fifth(this)">5. Nukarin ing banyu?</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio5()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Nu-ka-rin ing ba-nyu? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Nukarin ing banyu? ihing-ihi aku..</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Nukarin ing banyu? ihing-ihi aku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Where's the restroom? I need to pee.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the location of the restroom.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -107,6 +112,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio6()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Bu-ri ku yang ka-pi /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Buri ku yang kapi, Salamat.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I want coffee, thank you.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It expresses the speaker's desire for coffee.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -114,13 +120,15 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Na-nu ing ke-wa-nan da kung la-la-wi-gan? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Nanu ing kewanan da kung lalawigan? Naliligaw aku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What's the name of this province? I'm lost.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the name of the street when the speaker is looking for directions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eight(this)">8. Atyu wifi karin?</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio8()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ At-yu wi-fi ka-rin? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Atyu hotspot karin? Pa-connect.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Atyu wifi karin? Pa-connect.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Do you have wifi? Can I connect.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire if there is an available wifi connection, indicating the speaker's interest in connecting to the internet.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -128,6 +136,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio9()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Mag-ka-nu ya i-ya? /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Magkanu ya iya? buri ke ini.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: How much is this? I like this.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to inquire about the price of an item the speaker is interested in purchasing.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -135,6 +144,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Bu-ri ke i-ni! /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Buri ke ining hotdog!</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I like this hotdog.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to express the speaker's desire to buy or have a particular item.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>

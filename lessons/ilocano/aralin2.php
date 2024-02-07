@@ -54,21 +54,21 @@ if(!empty($_SESSION["email"])){
     </div>
     <div class="greetings"> 
         <!-- Audio element -->
-        <audio id="audio1" src="../../../filingua/lessons/ilocano/recordings/2/1.wav"></audio>
-        <audio id="audio2" src="../../../filingua/lessons/ilocano/recordings/2/2.wav"></audio>
-        <audio id="audio3" src="../../../filingua/lessons/ilocano/recordings/2/3.wav"></audio>
-        <audio id="audio4" src="../../../filingua/lessons/ilocano/recordings/2/4.wav"></audio>
-        <audio id="audio5" src="../../../filingua/lessons/ilocano/recordings/2/5.wav"></audio>
-        <audio id="audio6" src="../../../filingua/lessons/ilocano/recordings/2/6.wav"></audio>
-        <audio id="audio7" src="../../../filingua/lessons/ilocano/recordings/2/7.wav"></audio>
-        <audio id="audio8" src="../../../filingua/lessons/ilocano/recordings/2/8.wav"></audio>
-        <audio id="audio9" src="../../../filingua/lessons/ilocano/recordings/2/9.wav"></audio>
-        <audio id="audio10" src="../../../filingua/lessons/ilocano/recordings/2/10.wav"></audio>
-        <audio id="audio11" src="../../../filingua/lessons/ilocano/recordings/2/11.wav"></audio>
-        <audio id="audio12" src="../../../filingua/lessons/ilocano/recordings/2/12.wav"></audio>
-        <audio id="audio13" src="../../../filingua/lessons/ilocano/recordings/2/13.wav"></audio>
-        <audio id="audio14" src="../../../filingua/lessons/ilocano/recordings/2/14.wav"></audio>
-        <audio id="audio15" src="../../../filingua/lessons/ilocano/recordings/2/15.wav"></audio>
+        <audio id="audio1" src="../../../filingua/lessons/ilocano/recordings/2/1.mp3"></audio>
+        <audio id="audio2" src="../../../filingua/lessons/ilocano/recordings/2/2.mp3"></audio>
+        <audio id="audio3" src="../../../filingua/lessons/ilocano/recordings/2/3.mp3"></audio>
+        <audio id="audio4" src="../../../filingua/lessons/ilocano/recordings/2/4.mp3"></audio>
+        <audio id="audio5" src="../../../filingua/lessons/ilocano/recordings/2/5.mp3"></audio>
+        <audio id="audio6" src="../../../filingua/lessons/ilocano/recordings/2/6.mp3"></audio>
+        <audio id="audio7" src="../../../filingua/lessons/ilocano/recordings/2/7.mp3"></audio>
+        <audio id="audio8" src="../../../filingua/lessons/ilocano/recordings/2/8.mp3"></audio>
+        <audio id="audio9" src="../../../filingua/lessons/ilocano/recordings/2/9.mp3"></audio>
+        <audio id="audio10" src="../../../filingua/lessons/ilocano/recordings/2/10.mp3"></audio>
+        <audio id="audio11" src="../../../filingua/lessons/ilocano/recordings/2/11.mp3"></audio>
+        <audio id="audio12" src="../../../filingua/lessons/ilocano/recordings/2/12.mp3"></audio>
+        <audio id="audio13" src="../../../filingua/lessons/ilocano/recordings/2/13.mp3"></audio>
+        <audio id="audio14" src="../../../filingua/lessons/ilocano/recordings/2/14.mp3"></audio>
+        <audio id="audio15" src="../../../filingua/lessons/ilocano/recordings/2/15.mp3"></audio>
         <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
 
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>

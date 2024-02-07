@@ -164,32 +164,32 @@ if(!empty($_SESSION["email"])){
             <span onclick="tenth(this)">10. Apulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio10()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Nabuksan ku na ing apulung pintu.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Apulu ing baka king saklalan ning Joshua.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Joshua's farm has ten cows.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A decade, often used as a basis for counting.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eleven(this)">11. Kasanting-metung</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting me-tung  /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-metung ing lumalabas king paaralan.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-metung ing sakup ning pampasaherong jeep.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Eleven passengers are aboard the public jeepney.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A prime number, often considered special or unique.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="twelve(this)">12. Kasanting-adwa</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting ad-wa /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: kasanting-adwang regalu ku.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-adwang regalu ku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I received eleven gifts.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A dozen, used in calendars and measurements.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="thirteen(this)">13. Kasanting-atlu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting at-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-atlu ing Martyr sa Cavite.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-atlu ing Martir king Cavite.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: There are thirteen Martyr's in Cavite.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A prime number, sometimes associated with superstitions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -197,93 +197,95 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio14()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting a-pat /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Valentine's na sa kasanting-apat ke Pebrero.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: It's Valentine's on the fourteenth of February.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">The natural number following thirteen and preceding fifteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fifteen(this)">15. Kasanting-lima</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio15()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting li-ma /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Pang kasanting-lima ing amung banda.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa:  Ing hukum ing ipinagawan keng amponan mi kang kasanting-lima ya segundo para aminan ing gagawan mi.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The judge gave us fifteen seconds to admit our mistakes.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A positive integer and is the natural number that comes after fourteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="sixteen(this)">16. Kasanting-anam</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio16()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting a-nam /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: si Brook pu mipabalu ku kasanting-anam taung gulang sa darating na Domingo.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Si Brook pu mipabalu ku kasanting-anam taung gulang sa darating na Domingo.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Brook will turn sixteen years old this coming Sunday.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant number in the hexadecimal (base-16) numbering system. In this system, the digits include 0-9 and the letters A-F.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="seventeen(this)">17. Kasanting-pitu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio17()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting pi-tu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-pitung tupa.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa:  Si Mang Julio ing mumudtak keni kami keti labintis aput puti a tupa.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mang Julio gave us seventeen white sheep.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A positive integer, coming after sixteen and before eighteen.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="eighteen(this)">18. Kasanting-walo</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio18()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting wa-lo /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Owa, kasanting-walu taung gulang ba ikaw?</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Joshua, kasanting-walu taung gulang ba ikaw?.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Joshua, are you eighteen years old?.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant milestone in many cultures, as it marks the age of legal adulthood in several countries, granting individuals certain rights and responsibilities.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="nineteen(this)">19. Kasanting-siam</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio19()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ka-san-ting siam /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-siam na taun.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Kasanting-siam a tawu ing mibanduan king pikabaluan.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Nineteen people attended the meeting.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">In basic arithmetic, nineteen is a positive integer, coming after eighteen and before twenty.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="twenty(this)">20. Adwang pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio20()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Ad-wang pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Adwang pulung barya.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Adwang pulung askep a mansanas king kasi.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: There are twenty apples in the basket.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to denote the twentieth item in a series or sequence.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="thirty(this)">30. Atlung pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio30()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ At-lung pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Atlung pulung edad ang kailangan.</span><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ing minibus miparating la kang atlung pulu nung minutos yang mi.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The minibus arrived just thirty minutes ago.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A composite number, associated with decades and cycles.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fourty(this)">40. Apat a pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio40()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-pat a pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Ing mansanas ke apat a pulu.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Apat a pulu yang adwang megalku king pagsabi king malditang mantsa king.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Forty-two balloons floated in the sky when the children released them.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A symbolic or significant number associated with milestones such as age, anniversaries, and biblical events.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="fifty(this)">50. Limang pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio50()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Li-mang pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Si Bebet ay limang pulu taung gulang na.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Mibye yang limang pulu kilu ning bigas para king pamilya.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: He bought fifty kilograms of rice for the family.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">In percentage terms, fifty represents half of a whole.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="sixty(this)">60. Anam a pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio60()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-nam a pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Anam a pulu akung hanap sa negosyu.</span><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">In timekeeping, sixty (seconds) make up a minute, and sixty (minutes) make up one hour..</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Matuknang ya ing mag-aral para king anam a pulu minutos.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: He studied diligently for sixty minutes.</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">In timekeeping, sixty (seconds) make up a minute, and sixty (minutes) make up one hour.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="seventy(this)">70. Pitung pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio70()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Pi-tung pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Pitung pulu lahat, Josh.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Pitung pulu ya ing banua'ng marakal a misalud sa panyulung.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Seventy villages eagerly welcomed the assistance.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant milestone, often celebrated as one enters the septuagenarian years.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
@@ -291,47 +293,47 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio80()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Wa-long pu-lu /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Si lola king walong pulu taung gulang na.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Grandma is eighty years old.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Number eighty is often associated with the well-known Hypertext Transfer Protocol (HTTP) port 80, which is commonly used for web traffic.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="ninety(this)">90. Siam a pulu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio90()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Siam a pu-lu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Siam a pulu pesos, aliwa discount.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Pinili nila ing maingat ing siyam a pulu ng tile para king swimming pool.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: They carefully selected ninety tiles for the swimming pool.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A semiperfect number because the sum of some of its proper divisors (excluding itself) equals the number itself.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="onehundred(this)">100. Dinalan</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio100()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Di-na-lan /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Dinalang estudiante.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Dinalan na lamang ing pera ku.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I only have a hundred pesos left.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Often used as a symbol of completeness, perfection, or a full cycle.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="onethousand(this)">1,000. Lauit libu</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ La-wit li-bu /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Wala ku lauit libu barya.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Si Joven ataya may lauit libu kasalupan king internet.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example:Joven seemingly has a thousand enemies on the internet.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A large numeric value, used in counting and measurements.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="onemillion(this)">1,000,000. Sangyuta</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sang-yu-ta /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Sangyutang deboto ng Nazareno.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ing bale ning Juanita may nanapinagkakatawa yang sangyuta.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Juanita's house is estimated to be worth about a million.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A significant numeric quantity, often used in population and finance.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
             <span onclick="onebillion(this)">1,000,000,000. Sang bilion</span>
             <img src="../../../filingua/lessons/kapampangan/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio1000000000()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Sang bil-yon /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Sang biliong pagmamahal.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I have three guitars.</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Ang kabuuan ning populasyun king mauling aslagang asya mabye king pangatlu king sang bilion.</span><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: The total population in Southeast Asia is over a third of a billion.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A very large numeric value, commonly used in economic and population contexts.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br><br><br>

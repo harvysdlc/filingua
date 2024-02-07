@@ -54,16 +54,16 @@ if(!empty($_SESSION["email"])){
     </div>
     <div class="greetings"> 
         <!-- Audio element -->
-        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/4/1.wav"></audio>
-        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/4/2.wav"></audio>
-        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/4/3.wav"></audio>
-        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/4/4.wav"></audio>
-        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/4/5.wav"></audio>
-        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/4/6.wav"></audio>
-        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/4/7.wav"></audio>
-        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/4/8.wav"></audio>
-        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/4/9.wav"></audio>
-        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/4/10.wav"></audio>
+        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/4/1.mp3"></audio>
+        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/4/2.mp3"></audio>
+        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/4/3.mp3"></audio>
+        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/4/4.mp3"></audio>
+        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/4/5.mp3"></audio>
+        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/4/6.mp3"></audio>
+        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/4/7.mp3"></audio>
+        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/4/8.mp3"></audio>
+        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/4/9.mp3"></audio>
+        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/4/10.mp3"></audio>
         <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->
@@ -117,10 +117,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">It expresses the speaker's desire for coffee.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="seventh(this)">7. Unsa pangan ani na kalsadaha?</span>
+            <span onclick="seventh(this)">7. Unsa ngalan ani na kalsadaha?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio7()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa pan-gan a-ni na kal-sa-da-ha? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa pangan ani na kalsadaha? Nangita kog agianan padong sa ospital.</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa nga-lan a-ni na kal-sa-da-ha? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Unsa nga-lan ani na kalsadaha? Nangita kog agianan padong sa ospital.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: What's the name of this street? I'm looking for the way to the hospital.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to ask for the name of the street when the speaker is looking for directions.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>

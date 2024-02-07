@@ -54,16 +54,16 @@ if(!empty($_SESSION["email"])){
     </div>
     <div class="greetings"> 
         <!-- Audio element -->
-        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/9/1.wav"></audio>
-        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/9/2.wav"></audio>
-        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/9/3.wav"></audio>
-        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/9/4.wav"></audio>
-        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/9/5.wav"></audio>
-        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/9/6.wav"></audio>
-        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/9/7.wav"></audio>
-        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/9/8.wav"></audio>
-        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/9/9.wav"></audio>
-        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/9/10.wav"></audio>
+        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/9/1.mp3"></audio>
+        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/9/2.mp3"></audio>
+        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/9/3.mp3"></audio>
+        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/9/4.mp3"></audio>
+        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/9/5.mp3"></audio>
+        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/9/6.mp3"></audio>
+        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/9/7.mp3"></audio>
+        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/9/8.mp3"></audio>
+        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/9/9.mp3"></audio>
+        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/9/10.mp3"></audio>
         <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
     
         <!-- Text element -->

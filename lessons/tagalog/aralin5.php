@@ -203,7 +203,7 @@ if(!empty($_SESSION["email"])){
             <img src="../../../filingua/lessons/tagalog/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio16()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Set-yem-bre /</span><br><br>
             <span style="font-size: small; font-weight: bold">Halimbawa: Noong Setyembre ko naiwan ang aking telepono sa pampasaherong bus.</span><br>
-            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I left my phone on a public bus in September..</span><br><br>
+            <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I left my phone on a public bus in September.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Definition: The ninth month, fall or autumn usually kicks in during this month.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>

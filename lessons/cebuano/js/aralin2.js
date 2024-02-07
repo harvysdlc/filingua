@@ -22,14 +22,14 @@ function playAudio2() {
   audio.play();
 }
 function second(element) {
-  if (element.textContent === "2. Unsa imong pangan?") {
+  if (element.textContent === "2. Unsay imong ngalan?") {
     element.textContent = "2. What is your name?";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "2. Unsa imong pangan?";
+    element.textContent = "2. Unsay imong ngalan?";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";
@@ -193,7 +193,7 @@ function playAudio11() {
   audio.play();
 }
 function eleven(element) {
-  if (element.textContent === "11. Nagtuon kog sa Unibersidad sa Pilipinas") {
+  if (element.textContent === "11. Nagtuon kog sa Unibersidad ng Pilipinas") {
     element.textContent =
       "11. I am studying at the University of the Philippines";
     element.style.color = "#3F3931";
@@ -201,7 +201,7 @@ function eleven(element) {
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "11. Nagtuon kog sa Unibersidad sa Pilipinas";
+    element.textContent = "11. Nagtuon kog sa Unibersidad ng Pilipinas";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

@@ -98,14 +98,14 @@ function playAudio6() {
   audio.play();
 }
 function sixth(element) {
-  if (element.textContent === "6. Ane!") {
+  if (element.textContent === "6. Ane") {
     element.textContent = "6. There";
     element.style.color = "#3F3931";
     element.style.fontStyle = "italic";
     element.style.fontSize = "small";
     element.style.fontWeight = "bold";
   } else {
-    element.textContent = "6. Ane!";
+    element.textContent = "6. Ane";
     element.style.color = "#ff914d";
     element.style.fontStyle = "normal";
     element.style.fontSize = "initial";

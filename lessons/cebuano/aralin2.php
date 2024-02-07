@@ -33,7 +33,7 @@ if(!empty($_SESSION["email"])){
 <body>
     <div class="stage">
         <div class="label">
-                <h2>Aralin 2: Pagpapakilala</h2>
+                <h2>Aralin 2: Pagpaila-ila</h2>
                 <p>Lesson 2: Self-Introduction</p>
         </div>
         <div class="larrow">
@@ -54,21 +54,21 @@ if(!empty($_SESSION["email"])){
     </div>
     <div class="greetings"> 
         <!-- Audio element -->
-        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/2/1.wav"></audio>
-        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/2/2.wav"></audio>
-        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/2/3.wav"></audio>
-        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/2/4.wav"></audio>
-        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/2/5.wav"></audio>
-        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/2/6.wav"></audio>
-        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/2/7.wav"></audio>
-        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/2/8.wav"></audio>
-        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/2/9.wav"></audio>
-        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/2/10.wav"></audio>
-        <audio id="audio11" src="../../../filingua/lessons/cebuano/recordings/2/11.wav"></audio>
-        <audio id="audio12" src="../../../filingua/lessons/cebuano/recordings/2/12.wav"></audio>
-        <audio id="audio13" src="../../../filingua/lessons/cebuano/recordings/2/13.wav"></audio>
-        <audio id="audio14" src="../../../filingua/lessons/cebuano/recordings/2/14.wav"></audio>
-        <audio id="audio15" src="../../../filingua/lessons/cebuano/recordings/2/15.wav"></audio>
+        <audio id="audio1" src="../../../filingua/lessons/cebuano/recordings/2/1.mp3"></audio>
+        <audio id="audio2" src="../../../filingua/lessons/cebuano/recordings/2/2.mp3"></audio>
+        <audio id="audio3" src="../../../filingua/lessons/cebuano/recordings/2/3.mp3"></audio>
+        <audio id="audio4" src="../../../filingua/lessons/cebuano/recordings/2/4.mp3"></audio>
+        <audio id="audio5" src="../../../filingua/lessons/cebuano/recordings/2/5.mp3"></audio>
+        <audio id="audio6" src="../../../filingua/lessons/cebuano/recordings/2/6.mp3"></audio>
+        <audio id="audio7" src="../../../filingua/lessons/cebuano/recordings/2/7.mp3"></audio>
+        <audio id="audio8" src="../../../filingua/lessons/cebuano/recordings/2/8.mp3"></audio>
+        <audio id="audio9" src="../../../filingua/lessons/cebuano/recordings/2/9.mp3"></audio>
+        <audio id="audio10" src="../../../filingua/lessons/cebuano/recordings/2/10.mp3"></audio>
+        <audio id="audio11" src="../../../filingua/lessons/cebuano/recordings/2/11.mp3"></audio>
+        <audio id="audio12" src="../../../filingua/lessons/cebuano/recordings/2/12.mp3"></audio>
+        <audio id="audio13" src="../../../filingua/lessons/cebuano/recordings/2/13.mp3"></audio>
+        <audio id="audio14" src="../../../filingua/lessons/cebuano/recordings/2/14.mp3"></audio>
+        <audio id="audio15" src="../../../filingua/lessons/cebuano/recordings/2/15.mp3"></audio>
         <audio id="click" src="../../../filingua/audio/click.mp3"></audio>
 
         <p>Pindutin ang salita o parirala upang makita ang pagsasalin<br>
@@ -81,10 +81,10 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to introduce oneself.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="second(this)">2. Unsa imong pangan?</span>
+            <span onclick="second(this)">2. Unsay imong ngalan?</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio2()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-sa i-mong pa-ngan? /</span><br><br>
-            <span style="font-size: small; font-weight: bold"> Halimbawa: Manong driver, unsa imong pangan?</span><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Un-say i-mong ngalan? /</span><br><br>
+            <span style="font-size: small; font-weight: bold"> Halimbawa: Manong driver, unsay imong ngalan?</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: Mr. Driver, what is your name?</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Act of inquiring about the specific identifier by which an individual is known, typically for the purpose of identification, establishing a connection, or facilitating communication.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
@@ -153,7 +153,7 @@ if(!empty($_SESSION["email"])){
             <span style="font-size: small; font-weight: normal; color: #3F3931;">An expression of a positive sentiment about meeting and getting to know the person. It conveys a sense of joy or satisfaction in having had the opportunity to make the acquaintance of the individual.</span><br><br>
             <span style="font-size: small; font-weight: smaller; color: #bbb;">___________________________________________________________________________________________________________</span>
             <br><br>
-            <span onclick="eleven(this)">11. Nagtuon kog sa Unibersidad sa Pilipinas</span>
+            <span onclick="eleven(this)">11. Nagtuon kog sa Unibersidad ng Pilipinas</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio11()"><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Nag-tu-on kog sa <b>[School Name]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sakto, tita, nagtuon kog sa Unibersidad ng Pilipinas ug nagkuha og kurso sa Nurse.</span><br>
@@ -163,7 +163,7 @@ if(!empty($_SESSION["email"])){
             <br><br>
             <span onclick="twelve(this)">12. Akong trabaho kay mag-ayo og guba nga kompyuter</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio12()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Akong trabaho kay <b>[Occupation]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ A-kong tra-ba-ho kay <b>[Occupation]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa: Sa una kay gwardya ko, karon, akong trabaho kay mag-ayo og guba nga Kompyuter.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I used to be a security guard. Now, my job is to repair broken computers.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">Used to state someone's occupation.</span><br><br>
@@ -171,7 +171,7 @@ if(!empty($_SESSION["email"])){
             <br><br>
             <span onclick="thirteen(this)">13. Gikan sa siyudad sa Trece Martires</span>
             <img src="../../../filingua/lessons/cebuano/images/play.png" alt="Favicon" style="width: 16px; height: 16px; margin-left: 10px" onclick="playAudio13()"><br>
-            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gikan sa siyudad sa <b>[Place]</b> /</span><br><br>
+            <span style="font-size: small; font-weight: normal; color: #3F3931;">/ Gi-kan sa si-yu-dad sa <b>[Place]</b> /</span><br><br>
             <span style="font-size: small; font-weight: bold"> Halimbawa:  Ako si David og gikan sa siyudad sa Trece Martires.</span><br>
             <span style="font-size: small; font-weight: bold; color: #3F3931;">Example: I am David, and I come from the city of Trece Martires.</span><br><br>
             <span style="font-size: small; font-weight: normal; color: #3F3931;">A statement that expressess someone's hometown or the place the person originated.</span><br><br>
